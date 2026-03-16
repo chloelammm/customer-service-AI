@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightPick Pathfinder AI - Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; overflow: hidden; }
+        .bg-rp-blue { background-color: #0047AB; }
+        .text-rp-blue { color: #0047AB; }
+        
+        #ai-sidebar {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateX(100%);
+        }
+        #ai-sidebar.active { transform: translateX(0); }
+
+        #faq-pullup {
+            transition: all 0.3s ease-in-out;
+            max-height: 0;
+            overflow: hidden;
+            border-top: 0px solid transparent;
+        }
+        #faq-pullup.open {
+            max-height: 400px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .animate-pop {
+            animation: pop 0.3s ease-out forwards;
+        }
+        @keyframes pop {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .typing-dot {
+            width: 4px; height: 4px; margin: 0 1px;
+            background: #94a3b8; border-radius: 50%;
+            display: inline-block; animation: bounce 1.4s infinite ease-in-out;
+        }
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+        
+        .chat-icon { width: 32px; height: 32px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-slate-200">
+
+    <div class="w-full h-screen">
+        <iframe src="https://rightpickhk.com" class="w-full h-full border-none"></iframe>
+    </div>
+
+    <button onclick="toggleSidebar()" class="fixed bottom-20 right-6 w-16 h-16 rounded-full bg-rp-blue text-white shadow-2xl z-50 flex flex-col items-center justify-center hover:scale-110 transition-transform active:scale-95 border-2 border-white/20">
+        <span class="text-2xl">🤖</span>
+        <span class="text-[9px] font-bold uppercase tracking-tight">Helper</span>
+    </button>
+
+    <div id="ai-sidebar" class="fixed top-0 right-0 h-full w-full md:w-[400px] bg-white shadow-2xl z-[60] flex flex-col">
+        
+        <div class="bg-rp-blue p-6 text-white shrink-0">
+            <div class="flex justify-between items-start mb-4">
+                <div>
+                    <h2 class="text-lg font-bold">Pathfinder AI</h2>
+                    <p class="text-[10px] opacity-70 italic">RightPick HK Intelligence Concierge</p>
+                </div>
+                <button onclick="toggleSidebar()" class="text-2xl opacity-70 hover:opacity-100">&times;</button>
+            </div>
+            
+            <div class="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
+                <button onclick="showFAQ('JUPAS')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] hover:bg-white/40 transition whitespace-nowrap">🎓 JUPAS</button>
+                <button onclick="showFAQ('Career')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] hover:bg-white/40 transition whitespace-nowrap">💼 Career</button>
+                <button onclick="showFAQ('Social')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] hover:bg-white/40 transition whitespace-nowrap">👵 Social Care</button>
+            </div>
+        </div>
+
+        <div class="flex-1 overflow-y-auto p-4 space-y-4 bg-slate-50" id="chat-stream">
+            <div class="flex gap-2 mb-4">
+                <div class="chat-icon bg-blue-100 text-[14px]">🤖</div>
+                <div class="bg-white p-3 rounded-xl rounded-tl-none text-xs text-slate-600 shadow-sm border border-slate-100">
+                    Hello! I've connected to your local CSV data. Type a course code (e.g., JS1000) or a subject to find admission scores.
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-pullup" class="bg-white shadow-[0_-10px_15px_-3px_rgba(0,0,0,0.1)] z-10">
+            <div class="p-3 bg-slate-50 border-b flex justify-between items-center">
+                <span id="pullup-title" class="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">Suggestions</span>
+                <button onclick="closePullup()" class="text-slate-400 hover:text-rp-blue text-xl px-2">&times;</button>
+            </div>
+            <div id="faq-list" class="p-4 max-h-[220px] overflow-y-auto space-y-2 no-scrollbar"></div>
+        </div>
+
+        <div id="typing" class="hidden px-6 py-2 bg-white">
+            <div class="flex gap-1 items-center">
+                <span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span>
+                <span class="text-[10px] text-slate-400 ml-2 italic font-sans">Pathfinder is searching data...</span>
+            </div>
+        </div>
+
+        <div class="p-4 border-t bg-white shrink-0">
+            <div class="relative flex items-center bg-slate-100 rounded-xl px-4 py-2 border border-slate-200 shadow-inner">
+                <input type="text" id="chat-input" placeholder="Ask about JS1001 or Career..." class="flex-1 bg-transparent text-xs outline-none py-1">
+                <button onclick="handleSend()" class="text-rp-blue font-bold ml-2 hover:scale-110 transition-transform">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path d="M3.105 2.289a.75.75 0 00-.826.95l1.414 4.925A1.5 1.5 0 005.135 9.25h6.115a.75.75 0 010 1.5H5.135a1.5 1.5 0 00-1.442 1.086l-1.414 4.926a.75.75 0 00.826.95 28.896 28.896 0 0015.293-7.154.75.75 0 000-1.115A28.897 28.897 0 003.105 2.289z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- 1. LOCAL DATA CONFIGURATION ---
+        const CSV_FILENAME = "jupas_programmes 25_26.csv"; // Change this if your file name is different
+        let jupasData = [];
+
+        // --- 2. CSV PARSER (Handles commas inside quotes) ---
+        function parseCSV(text) {
+            let rows = []; let row = []; let inQuote = false; let val = '';
+            for (let i = 0; i < text.length; i++) {
+                let c = text[i];
+                if (inQuote) {
+                    if (c === '"') {
+                        if (i + 1 < text.length && text[i+1] === '"') { val += '"'; i++; }
+                        else { inQuote = false; }
+                    } else { val += c; }
+                } else {
+                    if (c === '"') { inQuote = true; }
+                    else if (c === ',') { row.push(val.trim()); val = ''; }
+                    else if (c === '\n' || c === '\r') {
+                        if (val !== '' || row.length > 0) { row.push(val.trim()); rows.push(row); row = []; val = ''; }
+                        if (c === '\r' && i + 1 < text.length && text[i+1] === '\n') i++;
+                    } else { val += c; }
+                }
+            }
+            if (val !== '' || row.length > 0) { row.push(val.trim()); rows.push(row); }
+            return rows;
+        }
+
+        // --- 3. FETCH LOCAL FILE ---
+        async function loadLocalCSV() {
+            if (jupasData.length > 0) return;
+            try {
+                const response = await fetch(CSV_FILENAME);
+                if (!response.ok) throw new Error("Could not find " + CSV_FILENAME);
+                
+                const csvText = await response.text();
+                const rows = parseCSV(csvText);
+                
+                if (rows.length < 2) return;
+                const header = rows[0].map(h => h.trim());
+                jupasData = rows.slice(1).map(row => {
+                    const obj = {};
+                    header.forEach((h, i) => { obj[h] = row[i] || ''; });
+                    return obj;
+                });
+                console.log("Local Data Loaded: " + jupasData.length + " courses.");
+            } catch (err) {
+                console.error("Local Data Sync Error: ", err);
+                // Add a warning message to the chat if file is missing
+                const stream = document.getElementById('chat-stream');
+                stream.insertAdjacentHTML('beforeend', `<p class="text-[10px] text-red-500 p-2">⚠️ Error: Local file "${CSV_FILENAME}" not found or Browser blocked the request. Make sure you use a local server (like Live Server).</p>`);
+            }
+        }
+
+        // --- 4. LOOKUP & FORMATTING ---
+        function findCourse(query) {
+            const codeMatch = query.toUpperCase().match(/\bJ[SA]\d{3,4}\b|\b[A-Z]{2}\d{3,4}\b/);
+            if (codeMatch) {
+                return jupasData.find(r => r.jupasCode && r.jupasCode.toUpperCase() === codeMatch[0]);
+            }
+            const q = query.toLowerCase();
+            return jupasData.find(r => 
+                (r.nameEn && r.nameEn.toLowerCase().includes(q)) || 
+                (r.nameZh && r.nameZh.includes(q))
+            ) || null;
+        }
+
+        function buildAnswerHtml(course) {
+            const remarks = (course.remarkZh || course.remarkEn || 'None').replace(/\n/g, '<br>');
+            // It searches for "link" or "officialLink" columns
+            const link = course.link || course.officialLink;
+
+            return `
+                <div class="space-y-3">
+                    <div>
+                        <span class="text-[10px] font-bold text-rp-blue uppercase">${course.University || ''} • ${course.jupasCode}</span>
+                        <h4 class="text-[12px] font-bold text-slate-800 leading-tight">${course.nameZh}</h4>
+                        <p class="text-[9px] text-slate-500">${course.nameEn}</p>
+                    </div>
+                    <div class="bg-blue-50 p-2 rounded border border-blue-100">
+                        <p class="text-[8px] text-blue-400 font-bold uppercase">Admission Score</p>
+                        <p class="font-bold text-sm text-rp-blue">${course.median || course.average || 'N/A'}</p>
+                    </div>
+                    <div class="text-[10px] text-slate-600 bg-white p-2 border rounded border-slate-100">
+                        <span class="font-bold text-slate-400 uppercase text-[8px] block mb-1">Requirements:</span>
+                        ${remarks}
+                    </div>
+                    ${link ? `<a href="${link}" target="_blank" class="block text-center py-2 bg-slate-800 text-white rounded-lg text-[10px] font-bold hover:bg-rp-blue transition-colors">🌐 Official JUPAS Link</a>` : ''}
+                </div>
+            `;
+        }
+
+        // --- 5. UI CONTROLS ---
+        async function toggleSidebar() {
+            document.getElementById('ai-sidebar').classList.toggle('active');
+            await loadLocalCSV(); // Sync whenever opened
+        }
+
+        function handleSend(predefined = null) {
+            const input = document.getElementById('chat-input');
+            const stream = document.getElementById('chat-stream');
+            const typing = document.getElementById('typing');
+            const text = predefined || input.value.trim();
+
+            if (!text) return;
+            if (!predefined) input.value = '';
+
+            stream.insertAdjacentHTML('beforeend', `<div class="flex justify-end mb-4"><div class="bg-rp-blue text-white p-3 rounded-2xl rounded-tr-none text-xs max-w-[80%] animate-pop shadow-md">${text}</div></div>`);
+            typing.classList.remove('hidden');
+            stream.scrollTop = stream.scrollHeight;
+
+            setTimeout(() => {
+                typing.classList.add('hidden');
+                const course = findCourse(text);
+                let response = course ? buildAnswerHtml(course) : `I couldn't find data for "${text}". Try a JUPAS code like <b>JS1000</b> or <b>JS1001</b>.`;
+                
+                stream.insertAdjacentHTML('beforeend', `<div class="flex gap-2 mb-4 animate-pop"><div class="chat-icon bg-blue-100 text-[14px]">🤖</div><div class="bg-white p-3 rounded-xl rounded-tl-none text-xs text-slate-700 shadow-sm border border-slate-100 w-full">${response}</div></div>`);
+                stream.scrollTop = stream.scrollHeight;
+            }, 800);
+        }
+
+        // Initialize sync
+        loadLocalCSV();
+        
+        // FAQ Content
+        const faqContent = {
+            'JUPAS': [{ q: "How do I calculate scores?", a: "To calculate your admission score, we use the <b>Best 5</b> formula." }],
+            'Career': [{ q: "What is the 18-type test?", a: "It maps your personality to HK job roles." }],
+            'Social': [{ q: "Elderly AI support?", a: "We offer 24/7 Cantonese companionship demos." }]
+        };
+
+        function showFAQ(cat) {
+            const list = document.getElementById('faq-list');
+            document.getElementById('pullup-title').innerText = `${cat} Suggestions`;
+            list.innerHTML = '';
+            faqContent[cat].forEach(item => {
+                const b = document.createElement('button');
+                b.className = "w-full text-left p-3 bg-white border border-slate-100 rounded-xl text-[11px] hover:border-rp-blue transition animate-pop";
+                b.innerHTML = `❓ ${item.q}`;
+                b.onclick = () => { closePullup(); handleSend(item.q); };
+                list.appendChild(b);
+            });
+            document.getElementById('faq-pullup').classList.add('open');
+        }
+        function closePullup() { document.getElementById('faq-pullup').classList.remove('open'); }
+        document.getElementById('chat-input').addEventListener('keypress', (e) => { if(e.key === 'Enter') handleSend(); });
+    </script>
+</body>
+</html>

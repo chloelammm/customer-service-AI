@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightPick AI Service Prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animate-pop { animation: slideUp 0.4s ease-out; }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans min-h-screen">
+
+    <nav class="p-6 flex justify-between items-center bg-white shadow-sm">
+        <div class="text-2xl font-bold text-blue-700">RightPick<span class="text-slate-500">HK</span></div>
+        <div class="space-x-6 text-slate-600 hidden md:flex">
+            <a href="#">JUPAS Analysis</a>
+            <a href="#">Career Matching</a>
+            <a href="#">Social Services</a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto mt-12 p-6">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-extrabold text-slate-800 mb-4">Empowering Decisions with AI</h1>
+            <p class="text-slate-600">Explore your future career and educational pathways with humanistic technology.</p>
+        </header>
+
+        <div class="bg-white p-8 rounded-2xl shadow-xl border border-blue-100 mb-12 animate-pop">
+            <h3 class="text-lg font-semibold text-blue-800 mb-4 flex items-center">
+                <span class="mr-2">📊</span> Instant Career Insights
+            </h3>
+            <div class="flex flex-col md:flex-row gap-4">
+                <input type="text" placeholder="Enter Job Title (e.g. Developer, Nurse)" class="flex-1 p-3 border rounded-lg focus:ring-2 focus:ring-blue-400 outline-none">
+                <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition">Analyze Trend</button>
+            </div>
+            <p class="mt-4 text-xs text-slate-400 italic">Data powered by RightPick Occupational-AI Analysis</p>
+        </div>
+    </main>
+
+    <div class="fixed bottom-6 right-6 flex flex-col items-end">
+        
+        <div id="chat-window" class="hidden mb-4 w-80 md:w-96 glass-effect rounded-2xl shadow-2xl overflow-hidden animate-pop">
+            <div class="bg-blue-600 p-4 text-white flex justify-between items-center">
+                <div>
+                    <p class="font-bold">RightPick Pathfinder</p>
+                    <p class="text-xs opacity-80">Online | Multilingual Support</p>
+                </div>
+                <button onclick="toggleChat()" class="text-xl">&times;</button>
+            </div>
+            
+            <div class="h-80 p-4 overflow-y-auto space-y-4 text-sm" id="chat-content">
+                <div class="bg-slate-100 p-3 rounded-lg text-slate-700 max-w-[85%]">
+                    Hello! I'm your RightPick assistant. How can I help you today?
+                </div>
+                
+                <div class="grid grid-cols-1 gap-2 mt-4">
+                    <button class="text-left p-2 border border-blue-200 rounded-lg hover:bg-blue-50 text-blue-700 text-xs transition">
+                        🎓 DSE/JUPAS Strategy
+                    </button>
+                    <button class="text-left p-2 border border-blue-200 rounded-lg hover:bg-blue-50 text-blue-700 text-xs transition">
+                        💼 Career Personality Test
+                    </button>
+                    <button class="text-left p-2 border border-blue-200 rounded-lg hover:bg-blue-50 text-blue-700 text-xs transition">
+                        🏘️ Community/Elderly Support
+                    </button>
+                </div>
+            </div>
+
+            <div class="p-3 border-t flex gap-2">
+                <input type="text" placeholder="Type a question..." class="flex-1 text-xs p-2 outline-none">
+                <button class="text-blue-600 font-bold px-2">Send</button>
+            </div>
+        </div>
+
+        <button onclick="toggleChat()" class="bg-blue-600 hover:bg-blue-700 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center text-2xl transition-transform hover:scale-110">
+            💬
+        </button>
+    </div>
+
+    <script>
+        function toggleChat() {
+            const chat = document.getElementById('chat-window');
+            chat.classList.toggle('hidden');
+        }
+    </script>
+
+</body>
+</html>

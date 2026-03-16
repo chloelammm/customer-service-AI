@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightPick Pathfinder AI - Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto+Sans+TC', sans-serif; overflow: hidden; }
+        .bg-rp-blue { background-color: #0047AB; }
+        .text-rp-blue { color: #0047AB; }
+        
+        #ai-sidebar {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateX(100%);
+        }
+        #ai-sidebar.active { transform: translateX(0); }
+
+        #faq-pullup {
+            transition: all 0.3s ease-in-out;
+            max-height: 0;
+            overflow: hidden;
+            border-top: 0px solid transparent;
+        }
+        #faq-pullup.open {
+            max-height: 400px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .animate-pop {
+            animation: pop 0.3s ease-out forwards;
+        }
+        @keyframes pop {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .typing-dot {
+            width: 4px; height: 4px; margin: 0 1px;
+            background: #94a3b8; border-radius: 50%;
+            display: inline-block; animation: bounce 1.4s infinite ease-in-out;
+        }
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+        
+        .chat-icon { width: 32px; height: 32px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-slate-200">
+
+    <div class="w-full h-screen">
+        <iframe src="https://rightpickhk.com" class="w-full h-full border-none"></iframe>
+    </div>
+
+    <button onclick="toggleSidebar()" class="fixed bottom-20 right-6 w-16 h-16 rounded-full bg-rp-blue text-white shadow-2xl z-50 flex flex-col items-center justify-center hover:scale-110 transition-transform active:scale-95 border-2 border-white/20">
+        <span class="text-2xl">🤖</span>
+        <span class="text-[9px] font-bold uppercase tracking-tight">Helper</span>
+    </button>
+
+    <div id="ai-sidebar" class="fixed top-0 right-0 h-full w-full md:w-[400px] bg-white shadow-2xl z-[60] flex flex-col">
+        
+        <div class="bg-rp-blue p-6 text-white shrink-0">
+            <div class="flex justify-between items-start mb-4">
+                <div>
+                    <h2 class="text-lg font-bold">Pathfinder AI</h2>
+                    <p class="text-[10px] opacity-70 italic">RightPick HK Intelligence Concierge</p>
+                </div>
+                <button onclick="toggleSidebar()" class="text-2xl opacity-70 hover:opacity-100">&times;</button>
+            </div>
+            
+            <div class="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
+                <button onclick="showFAQ('JUPAS')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] hover:bg-white/40 transition whitespace-nowrap">🎓 JUPAS</button>
+                <button onclick="showFAQ('Career')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] hover:bg-white/40 transition whitespace-nowrap">💼 Career</button>
+                <button onclick="showFAQ('Social')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] hover:bg-white/40 transition whitespace-nowrap">👵 Social Care</button>
+            </div>
+        </div>
+
+        <div class="flex-1 overflow-y-auto p-4 space-y-4 bg-slate-50" id="chat-stream">
+            <div class="flex gap-2 mb-4">
+                <div class="chat-icon bg-blue-100 text-[14px]">🤖</div>
+                <div class="bg-white p-3 rounded-xl rounded-tl-none text-xs text-slate-600 shadow-sm border border-slate-100">
+                    Hello! Select a category above to see frequently asked questions, or type your own below. For example, ask "What is the admission score for JS1000?"
+                </div>
+            </div>
+        </div>
+
+        <div id="faq-pullup" class="bg-white shadow-[0_-10px_15px_-3px_rgba(0,0,0,0.1)] z-10">
+            <div class="p-3 bg-slate-50 border-b flex justify-between items-center">
+                <span id="pullup-title" class="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">Suggestions</span>
+                <button onclick="closePullup()" class="text-slate-400 hover:text-rp-blue text-xl px-2">&times;</button>
+            </div>
+            <div id="faq-list" class="p-4 max-h-[220px] overflow-y-auto space-y-2 no-scrollbar"></div>
+        </div>
+
+        <div id="typing" class="hidden px-6 py-2 bg-white">
+            <div class="flex gap-1 items-center">
+                <span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span>
+                <span class="text-[10px] text-slate-400 ml-2 italic font-sans">Pathfinder is thinking...</span>
+            </div>
+        </div>
+
+        <div class="p-4 border-t bg-white shrink-0">
+            <div class="relative flex items-center bg-slate-100 rounded-xl px-4 py-2 border border-slate-200 shadow-inner">
+                <input type="text" id="chat-input" placeholder="Ask about..." class="flex-1 bg-transparent text-xs outline-none py-1">
+                <button onclick="handleSend()" class="text-rp-blue font-bold ml-2 hover:scale-110 transition-transform">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path d="M3.105 2.289a.75.75 0 00-.826.95l1.414 4.925A1.5 1.5 0 005.135 9.25h6.115a.75.75 0 010 1.5H5.135a1.5 1.5 0 00-1.442 1.086l-1.414 4.926a.75.75 0 00.826.95 28.896 28.896 0 0015.293-7.154.75.75 0 000-1.115A28.897 28.897 0 003.105 2.289z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex justify-between mt-3 px-1">
+                <span class="text-[9px] text-slate-400 font-medium">Powered by RightPick Big Data</span>
+                <div class="flex gap-3 text-[9px] text-rp-blue font-bold">
+                    <button class="hover:underline">Voice</button>
+                    <button class="hover:underline">Upload CV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JUPAS DATASHEET EMBEDDED HERE (Pasted sample of your real CSV data) -->
+    <!-- PASTE THE REST OF YOUR CSV BELOW THIS COMMENT IF YOU WANT ALL COURSES -->
+    <script id="jupas-datasheet" type="text/csv">
+University,jupasCode,nameEn,nameZh,calculation,upperQuartile,median,lowerQuartile,average,status,remarkEn,remarkZh
+CityU,JS1000,BSc Computational Finance and Financial Technology,理學士(計算金融及金融科技),,,24.5,23.5,,,include English and Mathematics,必須包括英文、數學
+CityU,JS1001,BBA Global Business,工商管理學士(環球商業),,,29.5,28,,,English x1.5,英文x1.5
+CityU,JS1002,BBA Accountancy (Streams: Professional Accounting / ESG and Tech),工商管理學士(會計),,,22,21.5,,,include Mathematics,必須包括數學
+CityU,JS1005,BBA Management,工商管理學士(管理學),,,22,21.5,,,include Mathematics,必須包括數學
+CityU,JS1007,BBA Marketing (Streams: Global Marketing / Marketing Analytics),工商管理學士(市場營銷),,,24.5,23.5,,,"include English and Mathematics
+English x1.5","必須包括英文、數學
+英文x1.5"
+HKBU,JS2110,Bachelor of Business Administration (Hons) - Accounting Concentration,工商管理學士(榮譽) 會計學專修,,,,,22.15,,English x1.5,英文x1.5
+HKBU,JS2610,Bachelor of Arts (Hons) / Bachelor of Social Sciences (Hons),文學士(榮譽)/社會科學學士(榮譽),,,,,24.88,,English x2,英文x2
+PolyU,JS3150,生物醫學工程(榮譽)工程學士,,,208,178,,,,最佳5科(中文、英文科比重以1.5倍計算)
+HKU,JS6456,內外全科醫學士,,,38.63,37.13,,,,最佳5科(中史、經濟、地理、歷史科比重以1.5倍計算)
+HKU,JS6999,計算與數據科學,,,44,42,,,,最佳5科(中文、英文科比重以1.5倍計算)
+    </script>
+
+    <script>
+        // --- CSV PARSER (Handles newlines and commas inside quotation marks correctly) ---
+        let jupasData = [];
+
+        function parseCSV(text) {
+            let rows = [];
+            let row = [];
+            let inQuote = false;
+            let val = '';
+            for (let i = 0; i < text.length; i++) {
+                let c = text[i];
+                if (inQuote) {
+                    if (c === '"') {
+                        if (i + 1 < text.length && text[i+1] === '"') {
+                            val += '"'; i++;
+                        } else {
+                            inQuote = false;
+                        }
+                    } else {
+                        val += c;
+                    }
+                } else {
+                    if (c === '"') {
+                        inQuote = true;
+                    } else if (c === ',') {
+                        row.push(val.trim()); val = '';
+                    } else if (c === '\n' || c === '\r') {
+                        if (val !== '' || row.length > 0) { row.push(val.trim()); rows.push(row); row = []; val = ''; }
+                        if (c === '\r' && i + 1 < text.length && text[i+1] === '\n') i++;
+                    } else {
+                        val += c;
+                    }
+                }
+            }
+            if (val !== '' || row.length > 0) { row.push(val.trim()); rows.push(row); }
+            return rows;
+        }
+
+        function loadJupasData() {
+            if (jupasData.length > 0) return;
+            const csvText = document.getElementById('jupas-datasheet').textContent.trim();
+            const rows = parseCSV(csvText);
+            if (rows.length < 2) return;
+            
+            const header = rows[0].map(h => h.trim());
+            jupasData = rows.slice(1).map(row => {
+                const obj = {};
+                header.forEach((h, i) => {
+                    obj[h] = row[i] || '';
+                });
+                return obj;
+            });
+        }
+
+        // --- JUPAS LOOKUP LOGIC ---
+        function extractCourseCode(text) {
+            const m = text.toUpperCase().match(/\bJ[SA]\d{3,4}\b|\b[A-Z]{2}\d{3,4}\b/);
+            return m ? m[0] : null;
+        }
+
+        function isJupasQuestion(text) {
+            const t = text.toLowerCase();
+            return t.includes('jupas') ||
+                   t.includes('admission score') ||
+                   t.includes('cut off') || t.includes('dse') ||
+                   t.includes('分數') ||
+                   t.includes('收生') ||
+                   extractCourseCode(text) !== null;
+        }
+
+        function findCourse(query) {
+            loadJupasData();
+            
+            // 1. Try exact code match
+            const code = extractCourseCode(query);
+            if (code) {
+                const byCode = jupasData.find(r => r.jupasCode && r.jupasCode.toUpperCase() === code);
+                if (byCode) return byCode;
+            }
+            
+            // 2. Try partial name match
+            const q = query.toLowerCase();
+            return jupasData.find(r => 
+                (r.nameEn && r.nameEn.toLowerCase().includes(q)) || 
+                (r.nameZh && r.nameZh.includes(q))
+            ) || null;
+        }
+
+        function buildJupasAnswer(course) {
+            const uni = course.University || 'N/A';
+            const code = course.jupasCode || 'N/A';
+            const nameZh = course.nameZh || '';
+            const nameEn = course.nameEn || '';
+            
+            // Grab whichever score is available (median, average, or upper/lower)
+            const scoreData = course.median || course.average || course.lowerQuartile || 'Data unavailable';
+            
+            // Format remarks (replace line breaks with HTML breaks)
+            const remarks = (course.remarkZh || course.remarkEn || 'None').replace(/\n/g, '<br>');
+
+            return `
+                Here is the latest JUPAS data from our database:<br><br>
+                <b>${uni} - ${code}</b><br>
+                ${nameZh}<br>
+                <span class="text-[10px] text-slate-500">${nameEn}</span><br><br>
+                • <b>Admission Score (Median/Avg):</b> <span class="text-rp-blue font-bold">${scoreData}</span><br>
+                • <b>Subject Requirements / Remarks:</b><br>
+                <span class="text-[10px] bg-blue-50 p-2 block mt-1 rounded">${remarks}</span><br>
+                <i>If you share your DSE predicted grades, I can help calculate your weighted score!</i>
+            `;
+        }
+
+        // --- ORIGINAL DEMO FAQ DATA ---
+        const faqContent = {
+            'JUPAS': [
+                { q: "How do I calculate my scores?", a: "To calculate your admission score, we use the <b>Best 5</b> or <b>4C+2X</b> formula. Based on 2026 trends, English and Mathematics carry a higher weighting (x1.5) for Engineering and Science faculties." },
+                { q: "Show 2026 admission medians.", a: "For 2026 please enter the certain course code (eg.JS1001) and we will display the information for you."},
+                { q: "Help me pick my Band A majors.", a: "Based on RightPick's job market analysis, we recommend placing <b>AI & Data Science</b> in A1 and <b>Global Business</b> in A2 to maximize both career prospects and admission probability." }
+            ],
+            'Career': [
+                { q: "What is the 18-type personality test?", a: "Our proprietary <b>18-type test</b> expands on MBTI to specifically target the HK labor market. It identifies your 'Workplace Persona'—such as the <i>Strategic Architect</i> or <i>Community Liaison</i>." },
+                { q: "Match my skills to a career.", a: "Please <b>Upload your CV</b> using the button below! I will parse your internships and skills to find a 95% match in our current 2026 job database." }
+            ],
+            'Social': [
+                { q: "Senior AI companionship demo.", a: "Our Senior AI provides 24/7 Cantonese companionship and health reminders. It is currently being trialed in 15 community centers across the New Territories." },
+                { q: "Workplace Cantonese for minorities.", a: "We offer a 4-week 'Business Cantonese' crash course specifically for software developers and office staff. Next session starts April 1st." }
+            ]
+        };
+
+        // --- UI LOGIC ---
+        function toggleSidebar() {
+            document.getElementById('ai-sidebar').classList.toggle('active');
+        }
+
+        function showFAQ(category) {
+            const pullup = document.getElementById('faq-pullup');
+            const list = document.getElementById('faq-list');
+            const title = document.getElementById('pullup-title');
+            
+            title.innerText = `${category} Suggestions`;
+            list.innerHTML = '';
+            
+            faqContent[category].forEach(item => {
+                const btn = document.createElement('button');
+                btn.className = "w-full text-left p-3 bg-white border border-slate-100 rounded-xl text-[11px] text-slate-600 hover:border-rp-blue hover:text-rp-blue transition shadow-sm animate-pop";
+                btn.innerHTML = `❓ ${item.q}`;
+                btn.onclick = () => selectQuestion(item.q, item.a);
+                list.appendChild(btn);
+            });
+            
+            pullup.classList.add('open');
+        }
+
+        function closePullup() {
+            document.getElementById('faq-pullup').classList.remove('open');
+        }
+
+        function selectQuestion(q, a) {
+            const input = document.getElementById('chat-input');
+            input.value = q;
+            closePullup();
+            setTimeout(() => handleSend(a), 300);
+        }
+
+        // --- MAIN SEND HANDLER ---
+        function handleSend(predefinedAnswer = null) {
+            const input = document.getElementById('chat-input');
+            const stream = document.getElementById('chat-stream');
+            const typing = document.getElementById('typing');
+            const text = input.value.trim();
+
+            if (!text) return;
+
+            // Display User Message
+            const userMsg = `<div class="flex justify-end mb-4"><div class="bg-rp-blue text-white p-3 rounded-2xl rounded-tr-none text-xs max-w-[80%] shadow-md animate-pop">${text}</div></div>`;
+            stream.insertAdjacentHTML('beforeend', userMsg);
+            input.value = '';
+            closePullup();
+
+            // Start typing indicator
+            typing.classList.remove('hidden');
+            stream.scrollTop = stream.scrollHeight;
+
+            setTimeout(() => {
+                typing.classList.add('hidden');
+                
+                let answerHtml = '';
+
+                // If predefined answer was passed (from FAQ clicks), use it immediately
+                if (predefinedAnswer) {
+                    answerHtml = predefinedAnswer;
+                } 
+                // If it looks like a JUPAS query, search the embedded datasheet
+                else if (isJupasQuestion(text)) {
+                    const course = findCourse(text);
+                    if (course) {
+                        answerHtml = buildJupasAnswer(course);
+                    } else {
+                        answerHtml = `I'm sorry, I couldn't find a matching programme for that in the JUPAS database. Please try providing the exact JUPAS Code (e.g., <b>JS1001</b>) or try a different name.`;
+                    }
+                } 
+                // Fallback demo response for anything else
+                else {
+                    answerHtml = `I'm looking into "${text}" for you. As this is a demo, please select a question from the categories above for specific data results, or ask me about a JUPAS code like <b>JS1000</b>!`;
+                }
+
+                const aiMsg = `<div class="flex gap-2 mb-4 animate-pop">
+                    <div class="chat-icon bg-blue-100 text-[14px]">🤖</div>
+                    <div class="bg-white p-3 rounded-xl rounded-tl-none text-xs text-slate-700 shadow-sm border border-slate-100 leading-relaxed w-full">
+                        ${answerHtml}
+                    </div>
+                </div>`;
+                stream.insertAdjacentHTML('beforeend', aiMsg);
+                stream.scrollTop = stream.scrollHeight;
+            }, 1200);
+        }
+
+        // Allow pressing Enter to send message
+        document.getElementById('chat-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                handleSend();
+            }
+        });
+    </script>
+</body>
+</html>

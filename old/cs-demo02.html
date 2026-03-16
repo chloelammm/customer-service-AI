@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightPick AI Overlay Prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom RightPick Blue */
+        .bg-rp-blue { background-color: #0047AB; }
+        .text-rp-blue { color: #0047AB; }
+        
+        /* Smooth transitions for the sidebar */
+        #ai-sidebar {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateX(100%);
+        }
+        #ai-sidebar.active {
+            transform: translateX(0);
+        }
+        
+        /* Glassmorphism for the toggle */
+        .glass-toggle {
+            background: rgba(0, 71, 171, 0.9);
+            backdrop-filter: blur(8px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="overflow-hidden bg-slate-200">
+
+    <div class="w-full h-screen overflow-hidden">
+        <iframe src="https://rightpickhk.com" class="w-full h-full border-none shadow-inner"></iframe>
+    </div>
+
+    <button onclick="toggleSidebar()" class="fixed bottom-20 right-8 w-12 h-12 rounded-full glass-toggle text-white flex flex-col items-center justify-center z-50 hover:scale-110 transition-transform">
+        <span class="text-2xl">❓</span>
+        <span class="text-[9px] font-bold uppercase tracking-tighter"> Help</span>
+    </button>
+
+    <div id="ai-sidebar" class="fixed top-0 right-0 h-full w-full md:w-[400px] bg-white shadow-2xl z-[60] flex flex-col border-l border-slate-200">
+        
+        <div class="bg-rp-blue p-6 text-white">
+            <div class="flex justify-between items-start">
+                <div>
+                    <h2 class="text-xl font-bold">Pathfinder AI</h2>
+                    <p class="text-xs opacity-70">RightPick HK Intelligent Concierge</p>
+                </div>
+                <button onclick="toggleSidebar()" class="text-2xl hover:rotate-90 transition-transform">&times;</button>
+            </div>
+            
+          <div class="flex gap-2 mt-6 overflow-x-auto pb-2 scrollbar-hide">
+    <button onclick="showFAQ('jupas')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] whitespace-nowrap hover:bg-white/40 transition">🎓 JUPAS</button>
+    <button onclick="showFAQ('career')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] whitespace-nowrap hover:bg-white/40 transition">💼 Career</button>
+    <button onclick="showFAQ('social')" class="bg-white/20 px-3 py-1 rounded-full text-[10px] whitespace-nowrap hover:bg-white/40 transition">👵 Social Care</button>
+</div>
+
+<div class="flex-1 overflow-y-auto p-6 space-y-4" id="chat-stream">
+    <div id="faq-display" class="space-y-3">
+        <p class="text-xs font-bold text-slate-500 uppercase tracking-widest">Select a topic to begin</p>
+        </div>
+</div>
+
+<script>
+    const faqData = {
+        jupas: [
+            "How do I calculate my admission scores?",
+            "What are the most popular majors in 2026?",
+            "Can AI help me pick my Band A choices?"
+        ],
+        career: [
+            "What is the 18-type personality test?",
+            "Show me current salary trends for Developers.",
+            "How do I match my personality to a job?"
+        ],
+        social: [
+            "Where can I find free dental checks?",
+            "How does the Senior AI companionship work?",
+            "Are there Cantonese classes for minorities?"
+        ]
+    };
+
+    function showFAQ(category) {
+        const display = document.getElementById('faq-display');
+        const data = faqData[category];
+        
+        // Clear previous content and animate
+        display.innerHTML = `<p class="text-xs font-bold text-slate-500 uppercase">Frequently Asked: ${category}</p>`;
+        
+        data.forEach(question => {
+            const btn = document.createElement('button');
+            btn.className = "w-full text-left p-3 rounded-xl border border-slate-100 bg-white hover:border-blue-300 hover:shadow-sm transition text-xs text-slate-700 animate-pop";
+            btn.innerHTML = `<span>❓</span> ${question}`;
+            btn.onclick = () => {
+                // Logic to "send" this as a message
+                alert("AI is now analyzing: " + question);
+            };
+            display.appendChild(btn);
+        });
+    }
+</script>
+        </div>
+
+        <div class="flex-1 overflow-y-auto p-6 space-y-6" id="chat-stream">
+            <div class="flex gap-3">
+                <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-sm">🤖</div>
+                <div class="bg-slate-100 p-4 rounded-2xl rounded-tl-none text-sm text-slate-700 leading-relaxed max-w-[85%] shadow-sm">
+                    Hello! I'm synchronized with RightPick's career database. Would you like to check **Salary Trends** or your **JUPAS odds** today?
+                </div>
+            </div>
+
+            <div class="bg-blue-50 border border-blue-100 rounded-xl p-4 animate-pulse-once">
+                <h4 class="text-xs font-bold text-rp-blue mb-3 flex items-center">
+                    <span class="mr-2">📊</span> Trending Analysis
+                </h4>
+                <p class="text-[11px] text-slate-600 mb-3">Recent search: "Full Stack Developer in HK"</p>
+                <div class="bg-white rounded-lg p-3 text-xs">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-slate-500">Median Salary:</span>
+                        <span class="font-bold">$32,000 / mo</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-slate-500">Market Demand:</span>
+                        <span class="text-emerald-600 font-bold">Very High</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-6 border-t bg-slate-50">
+            <div class="relative">
+                <textarea rows="1" placeholder="Type or ask about career data..." class="w-full bg-white border border-slate-200 rounded-2xl p-4 pr-12 text-sm outline-none focus:ring-2 focus:ring-rp-blue resize-none"></textarea>
+                <button class="absolute right-3 top-3 text-rp-blue font-bold">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex justify-center gap-4 mt-3 text-[10px] text-slate-400">
+                <button class="hover:text-rp-blue transition">🎤 Voice Input</button>
+                <button class="hover:text-rp-blue transition">📄 Upload Resume</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('ai-sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

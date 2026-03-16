@@ -1,0 +1,2362 @@
+﻿programmeId,category,categoryId,institution,jupasCode,nameEn,nameZh,calculation,calculation name ,upperQuartile,median,lowerQuartile,average,status,remarkEn,remarkZh,æ€§æ ¼æ¸¬è©¦_W,æ€§æ ¼æ¸¬è©¦_S,æ€§æ ¼æ¸¬è©¦_C,æ€§æ ¼æ¸¬è©¦_I,æ€§æ ¼æ¸¬è©¦_R,æ€§æ ¼æ¸¬è©¦_E,createdAt,updatedAt,
+1,CityU,1,CityU,JS1000,BSc Computational Finance and Financial Technology,ç†å­¸å£«(è¨ˆç®—é‡‘èžåŠé‡‘èžç§‘æŠ€),13,3C+2X,,24.5,,,,,,1,1,0,0,1,1,,,
+2,CityU,1,CityU,JS1001,BBA Global Business,å·¥å•†ç®¡ç†å­¸å£«(ç’°çƒå•†æ¥­),13,3C+2X,,29,25.5,,,,,1,1,0,0,1,0,,,new programme
+3,CityU,1,CityU,JS1002,BBA Accountancy,å·¥å•†ç®¡ç†å­¸å£«(æœƒè¨ˆ),22,M + Best 4,,20.5,20,,,Must include Mathematics,å¿…é ˆåŒ…æ‹¬æ•¸å­¸,0,1,0,0,1,1,,,ä»£è¡¨æœ¬èº«excelç„¡ å·²å…¥
+4,CityU,1,CityU,JS1005,BBA Management,å·¥å•†ç®¡ç†å­¸å£«(ç®¡ç†å­¸),22,M + Best 4,,20.5,20.5,,,Must include Mathematics,å¿…é ˆåŒ…æ‹¬æ•¸å­¸,1,0,1,0,1,0,,,
+5,CityU,1,CityU,JS1007,BBA Marketing,å·¥å•†ç®¡ç†å­¸å£«(å¸‚å ´ç‡ŸéŠ·),13,3C+2X,,23.5,22,,, english x 1.5,è‹±æ–‡x1.5,1,0,1,1,1,0,,,
+6,CityU,1,CityU,JS1012,"Department of Economics and Finance (options: BBA Business Economics, BBA Finance)",ç¶“æ¿ŸåŠé‡‘èžç³» [é¸é …: å·¥å•†ç®¡ç†å­¸å£«(å•†æ¥­ç¶“æ¿Ÿ)ã€å·¥å•†ç®¡ç†å­¸å£«(é‡‘èž)],22,M + Best 4,,21.5,21.5,,,Must include Mathematics,å¿…é ˆåŒ…æ‹¬æ•¸å­¸,1,1,1,0,1,0,,,
+7,CityU,1,CityU,JS1013,BBA Business Economics,å·¥å•†ç®¡ç†å­¸å£«(å•†æ¥­ç¶“æ¿Ÿ),22,M + Best 4,,20.5,20.5,,,Must include Mathematics,å¿…é ˆåŒ…æ‹¬æ•¸å­¸,0,0,1,0,1,0,,,
+8,CityU,1,CityU,JS1014,BBA Finance,å·¥å•†ç®¡ç†å­¸å£«(é‡‘èž),22,M + Best 4,,20.5,20.5,,,Must include Mathematics,å¿…é ˆåŒ…æ‹¬æ•¸å­¸,1,1,0,0,1,0,,,
+9,CityU,1,CityU,JS1017,"Department of Information Systems (options: BBA Global Business Systems Management, BBA Information Management)",è³‡è¨Šç³»çµ±å­¸ç³» [é¸é …: å·¥å•†ç®¡ç†å­¸å£«(ç’°çƒå•†æ¥­ç³»çµ±ç®¡ç†)ã€å·¥å•†ç®¡ç†å­¸å£«(è³‡è¨Šç®¡ç†)],13,3C+2X,,20.5,19.5,,,,,1,0,0,0,1,0,,,
+10,CityU,1,CityU,JS1018,BBA Global Business Systems Management,å·¥å•†ç®¡ç†å­¸å£«(ç’°çƒå•†æ¥­ç³»çµ±ç®¡ç†),13,3C+2X,,22,22,,,,,1,1,0,1,1,0,,,
+11,CityU,1,CityU,JS1019,BBA Information Management,å·¥å•†ç®¡ç†å­¸å£«(è³‡è¨Šç®¡ç†),13,3C+2X,,20.5,19.5,,,,,1,0,0,0,1,0,,,
+12,CityU,1,CityU,JS1025,"Department of Management Sciences (options: BBA Business Decision Analytics, BBA Business Operations Management)",ç®¡ç†ç§‘å­¸ç³» [é¸é …: å·¥å•†ç®¡ç†å­¸å£«(å•†æ¥­æ±ºç­–åˆ†æž)ã€å·¥å•†ç®¡ç†å­¸å£«(å•†æ¥­ç‡Ÿé‹ç®¡ç†)],13,3C+2X,,20,19.5,,,,,1,0,0,0,1,0,,,
+13,CityU,1,CityU,JS1026,BBA Business Decision Analytics,å·¥å•†ç®¡ç†å­¸å£«(å•†æ¥­æ±ºç­–åˆ†æž),13,3C+2X,,19.5,19,,,,,0,0,0,0,1,0,,,
+14,CityU,1,CityU,JS1027,BBA Business Operations Management,å·¥å•†ç®¡ç†å­¸å£«(å•†æ¥­ç‡Ÿé‹ç®¡ç†),13,3C+2X,,19.5,19,,,,,0,1,0,0,1,0,,,
+15,CityU,1,CityU,JS1040,Creative Arts and Technology Excellence (CREATE) (Options: Creative Media (School-based)/ BA Creative Media / BSc Creative Media / BAS New Media),å“è¶Šå‰µè—èˆ‡ç§‘æŠ€èª²ç¨‹ [é¸é …: å‰µæ„åª’é«”(æ ¡æœ¬èª²ç¨‹)ã€ æ–‡å­¸å£«(å‰µæ„åª’é«”)ã€ç†å­¸å£«(å‰µæ„åª’é«”)ã€æ–‡ç†å­¸å£«(æ–°åª’é«”)],32,E+Best 4,,,,,,"New programme in 2025 
+Must include English
+English x2","2025æ–°å¢žèª²ç¨‹
+å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",1,0,1,1,1,0,,,
+16,CityU,1,CityU,JS1041,"School of Creative Media (options: BA Creative Media, BSc Creative Media, BAS New Media)",å‰µæ„åª’é«”å­¸é™¢ [é¸é …: æ–‡å­¸å£«(å‰µæ„åª’é«”)ã€ç†å­¸å£«(å‰µæ„åª’é«”)ã€æ–‡ç†å­¸å£«(æ–°åª’é«”)],32,E+Best 4,,25,23.5,,,"Must include English
+English x2","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",1,0,1,1,1,0,,,
+17,CityU,1,CityU,JS1042,BA Creative Media,æ–‡å­¸å£«(å‰µæ„åª’é«”),32,E+Best 4,,27,26.5,,,"Must include English
+English x2","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",0,0,1,1,1,0,,,
+18,CityU,1,CityU,JS1043,BSc Creative Media,ç†å­¸å£«(å‰µæ„åª’é«”),20,E + M + Best 3,,27,25.5,,,"Must include English and Mathematics
+English x2
+Mathematics x1.5","å¿…é ˆåŒ…å«è‹±æ–‡å’Œæ•¸å­¸
+è‹±æ–‡ x2
+æ•¸å­¸ x1.5",0,0,1,1,1,0,,,
+19,CityU,1,CityU,JS1044,BAS New Media,æ–‡ç†å­¸å£«(æ–°åª’é«”),32,E+Best 4,,23.5,23,,,"Must include English
+English x2","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",0,0,1,1,1,0,,,
+20,CityU,1,CityU,JS1050,"International Sustainability Programme for Innovation, Research & Entrepreneurship(INSPIRE) (Majors: BEng Energy Science & Engineering/BEng Environmental Science & Engineering +Features: Global Focus)",ç’°çƒå¯æŒçºŒç™¼å±•ç§‘å‰µèª²ç¨‹ [ä¸»ä¿®: å·¥å­¸å£«(èƒ½æºç§‘å­¸åŠå·¥ç¨‹å­¸) / å·¥å­¸å£«(ç’°å¢ƒç§‘å­¸åŠå·¥ç¨‹å­¸)ï¼‹ç‰¹é»žï¼šç’°çƒè¦–é‡Ž],26,E+M+Sci+Best 2,,,,,,"New programme in 2025 
+Must include English,Mathematics,and one subject from Biology/Chemistry/Physics
+Mathematics x2.5
+(1st elective)Biology/Chemistry/Physics x2.5
+English x2
+(2nd elective)Biology/Chemistry/Geography/M1/M2/Physics x1.5 ","2025æ–°å¢žèª²ç¨‹
+å¿…é ˆåŒ…æ‹¬è‹±æ–‡ã€æ•¸å­¸å’Œç”Ÿç‰©/åŒ–å­¸/ç‰©ç†ä¸­çš„ä¸€é–€ç§‘ç›®
+æ•¸å­¸ x2.5
+(ç¬¬ä¸€é¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2.5
+è‹±æ–‡ x2
+(ç¬¬äºŒé¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/åœ°ç†/M1/M2/ç‰©ç† x1.5",1,0,0,0,1,1,,,
+21,CityU,1,CityU,JS1051,"School of Energy and Environment (options: BEng Energy Science and Engineering, BEng Environmental Science and Engineering)",èƒ½æºåŠç’°å¢ƒå­¸é™¢ [é¸é …: å·¥å­¸å£«(èƒ½æºç§‘å­¸åŠå·¥ç¨‹å­¸)ã€å·¥å­¸å£«(ç’°å¢ƒç§‘å­¸åŠå·¥ç¨‹å­¸)],26,E+M+Sci+Best 2,,37.5,36.5,,,"New programme in 2025 
+Must include English,Mathematics,and one subject from Biology/Chemistry/Physics
+Mathematics x2.5
+(1st elective)Biology/Chemistry/Physics x2.5
+English x2
+(2nd elective)Biology/Chemistry/Geography/M1/M2/Physics x1.5 ","2025æ–°å¢žèª²ç¨‹
+å¿…é ˆåŒ…æ‹¬è‹±æ–‡ã€æ•¸å­¸å’Œç”Ÿç‰©/åŒ–å­¸/ç‰©ç†ä¸­çš„ä¸€é–€ç§‘ç›®
+æ•¸å­¸ x2.5
+(ç¬¬ä¸€é¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2.5
+è‹±æ–‡ x2
+(ç¬¬äºŒé¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/åœ°ç†/M1/M2/ç‰©ç† x1.5",0,1,1,1,1,1,,,
+22,CityU,1,CityU,JS1052,"BEng Environmental Science and Engineering and BBA Finance (Double Degree; Features: Environmental, Social & Governance (ESG) / Green Finance / Environmental Technology / Interdisciplinary Education)",å·¥å­¸å£«(ç’°å¢ƒç§‘å­¸åŠå·¥ç¨‹å­¸)èˆ‡å·¥å•†ç®¡ç†å­¸å£«(é‡‘èž)[é›™å­¸ä½ï¼›ç‰¹é»žï¼šç’°å¢ƒã€ç¤¾æœƒå’Œç®¡æ²» / ç¶ è‰²é‡‘èž / ç’°ä¿æŠ€è¡“ / è·¨å­¸ç§‘æ•™è‚²],26,E+M+Sci+Best 2,,36,35,,,"Must include English, Mathematics, and one subject from Biology/Chemistry/Physics
+Mathematics x2.5
+(1st elective)Biology/Chemistry/Physics x2.5
+English x2
+(2nd elective)Biology/Chemistry/Geography/M1/M2/Physics x1.5 ","å¿…é ˆåŒ…å«è‹±æ–‡ã€æ•¸å­¸ä»¥åŠç”Ÿç‰©/åŒ–å­¸/ç‰©ç†ä¸­çš„ä¸€é–€ç§‘ç›®
+æ•¸å­¸ x2.5
+(ç¬¬ä¸€é¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2.5
+è‹±æ–‡ x2
+(ç¬¬äºŒé¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/åœ°ç†/M1/M2/ç‰©ç† x1.5",0,0,1,1,1,1,,,
+23,CityU,1,CityU,JS1053,"BSc Environment and Sustainable Business (Features: Environmental Science / Business Sustainability / Environmental, Social & Governance (ESG))",ç†å­¸å£«(ç’°å¢ƒåŠå¯æŒçºŒç™¼å±•å•†æ¥­) [ç‰¹é»žï¼šç’°å¢ƒç§‘å­¸ / å•†æ¥­å¯æŒçºŒç™¼å±• / ç’°å¢ƒã€ç¤¾æœƒå’Œç®¡æ²»],26,E+M+Sci+Best 2,,,,,,"New programme in 2025 
+Must include English,Mathematics,and one subject from Biology/Chemistry/Physics
+Mathematics x2.5
+(1st elective)Biology/Chemistry/Physics x2.5
+(2nd elective)Economics/BAFS x2.5
+English x2
+(2nd elective)Biology/Chemistry/Geography/M1/M2/Physics x1.5 ","2025å¹´æ–°å¢žèª²ç¨‹
+å¿…é ˆåŒ…å«è‹±æ–‡ã€æ•¸å­¸ä»¥åŠç”Ÿç‰©/åŒ–å­¸/ç‰©ç†ä¸­çš„ä¸€é–€ç§‘ç›®
+æ•¸å­¸ x2.5
+(ç¬¬ä¸€é¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2.5
+(ç¬¬äºŒé¸ä¿®èª²)ç¶“æ¿Ÿå­¸/BAFS x2.5
+è‹±æ–‡ x2
+(ç¬¬äºŒé¸ä¿®)ç”Ÿç‰©/åŒ–å­¸/åœ°ç†/M1/M2/ç‰©ç† x1.5",0,0,1,1,1,0,,,
+24,CityU,1,CityU,JS1061,Bachelor of Laws,æ³•å¾‹å­¸å­¸å£«,4,è‹±+4ç§‘,,24.5,23.5,,,Must include English,å¿…é ˆåŒ…å«è‹±æ–‡,0,1,0,1,1,1,,,
+25,CityU,1,CityU,JS1062,Bachelor of Laws and Bachelor of Business Administration in Accountancy,æ³•å¾‹å­¸å­¸å£«èˆ‡å·¥å•†ç®¡ç†å­¸å£«(æœƒè¨ˆ),4,è‹±+4ç§‘,,29,24.5,,,"Must include English
+English x1.5","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x1.5",1,1,0,1,1,1,,,
+26,CityU,1,CityU,JS1070,"Data Empowerment: Learn, Transform and Achieve (DELTA) (Features: Free Choice of Major/One-to-One Advisor/Elite Work Placement/Executive Mentor Scheme/Premium Overseas Exchange/Internship Exchange)",æ•¸æ“šè³¦èƒ½: å­¸ç¿’ï½¥çªç ´ï½¥æˆå°±èª²ç¨‹(ç‰¹é»ž: è‡ªç”±é¸æ“‡å­¸é™¢å°ˆæ¥­å­¸ç§‘ / ä¸€å°ä¸€å°ˆæ¥­å°Žå¸« / ç²¾è‹±å­¸ç”Ÿå¯¦ç¿’åŸ¹è¨“ / å°ˆæ¥­å°Žå¸«æŒ‡å°Žè¨ˆåŠƒ / é ‚å°–æµ·å¤–å¤§å­¸äº¤æµ),13,3C+2X,,,,,,"New programme in 2025 
+Mathematics/English x 2","2025æ–°å¢žèª²ç¨‹
+æ•¸å­¸/è‹±æ–‡x2",1,1,0,1,1,0,,,
+27,CityU,1,CityU,JS1071,"School of Data Science (options: BSc Data Science, BEng Data and Systems Engineering)",æ•¸æ“šç§‘å­¸å­¸é™¢ [é¸é …ï¼šç†å­¸å£« (æ•¸æ“šç§‘å­¸)ã€ç†å­¸å£« (æ•¸æ“šèˆ‡ç³»çµ±å·¥ç¨‹)],13,3C+2X,,28,27,,,Mathematics/English x 2,æ•¸å­¸/è‹±æ–‡x2,1,1,0,1,1,1,,,
+28,CityU,1,CityU,JS1072,BSc Data Science,ç†å­¸å£«(æ•¸æ“šç§‘å­¸),13,3C+2X,,29,28,,,Mathematics/English x 2,æ•¸å­¸/è‹±æ–‡x2,1,1,0,1,1,1,,,
+29,CityU,1,CityU,JS1074,BEng Data and Systems Engineering,å·¥å­¸å£«(æ•¸æ“šèˆ‡ç³»çµ±å·¥ç¨‹),13,3C+2X,,27,27,,,Mathematics/English x 2,æ•¸å­¸/è‹±æ–‡x2,0,0,0,1,1,1,,,
+30,CityU,1,CityU,JS1100,BSocSc Psychology [Stream: Wellbeing Enhancement and Care Management (WE-CARE) Programme],ç¤¾æœƒç§‘å­¸å­¸å£«(å¿ƒç†å­¸) (å°ˆä¿®: åº·å¥èˆ‡é—œæ‡·ç®¡ç†èª²ç¨‹),23,E + Best 3,,,,,,"New programme in 2025
+Must include English
+English x2","2025æ–°å¢žèª²ç¨‹
+å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",0,0,1,1,1,1,,,
+31,CityU,1,CityU,JS1102,BSocSc International Relations and Global Affairs,ç¤¾æœƒç§‘å­¸å­¸å£«(åœ‹éš›é—œä¿‚åŠå…¨çƒäº‹å‹™),4,è‹±+4ç§‘,,24,23.5,,,"Must include English
+English x1.5","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x1.5",0,0,1,1,1,0,,,
+32,CityU,1,CityU,JS1103,BA Chinese and History,æ–‡å­¸å£«(ä¸­æ–‡åŠæ­·å²),13,3C+2X,,34,33,,,"English/Chinese x 2
+Chinese History/Chinese Literature/History/Visual Arts x 1.5","è‹±æ–‡/ä¸­æ–‡ x 2
+ä¸­åœ‹æ­·å²/ä¸­åœ‹æ–‡å­¸/æ­·å²/è¦–è¦ºè—è¡“ x 1.5",0,0,1,1,1,0,,,
+33,CityU,1,CityU,JS1104,BA English,æ–‡å­¸å£«(è‹±èªžèªžè¨€),4,è‹±+4ç§‘,,32.5,30.5,,,"Must include English
+English x2.5
+Literature in Englsih x 1.5","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2.5
+è‹±æ–‡æ–‡å­¸ x1.5",0,0,1,1,1,0,,,
+34,CityU,1,CityU,JS1106,"Department of Media and Communication (options: BA Digital Television and Broadcasting, BA Media and Communication)",åª’é«”èˆ‡å‚³æ’­ç³» [é¸é …: æ–‡å­¸å£«(æ•¸ç¢¼é›»è¦–èˆ‡å»£æ’­)ã€æ–‡å­¸å£«(åª’é«”èˆ‡å‚³æ’­)],23,E + Best 3,,19.5,19,,,"Must include English
+English/Chinese x1.25","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡/ä¸­æ–‡ x1.25",1,0,1,0,1,0,,,
+35,CityU,1,CityU,JS1108,BSocSc Public Policy and Politics,ç¤¾æœƒç§‘å­¸å­¸å£«(å…¬å…±æ”¿ç­–èˆ‡æ”¿æ²»),13,3C+2X,,22,21,,,English x 1.5,è‹±æ–‡ x1.5,0,0,1,0,1,0,,,
+36,CityU,1,CityU,JS1109,BA Linguistics and Language Applications,æ–‡å­¸å£«ï¼ˆèªžè¨€å­¸åŠèªžè¨€æ‡‰ç”¨ï¼‰,13,3C+2X,,30.5,29.5,,,"English x2 
+Chinese/Mathematics x 1.5","è‹±æ–‡ x2
+ä¸­æ–‡/æ•¸å­¸ x 1.5",1,1,0,0,1,0,,,
+37,CityU,1,CityU,JS1111,BSocSc Criminology and Sociology,ç¤¾æœƒç§‘å­¸å­¸å£«(çŠ¯ç½ªå­¸åŠç¤¾æœƒå­¸),23,E + Best 3,,21.5,21.5,,,"Must include English
+English x2","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",0,0,1,1,1,1,,,
+38,CityU,1,CityU,JS1112,BSocSc Psychology,ç¤¾æœƒç§‘å­¸å­¸å£«(å¿ƒç†å­¸),23,E + Best 3,,23.5,23,,,"Must include English
+English x2","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",0,0,1,1,1,0,,,
+39,CityU,1,CityU,JS1113,BSocSc Social Work,ç¤¾æœƒç§‘å­¸å­¸å£«(ç¤¾æœƒå·¥ä½œ),23,E + Best 3,,22.5,21.5,,,"Must include English
+English x2","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡ x2",1,0,1,1,1,0,,,
+40,CityU,1,CityU,JS1123,Bachelor of Social Sciences in Criminology and Bachelor of Laws,ç¤¾æœƒç§‘å­¸å­¸å£«(çŠ¯ç½ªå­¸)èˆ‡æ³•å¾‹å­¸å­¸å£«,4,è‹±+4ç§‘,,22,20.5,,,Must include English,å¿…é ˆåŒ…å«è‹±æ–‡,1,1,0,1,1,1,,,
+41,CityU,1,CityU,JS1200,Global Research Enrichment and Technopreneurship (GREAT),ç’°çƒç²¾ç ”èˆ‡ç§‘å‰µèª²ç¨‹,14,Best 4,,33,33,,,"Mathematics/Biology/Chemistry/Economics/M1/M2/Physics x2.5
+English x 2","æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç¶“æ¿Ÿå­¸/M1/M2/ç‰©ç† x2.5
+è‹±æ–‡x 2",1,0,1,1,1,0,,,
+42,CityU,1,CityU,JS1201,"Department of Architecture and Civil Engineering (options: BEng Architectural Engineering, BEng Civil Engineering, BSc Surveying)",å»ºç¯‰å­¸åŠåœŸæœ¨å·¥ç¨‹å­¸ç³» [é¸é …: å·¥å­¸å£«(å»ºç¯‰å·¥ç¨‹)ã€å·¥å­¸å£«(åœŸæœ¨å·¥ç¨‹)ã€ç†å­¸å£«(æ¸¬é‡å­¸)],4,è‹±+4ç§‘,,42,40,,,"Must include English
+Mathematics/English/M1/M2/Physics x2.5
+Chinese x 1.5","å¿…é ˆåŒ…å«è‹±æ–‡
+æ•¸å­¸/è‹±æ–‡/M1/M2/ç‰©ç† x2.5
+ä¸­æ–‡ x 1.5",1,0,0,0,1,0,,,
+43,CityU,1,CityU,JS1202,BSc Chemistry,ç†å­¸å£«(åŒ–å­¸),14,Best 4,,26,25.5,,,"English/Chemistry x 2
+Mathematics x1.5","è‹±æ–‡/åŒ–å­¸ x 2
+æ•¸å­¸ x 1.5",0,0,0,0,1,0,,,
+44,CityU,1,CityU,JS1204,BSc Computer Science,ç†å­¸å£«(é›»è…¦ç§‘å­¸),2,Best 5,,20.5,19.5,,,,,1,1,0,0,1,0,,,
+45,CityU,1,CityU,JS1205,"Department of Electrical Engineering (options: BEng Computer&Data Engineering, BEng Electronic&Electrical Engineering, BEng Information Engineering)",é›»æ©Ÿå·¥ç¨‹å­¸ç³» [é¸é …: å·¥å­¸å£«(é›»å­è¨ˆç®—æ©ŸåŠæ•¸æ“šå·¥ç¨‹å­¸)ã€å·¥å­¸å£«(é›»å­åŠé›»æ©Ÿå·¥ç¨‹å­¸)ã€å·¥å­¸å£«(è³‡è¨Šå·¥ç¨‹å­¸)],20,E + M + Best 3,,34.5,34,,,,,1,0,0,0,1,0,,,
+46,CityU,1,CityU,JS1206,BSc Computing Mathematics,ç†å­¸å£«(è¨ˆç®—æ•¸å­¸),34,M+Best 3,,34,32.5,,,"Must include Mathematics
+Mathematics x2.5
+English/M1/M2 x2
+Biology/Chemistry/Physics x 1.5","å¿…é ˆåŒ…å«æ•¸å­¸
+æ•¸å­¸ x2.5
+è‹±æ–‡/M1/M2 x2
+ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x 1.5",0,0,0,1,1,0,,,
+47,CityU,1,CityU,JS1207,"Department of Mechanical Engineering (options: BEng Mechanical Engineering,BEng Nuclear & Risk Engineering)",æ©Ÿæ¢°å·¥ç¨‹å­¸ç³» [é¸é …: å·¥å­¸å£«(æ©Ÿæ¢°å·¥ç¨‹)ã€å·¥å­¸å£«(æ ¸å­åŠé¢¨éšªå·¥ç¨‹)],22,M + Best 4,,31,30.5,,,"Must include Mathematics
+English/Mathematics/Physics x 2
+Chemistry/DAT/M1/M2 x 1.5","å¿…é ˆåŒ…å«æ•¸å­¸
+è‹±æ–‡/æ•¸å­¸/ç‰©ç† x 2
+åŒ–å­¸/DAT/M1/M2 x 1.5",1,0,1,0,1,0,,,
+48,CityU,1,CityU,JS1208,BSc Physics,ç†å­¸å£«(ç‰©ç†å­¸),34,M+Best 3,,25.5,25,,,"Must include Mathematics
+English/Physics x2
+M1/M2 x 1.5
+Mathematics x1.25","å¿…é ˆåŒ…å«æ•¸å­¸
+è‹±æ–‡/ç‰©ç† x2
+M1/M2 x 1.5
+æ•¸å­¸ x 1.25",0,0,0,1,1,0,,,
+49,CityU,1,CityU,JS1210,BEng Materials Science and Engineering,å·¥å­¸å£«(ææ–™ç§‘å­¸åŠå·¥ç¨‹),22,M + Best 4,,29.5,29,,,"Must include Mathematics
+Mathematics/Physics x 2
+English/Biology/Chemistry/M1/M2 x 1.5","å¿…é ˆåŒ…å«æ•¸å­¸
+æ•¸å­¸/ç‰©ç† x 2
+è‹±æ–‡/ç”Ÿç‰©/åŒ–å­¸/M1/M2 x 1.5",0,0,0,1,1,0,,,
+50,CityU,1,CityU,JS1211,BEng Biomedical Engineering,å·¥å­¸å£«(ç”Ÿç‰©é†«å­¸å·¥ç¨‹),2,Best 5,,36,35,,,"If both mathematics and m1/m2 are taken, only one subject will be included
+English/Mathematics/Biology/Physics/Chemistry/M1/M2",å¦‚æžœåŒæ™‚é¸ä¿®æ•¸å­¸å’Œ M1/M2ï¼Œå‰‡åªåŒ…å«ä¸€é–€ç§‘ç›®ï¼šè‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/ç‰©ç†/åŒ–å­¸/M1/M2,0,1,0,1,1,0,,,
+51,CityU,1,CityU,JS1216,BEng Intelligent Manufacturing Engineering,å·¥å­¸å£«(æ™ºèƒ½è£½é€ å·¥ç¨‹å­¸),20,E + M + Best 3,,35,33.5,,,"Must include English
+English/Mathematics/ICT/M1/M2/Physics x 2
+Chemistry/DAT x 1.5","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡/æ•¸å­¸/ICT/M1/M2/ç‰©ç† x 2
+åŒ–å­¸/DAT x 1.5",0,1,0,0,1,0,,,
+52,CityU,1,CityU,JS1217,College of Engineering (option: any major in College of Engineering with Minor in Engineering Entrepreneurship),å·¥å­¸é™¢(é¸é …: å·¥å­¸é™¢ä»»ä½•ä¸€å€‹ä¸»ä¿®åŠå·¥ç¨‹å‰µæ¥­å‰¯ä¿®),4,è‹±+4ç§‘,,36,36,,,"Must include English
+English/Mathematics/ICT/M1/M2/Physics/BiologyChemistry/DAT x 2","å¿…é ˆåŒ…å«è‹±æ–‡
+è‹±æ–‡/æ•¸å­¸/ICT/M1/M2/ç‰©ç†/ç”Ÿç‰©åŒ–å­¸/DAT x 2",1,0,0,1,1,0,,,
+53,CityU,1,CityU,JS1218,BSc Cybersecurity (Features: System Security / Software Security / Cryptography / Privacy-Enhancing Technologies / Cyber Risk Management),ç†å­¸å£« (ç¶²çµ¡å®‰å…¨) (ç‰¹é»ž: ç³»çµ±å®‰å…¨ / è»Ÿä»¶å®‰å…¨ / å¯†ç¢¼å­¸ / éš±ç§å¢žå¼·æŠ€è¡“ / ç¶²çµ¡é¢¨éšªç®¡ç†),2,Best 5,,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,1,1,0,0,1,1,,,
+54,CityU,1,CityU,JS1219,BEng Innovation and Enterprise Engineering (Features: Engineering / Technology / Innovation / Enterprise / Entrepreneurship),å·¥å­¸å£«(å‰µæ–°èˆ‡ä¼æ¥­å·¥ç¨‹å­¸) (ç‰¹é»ž: å·¥ç¨‹å­¸ / ç§‘æŠ€ / å‰µæ–° / ä¼æ¥­ / å‰µæ¥­),20,E + M + Best 3,,,,,,"New programme in 2025
+Must include English and Mathematics
+English/Mathematics/Biology/Chemistry/DAT/Economics/ICT/M1/M2/Physics x 2","2025æ–°å¢žèª²ç¨‹
+å¿…é ˆåŒ…å«è‹±æ–‡å’Œæ•¸å­¸
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/DAT/ç¶“æ¿Ÿå­¸/ICT/M1/M2/ç‰©ç† x 2",0,0,1,1,1,0,,,
+55,CityU,1,CityU,JS1221,BSc Computer Science and BSc Computational Finance and Financial Technology(Double Degree; Features:Corporate Accounting and Economics/Computational Finance/Advanced Statistics/Financial Technologies),ç†å­¸å£«ï¼ˆé›»è…¦ç§‘å­¸ï¼‰èˆ‡ç†å­¸å£«ï¼ˆè¨ˆç®—é‡‘èžåŠé‡‘èžç§‘æŠ€ï¼‰(é›™å­¸ä½ï¼›ç‰¹é»žï¼šä¼æ¥­æœƒè¨ˆèˆ‡ç¶“æ¿Ÿ / è¨ˆç®—é‡‘èž / é«˜éšŽçµ±è¨ˆ / é‡‘èžç§‘æŠ€è»Ÿä»¶å·¥ç¨‹),2,Best 5,,21,20,,,,,1,1,0,0,1,1,,,
+56,CityU,1,CityU,JS1801,Bachelor of Veterinary Medicine,ç¸é†«å­¸å­¸å£«,35,E+M+Biology+Chemistry+Best 1,,33.5,32,,,"Must include English, Mathematics.Biology and Chemistry",å¿…é ˆåŒ…æ‹¬è‹±æ–‡ã€æ•¸å­¸ã€ç”Ÿç‰©å’ŒåŒ–å­¸,0,1,0,1,1,1,,,
+57,CityU,1,CityU,JS1805,"Department of Biomedical Sciences (options: BSc Biological Sciences, BSc Biomedical Sciences)",ç”Ÿç‰©é†«å­¸ç³» [é¸é …: ç†å­¸å£«(ç”Ÿç‰©ç§‘å­¸)ã€ç†å­¸å£«(ç”Ÿç‰©é†«å­¸)],13,3C+2X,,35.5,34,,,"English/Biology/Chemistry x2
+Mathematics/BAFS/DAT/ICT/M1/M2/Physics x1.5","è‹±æ–‡/ç”Ÿç‰©/åŒ–å­¸ x2
+æ•¸å­¸/BAFS/DAT/ICT/M1/M2/ç‰©ç† x1.5",0,1,0,1,1,0,,,
+58,CityU,1,CityU,JS1806,BSc Biological Sciences,ç†å­¸å£«(ç”Ÿç‰©ç§‘å­¸),13,3C+2X,,33.5,33,,,"English/Biology/Chemistry x2
+Mathematics/BAFS/DAT/ICT/M1/M2/Physics x1.5","è‹±æ–‡/ç”Ÿç‰©/åŒ–å­¸ x2
+æ•¸å­¸/BAFS/DAT/ICT/M1/M2/ç‰©ç† x1.5",0,1,0,1,1,0,,,
+59,CityU,1,CityU,JS1807,BSc Biomedical Sciences,ç†å­¸å£«(ç”Ÿç‰©é†«å­¸),13,3C+2X,,42,40,,,"English/Biology/Chemistry x2
+Mathematics/BAFS/DAT/ICT/M1/M2/Physics x1.5","è‹±æ–‡/ç”Ÿç‰©/åŒ–å­¸ x2
+æ•¸å­¸/BAFS/DAT/ICT/M1/M2/ç‰©ç† x1.5",0,1,0,0,1,1,,,
+60,HKBU,2,HKBU,JS2020,Bachelor of Arts (Hons) (Chinese Language and Literature / Creative and Professional Writing / English Language and Literature / Humanities / Translation),æ–‡å­¸å£«(æ¦®è­½) (ä¸­åœ‹èªžè¨€æ–‡å­¸ / å‰µæ„åŠå°ˆæ¥­å¯«ä½œ / è‹±åœ‹èªžè¨€æ–‡å­¸ / äººæ–‡å­¸ / ç¿»è­¯å­¸),13,3C+2X,,21.04,,,,,,0,0,1,1,1,0,,,
+61,HKBU,2,HKBU,JS2025,"Bachelor of Arts (Hons) in Religion, Philosophy and Ethics",å®—æ•™ã€å“²å­¸åŠå€«ç†æ–‡å­¸å£«(æ¦®è­½),13,3C+2X,,19.5,,,,,,0,0,1,1,1,0,,,
+62,HKBU,2,HKBU,JS2060,Bachelor of Arts (Hons)/ Bachelor of Music (Hons) (Music/ Creative Industries),æ–‡å­¸å£«(æ¦®è€€)/éŸ³æ¨‚å­¸å£«(æ¦®è€€)(éŸ³æ¨‚/å‰µæ„ç”¢æ¥­),13,3C+2X,,19.87,,,,,,0,0,1,1,1,0,,,
+63,HKBU,2,HKBU,JS2110,Bachelor of Business Administration (Hons) - Accounting Concentration,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆæ¦®è­½ï¼‰ - æœƒè¨ˆå­¸å°ˆä¿®,13,3C+2X,,21.06,,,,English x 1.5,è‹±æ–‡ x 1.5,0,0,1,0,1,0,,,
+64,HKBU,2,HKBU,JS2120,Bachelor of Business Administration (Hons),å·¥å•†ç®¡ç†å­¸å£«ï¼ˆæ¦®è­½ï¼‰,13,3C+2X,,21.12,,,,English x 1.6,è‹±æ–‡ x 1.6,0,0,1,0,1,0,,,
+65,HKBU,2,HKBU,JS2310,Bachelor of Communication (Hons) (Journalism and Digital Media / Public Relations and Advertising),å‚³ç†å­¸å­¸å£«(æ¦®è­½) (æ–°èžèˆ‡æ•¸ç¢¼åª’é«” / å…¬é—œåŠå»£å‘Š),13,3C+2X,,22.81,,,,"Chinese x1.25
+English x1.25","ä¸­æ–‡ x1.25
+è‹±æ–‡ x1.25",0,0,1,1,1,0,,,
+66,HKBU,2,HKBU,JS2330,Bachelor of Communication in Film (Film and Television Concentration),å‚³ç†å­¸å­¸å£« - é›»å½±ä¸»ä¿® - é›»å½±é›»è¦–å°ˆä¿®,13,3C+2X,,22.93,,,,"Chinese x1.25
+English x1.25",,0,0,1,1,1,0,,,
+67,HKBU,2,HKBU,JS2340,Bachelor of Fine Arts (Hons) in Acting for Global Screen,ç’°çƒèž¢å¹•æ¼”æŠ€è—è¡“å­¸å£«ï¼ˆæ¦®è­½ï¼‰,13,3C+2X,,16.75,,,,,,0,0,1,1,1,0,,,
+68,HKBU,2,HKBU,JS2370,Bachelor of Communication (Hons) in Game Design and Animation,å‚³ç†å­¸å­¸å£«(æ¦®è­½) - éŠæˆ²è¨­è¨ˆèˆ‡å‹•ç•«ä¸»ä¿®,13,3C+2X,,21.9,,,,"English x1.25
+Math x1.1
+VART x1.15","è‹±æ–‡x1.25
+æ•¸å­¸x1.1
+VAR x1.15",1,0,1,1,1,0,,,
+69,HKBU,2,HKBU,JS2410,Bachelor of Chinese Medicine and Bachelor of Science (Hons) in Biomedical Science,ä¸­é†«å­¸å­¸å£«åŠç”Ÿç‰©é†«å­¸ç†å­¸å£«(æ¦®è­½),36,Bio/Chem + Best 4,,31.4,,,,"One elective must be Biology or Chemistry
+Chinese x1.5
+English x1.5
+Biology x1.5
+Chemistry x1.25","ä¸€é–€é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©å­¸æˆ–åŒ–å­¸
+ä¸­æ–‡ x1.5
+è‹±æ–‡ x1.5
+ç”Ÿç‰© x1.5
+åŒ–å­¸ x1.25",0,1,0,1,1,1,,,
+70,HKBU,2,HKBU,JS2420,Bachelor of Pharmacy (Hons) in Chinese Medicine,ä¸­è—¥å­¸å­¸å£«(æ¦®è­½),37,Chem+Best 4,,25.01,,,,"One elective must be Chemistry
+English x1.5
+Math x1.25
+Biology x1.25
+Chemistry x1.5","å¿…é ˆé¸ä¿®ä¸€é–€åŒ–å­¸
+è‹±æ–‡x1.5
+æ•¸å­¸ x1.25
+ç”Ÿç‰© x1.25
+åŒ–å­¸ x1.5",0,1,0,1,1,1,,,
+71,HKBU,2,HKBU,JS2510,Bachelor of Science (Hons),ç†å­¸å£«(æ¦®è­½),13,3C+2X,,19.1,,,,,,0,0,0,1,1,0,,,
+72,HKBU,2,HKBU,JS2610,Bachelor of Arts (Hons) / Bachelor of Social Sciences (Hons) (European Studies [French/German Stream] / Geography/ Global and China Studies/ Government and International Studies/ History/ Sociology),æ–‡å­¸å£«(æ¦®è­½) / ç¤¾æœƒç§‘å­¸å­¸å£«(æ¦®è­½) (æ­æ´²ç ”ç©¶ [æ³•æ–‡/å¾·æ–‡] / åœ°ç† / å…¨çƒåŠä¸­åœ‹ç ”ç©¶ / æ”¿æ²»åŠåœ‹éš›é—œä¿‚å­¸ / æ­·å² / ç¤¾æœƒå­¸),13,3C+2X,,24.11,,,,English x2,è‹±æ–‡x2,1,0,1,0,1,0,,,
+73,HKBU,2,HKBU,JS2620,Bachelor of Arts (Hons) in Physical Education and Recreation Management,é«”è‚²åŠåº·æ¨‚ç®¡ç†æ–‡å­¸å£«(æ¦®è­½),13,3C+2X,,21.12,,,,,,0,0,1,1,1,0,,,
+74,HKBU,2,HKBU,JS2660,Bachelor of Social Work (Hons),ç¤¾æœƒå·¥ä½œå­¸å£«(æ¦®è­½),13,3C+2X,,25.17,,,,"English x2
+health management and social care x1.1","è‹±æ–‡x2
+HMSC x1.1",0,0,0,0,1,0,,,
+75,HKBU,2,HKBU,JS2810,Bachelor of Arts (Hons) in Visual Arts,è¦–è¦ºè—è¡“æ–‡å­¸å£«(æ¦®è­½),13,3C+2X,,19.56,,,,,,0,0,1,1,1,0,,,
+76,HKBU,2,HKBU,JS2910,Bachelor of Science (Hons) in Business Computing and Data Analytics,å•†æ¥­è¨ˆç®—åŠæ•¸æ“šåˆ†æžç†å­¸å£«(æ¦®è­½,13,3C+2X,,19.57,,,,,,1,1,0,0,1,0,,,
+77,HKBU,2,HKBU,JS2920,Bachelor of Arts and Science (Hons) in Arts and Technology,è—è¡“åŠç§‘æŠ€æ–‡ç†å­¸å£«(æ¦®è­½),13,3C+2X,,18.29,,,,Math x1.2,æ•¸å­¸ x1.2,0,0,1,0,1,0,,,
+78,HKBU,2,HKBU,JS2930,Bachelor of Arts (Hons) in Business Administration (Global Entertainment),å·¥å•†ç®¡ç†æ–‡å­¸å£«(æ¦®è­½)(å…¨çƒå¨›æ¨‚),13,3C+2X,,18.83,,,,,,0,1,0,0,1,0,,,
+79,HKBU,2,HKBU,JS2940,Bachelor of Social Sciences (Hons) / Bachelor of Science (Hons) in Innovation in Health and Social Well-Being,å‰µæ–°é†«ç™‚åŠç¤¾æœƒå¥åº·ç¤¾æœƒç§‘å­¸å­¸å£«(æ¦®è­½) / ç†å­¸å£«(æ¦®è­½),13,3C+2X,,19.33,,,,"English x2
+Math x1.5
+M1 x1.5
+HSMC x1.5","è‹±æ–‡ x2
+æ•¸å­¸ x1.5
+M1 x1.5
+HSMC x1.5",0,0,0,0,1,0,,,
+80,HKBU,2,HKBU,JS2950,"Bachelor of Arts, Science and Technology (Hons) in Individualised Major",æ–‡ç†åŠç§‘æŠ€å­¸å£«(æ¦®è­½)è‡ªè¨‚ä¸»ä¿®,13,3C+2X,,18.07,,,,English x1.25,è‹±æ–‡ x1.25,1,0,1,1,1,0,,,
+81,HKBU,2,HKBU,JS2960,Bachelor of Arts and Science (Hons) in Digital Futures and Humanities,æ•¸ä½æœªä¾†èˆ‡äººæ–‡å­¸ç§‘æ–‡ç†å­¸å£«(æ¦®è­½),13,3C+2X,,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,0,0,1,1,1,0,,,
+82,PolyU,6,PolyU,JS3000,Bachelorâ€™s Degree Scheme in Interdisciplinary Studies,è·¨å­¸ç§‘çµ„åˆå­¸å£«èª²ç¨‹,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,0,0,1,1,1,0,,,
+83,PolyU,6,PolyU,JS3003,Bachelorâ€™s Degree Scheme in Business Administration,å·¥å•†ç®¡ç†çµ„åˆå­¸å£«èª²ç¨‹,2,Best 5,,,,,,"New programme in 2025
+Prioritize:
+English Language
+Mathematics","2025æ–°å¢žèª²ç¨‹
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸",1,0,0,0,1,0,,,
+84,PolyU,6,PolyU,JS3004,Bachelorâ€™s Degree Scheme in Construction and Environment,å»ºè¨­åŠç’°å¢ƒçµ„åˆå­¸å£«èª²ç¨‹,2,Best 5,,,,,,"New programme in 2025
+English Language
+Mathematics
+M1
+M2
+Physics
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Geography
+Integrated Science","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+åœ°ç†
+ç¶œåˆç§‘å­¸",1,0,0,0,1,0,,,
+85,PolyU,6,PolyU,JS3005,Bachelorâ€™s Degree Scheme in Engineering,å·¥ç¨‹å­¸ç§‘çµ„åˆå­¸å£«èª²ç¨‹,2,Best 5,,,,,,"New programme in 2025
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Design and Applied Technology
+Economics
+Information and Communication Technology","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+è¨­è¨ˆèˆ‡æ‡‰ç”¨ç§‘æŠ€
+ç¶“æ¿Ÿå­¸
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€",0,0,0,0,1,0,,,
+86,PolyU,6,PolyU,JS3006,Bachelorâ€™s Degree Scheme in Computer and Mathematical Sciences,è¨ˆç®—æ©ŸåŠæ•¸å­¸ç§‘å­¸çµ„åˆå­¸å£«èª²ç¨‹,2,Best 5,,,,,,"New programme in 2025
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Economics
+Information and Communication Technology","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+ç¶“æ¿Ÿå­¸
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€",1,1,0,1,1,1,,,
+87,PolyU,6,PolyU,JS3007,Bachelorâ€™s Degree Scheme in Humanities,äººæ–‡å­¸ç§‘çµ„åˆå­¸å£«èª²ç¨‹,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,"New programme in 2025
+Prioritize:
+Chinese Language
+English Language","2025æ–°å¢žèª²ç¨‹
+å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡",0,0,1,1,1,0,,,
+88,PolyU,6,PolyU,JS3008,Bachelorâ€™s Degree Scheme in Science,ç†å­¸çµ„åˆå­¸å£«èª²ç¨‹,2,Best 5,,,,,,"New programme in 2025
+Prioritize:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Economics
+Information and Communication Technology
+Integrated Science","2025æ–°å¢žèª²ç¨‹
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+ç¶“æ¿Ÿå­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+ç¶œåˆç§‘å­¸",0,0,0,1,1,0,,,
+89,PolyU,6,PolyU,JS3011,Biotechnology and Chemical Technology,ç”Ÿç‰©ç§‘æŠ€åŠåŒ–å­¸ç§‘æŠ€ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«çµ„åˆèª²ç¨‹,2,Best 5,,,,200.6,,"Prioritize:
+English Language
+Mathematics
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",0,1,0,1,1,1,,,
+90,PolyU,6,PolyU,JS3030,BSc (Hons) Physics with a Secondary Major in AI & Data Analytics/Innovation and Entrepreneurship,ç‰©ç†å­¸(æ¦®è­½)ç†å­¸å£« å‰¯ä¸»ä¿®äººå·¥æ™ºèƒ½åŠæ•¸æ“šåˆ†æž/å‰µæ–°åŠå‰µæ¥­,2,Best 5,,,,205.3,,"Priorititze:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Economics
+Information and Communication Technology
+Integrated Science","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰© + åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰© + ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç† + åŒ–å­¸
+ç¶“æ¿Ÿå­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+ç¶œåˆç§‘å­¸",1,1,0,1,1,0,,,
+91,PolyU,6,PolyU,JS3050,BA (Hons) Scheme in Fashion (Fashion Design / Knitwear Design / Contour Fashion and Activewear / Fashion Business / Fashion Innovation and Technology),æ™‚è£(æ¦®è­½)æ–‡å­¸å£«çµ„åˆèª²ç¨‹ (æ™‚è£è¨­è¨ˆ / é‡ç¹”æ™‚è£è¨­è¨ˆ / å…§è¡£åŠé‹å‹•æœè£ / æ™‚è£å•†å‹™ / æ™‚è£å‰µæ–°åŠç§‘æŠ€),38,Best 5 + 1(if 6th subject >= lvl3),,,,164.6,,"plus an additional bonus score for the 6th subject with Level 3 or above
+
+Prioritize:
+Biology
+Chemistry
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Chinese History
+Combined Science: Biology + Chemistry
+Economics
+Geography
+History
+Technology and Living (Fashion, Clothing and Textiles)
+Visual Arts","ç¬¬å…­ç§‘é”3ç´šä»¥ä¸Šï¼Œå¯é¡å¤–ç²å¾—åŠ åˆ†
+
+å„ªå…ˆè€ƒæ…®ï¼š
+ç”Ÿç‰©
+åŒ–å­¸
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžå­¸
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžå­¸ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžå­¸ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+ä¸­åœ‹å²
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+ç¶“æ¿Ÿå­¸
+åœ°ç†
+æ­·å²
+ç§‘æŠ€èˆ‡ç”Ÿæ´»ï¼ˆæ™‚å°šã€æœè£èˆ‡ç´¡ç¹”ï¼‰
+è¦–è¦ºè—è¡“",0,0,1,1,1,0,,,
+92,PolyU,6,PolyU,JS3060,BBA (Hons) Scheme in Accounting and Finance,æœƒè¨ˆåŠé‡‘èž(æ¦®è­½)å·¥å•†ç®¡ç†å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆæœƒè¨ˆå­¸/æœƒè¨ˆåŠé‡‘èž/æ•¸ç¢¼é‡‘èžåŠæŠ•è³‡å­¸ï¼‰,2,Best 5,,,,178.3,,Prioritize English and Math,å„ªå…ˆè€ƒæ…®è‹±æ–‡å’Œæ•¸å­¸,0,1,0,0,1,1,,,
+93,PolyU,6,PolyU,JS3070,"BBA (Hons) Scheme in Aviation, Maritime and Supply Chain Management",èˆªç©ºã€èˆªé‹åŠä¾›æ‡‰éˆç®¡ç†(æ¦®è­½)å·¥å•†ç®¡ç†å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆèˆªç©ºç®¡ç†åŠé‡‘èž/åœ‹éš›èˆªé‹åŠç‰©æµç®¡ç†/ä¾›æ‡‰éˆç®¡ç†åŠåˆ†æžï¼‰,2,Best 5,,,,169.3,,Prioritize English and Math,å„ªå…ˆè€ƒæ…®è‹±æ–‡å’Œæ•¸å­¸,0,0,0,0,1,1,,,
+94,PolyU,6,PolyU,JS3080,BBA (Hons) Scheme in Management and Marketing,ç®¡ç†åŠå¸‚å ´å­¸(æ¦®è­½)å·¥å•†ç®¡ç†å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆç®¡ç†å­¸/å¸‚å ´å­¸ï¼‰,2,Best 5,,,,175.2,,Prioritize English and Math,å„ªå…ˆè€ƒæ…®è‹±æ–‡å’Œæ•¸å­¸,0,0,1,0,1,0,,,
+95,PolyU,6,PolyU,JS3130,BSc (Hons) in Land Surveying and Geo-Informatics,ç©ºé–“æ•¸æ“šç§‘å­¸åŠæ™ºæ…§åŸŽå¸‚ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆåœŸåœ°æ¸¬é‡åŠåœ°ç†è³‡è¨Šå­¸ï¼‰,2,Best 5,,,,199.5,,"Prioritize:
+English Language
+Mathematics
+M1
+M2
+Physics
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Geography
+Information and Communication Technology
+Integrated Science","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+åœ°ç†
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€
+ç¶œåˆç§‘å­¸",0,0,1,1,1,0,,,
+96,PolyU,6,PolyU,JS3140,BEng (Hons) in Aviation Engineering,èˆªç©ºå·¥ç¨‹å­¸(æ¦®è­½)å·¥å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆèˆªç©ºå·¥ç¨‹å­¸/æ°‘èˆªå·¥ç¨‹å­¸ï¼‰,2,Best 5,,,,203.3,,"Prioritize:
+English Language
+Mathematics
+M1
+M2
+Chemistry
+Physics
+Combined Science: Physics + Chemistry
+Information and Communication Technology","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",0,1,0,1,1,1,,,
+97,PolyU,6,PolyU,JS3150,BSc (Hons) in Biomedical Engineering,ç”Ÿç‰©é†«å­¸å·¥ç¨‹(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹,2,Best 5,,,,211,,"Prioritize:
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","å„ªå…ˆè€ƒæ…®ï¼š
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",0,1,0,1,1,1,,,
+98,PolyU,6,PolyU,JS3170,BEng (Hons) in Electrical Engineering,é›»æ©Ÿå·¥ç¨‹å­¸(æ¦®è­½)å·¥å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆé›»æ©Ÿå·¥ç¨‹å­¸/é‹è¼¸ç³»çµ±å·¥ç¨‹å­¸ï¼‰,2,Best 5,,,,201.7,,"Prioritize:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Information and Communication Technology","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",1,1,0,0,1,1,,,
+99,PolyU,6,PolyU,JS3180,BEng (Hons)/BSc (Hons) Scheme in Information and Artificial Intelligence Engineering (Internet-of-Things / Artificial Intelligence / Information Security),è³‡è¨ŠåŠäººå·¥æ™ºèƒ½å·¥ç¨‹å­¸(æ¦®è­½)å·¥å­¸å£« / ç†å­¸å£«çµ„åˆèª²ç¨‹ (ç‰©è¯ç¶² / äººå·¥æ™ºèƒ½ / è³‡è¨Šå®‰å…¨),2,Best 5,,,,207.7,,"Prioritize:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Information and Communication Technology","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",1,1,0,1,1,0,,,
+100,PolyU,6,PolyU,JS3211,BEng (Hons) in Building Sciences and Engineering,å»ºç¯‰ç§‘å­¸åŠå·¥ç¨‹å­¸(æ¦®è­½)å·¥å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS3110
+Prioritize:
+English Language
+Mathematics
+Physics
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3110
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",0,0,0,1,1,1,,,
+101,PolyU,6,PolyU,JS3214,BSc (Hons) in Architectural Studies,å»ºç¯‰å­¸(æ¦®è­½)ç†å­¸å£«,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,"New programme in 2025
+plus an additional bonus score for the 6th subject with Level 3 or above","2025æ–°å¢žèª²ç¨‹
+ç¬¬å…­ç§‘é”åˆ°3ç´šæˆ–ä»¥ä¸Šå¯ç²å¾—é¡å¤–åŠ åˆ†",0,0,0,1,1,0,,,
+102,PolyU,6,PolyU,JS3220,BSc (Hons) Scheme in Applied Mathematics and Finance Analytics (Applied Mathematics / Investment Science and Finance Analytics / Quantitative Finance and FinTech),æ‡‰ç”¨æ•¸å­¸åŠé‡‘èžåˆ†æž(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ (æ‡‰ç”¨æ•¸å­¸ / æŠ•è³‡ç§‘å­¸åŠé‡‘èžåˆ†æž / é‡åŒ–é‡‘èžåŠé‡‘èžç§‘æŠ€),2,Best 5,,,,,,"New programme in 2025, reconstructed from JS3020
+Prioritize English and Math","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3020
+å„ªå…ˆè€ƒæ…®è‹±æ–‡å’Œæ•¸å­¸",0,1,0,1,1,1,,,
+103,PolyU,6,PolyU,JS3223,BSc (Hons) Scheme in Data Science and Artificial Intelligence (Data Science and Analytics / Financial Technology and Artificial Intelligence),æ•¸æ“šç§‘å­¸åŠäººå·¥æ™ºèƒ½(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ (æ•¸æ“šç§‘å­¸åŠåˆ†æž / é‡‘èžç§‘æŠ€åŠäººå·¥æ™ºèƒ½),2,Best 5,,,,,,"New programme in 2025
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Economics
+Information and Communication Technology","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+ç¶“æ¿Ÿå­¸
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€",1,1,0,1,1,0,,,
+104,PolyU,6,PolyU,JS3236,BEng (Hons) Scheme in Product Innovation and Smart Manufacturing (Product Innovation with Marketing / Smart Manufacturing),ç”¢å“å‰µæ–°åŠæ™ºèƒ½è£½é€ (æ¦®è­½)å·¥å­¸å£«çµ„åˆèª²ç¨‹ (ç”¢å“å‰µæ–°å…¼å¸‚å ´å­¸ / æ™ºèƒ½è£½é€ ),2,Best 5,,,,,,"New programme in 2025, reconstructed from JS3557
+Prioritize:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Information and Communication Technology","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3557
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",0,0,1,1,1,0,,,
+105,PolyU,6,PolyU,JS3237,BSc (Hons) Scheme in Intelligent Supply Chain and Engineering Management (Intelligent Supply Chain / Engineering Management with Data Analytics),æ™ºèƒ½ä¾›æ‡‰éˆåŠå·¥ç¨‹ç®¡ç†(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ (æ™ºèƒ½ä¾›æ‡‰éˆ / å·¥ç¨‹ç®¡ç†å…¼æ•¸æ“šåˆ†æž),2,Best 5,,,,,,"New programme in 2025, reconstructed from JS3571
+Prioritize:
+English Language
+Mathematics
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Economics
+Information and Communication Technology","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3571
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+ç¶“æ¿Ÿå­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",1,1,0,0,1,1,,,
+106,PolyU,6,PolyU,JS3240,BA (Hons) in English and Applied Linguistics,è‹±æ–‡åŠæ‡‰ç”¨èªžè¨€å­¸(æ¦®è­½)æ–‡å­¸å£«çµ„åˆèª²ç¨‹,2,Best 5,,,,169.8,,"Prioritize:
+Chinese Language
+English Language
+plus an additional bonus score for the 6th subject with Level 3 or above","å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+ä»¥åŠç¬¬å…­ç§‘é”3ç´šæˆ–ä»¥ä¸Šå¯ç²å¾—é¡å¤–åŠ åˆ†",0,0,1,1,1,0,,,
+107,PolyU,6,PolyU,JS3241,"BA (Honours) / BSc (Honours) Scheme in Translation, Language Sciences and Analytics (Linguistics and Translation / Language Sciences and Analytics)",ç¿»è­¯å­¸ã€èªžè¨€ç§‘å­¸èˆ‡èªžè¨€æ•¸æ“šåˆ†æž(æ¦®è­½)æ–‡å­¸å£«/ç†å­¸å£«çµ„åˆèª²ç¨‹ (èªžè¨€å­¸åŠç¿»è­¯å­¸ / èªžè¨€ç§‘å­¸èˆ‡èªžè¨€æ•¸æ“šåˆ†æž),38,Best 5 + 1(if 6th subject >= lvl3),,,,,,"New programme in 2025, reconstructed from JS3330
+plus an additional bonus score for the 6th subject with Level 3 or above
+Prioritize:
+Chinese Language
+English Language
+Mathematics","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3330
+ç¬¬å…­ç§‘é”3ç´šä»¥ä¸Šå¯é¡å¤–ç²å¾—åŠ åˆ†
+å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸",0,0,1,0,1,0,,,
+108,PolyU,6,PolyU,JS3242,BSc (Hons) in Speech Therapy,è¨€èªžæ²»ç™‚(æ¦®è­½)ç†å­¸å£«,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,"New programme in 2025, reconstructed from JS3330
+Prioritize:
+Chinese Language
+English Language
+Mathematics","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3330
+å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸",0,0,0,1,1,1,,,
+109,PolyU,6,PolyU,JS3250,BA (Hons) Scheme in Applied Social Sciences (Social Work / Social Policy and Social Entrepreneurship),æ‡‰ç”¨ç¤¾æœƒç§‘å­¸(æ¦®è­½)æ–‡å­¸å£«çµ„åˆèª²ç¨‹ (ç¤¾æœƒå·¥ä½œ / ç¤¾æœƒæ”¿ç­–åŠç¤¾æœƒå‰µæ¥­),2,Best 5,,,,166.6,,,,0,0,1,1,1,1,,,
+110,PolyU,6,PolyU,JS3255,BSc (Hons) Scheme in Food Science and Nutrition (Food Safety and Technology / Human Nutrition and Health),é£Ÿå“ç§‘å­¸åŠç‡Ÿé¤Šå­¸(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ (é£Ÿå“ç§‘æŠ€èˆ‡é£Ÿç‰©å®‰å…¨ / äººé¡žç‡Ÿé¤Šå­¸åŠå¥åº·),2,Best 5,,,,,,"New programme in 2025, reconstructed from JS3910
+Prioritize:
+English Language
+Mathematics
+Biology
+Chemistry
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3910
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+ç”Ÿç‰©
+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",1,1,0,1,1,1,,,
+111,PolyU,6,PolyU,JS3290,BSc (Hons) in Optometry,çœ¼ç§‘è¦–å…‰å­¸(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹,38,Best 5 + 1(if 6th subject >= lvl3),,,,284,,"plus an additional bonus score for the 6th subject with Level 3 or above
+
+Prioritize:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","ç¬¬å…­ç§‘é”3ç´šä»¥ä¸Šï¼Œå¯é¡å¤–ç²å¾—åŠ åˆ†
+
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",0,1,0,1,0,1,,,
+112,PolyU,6,PolyU,JS3310,BSc (Hons) Scheme in Hotel and Tourism Management,é…’åº—åŠæ—…éŠç®¡ç†(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆé…’åº—ç®¡ç†/æ™ºæ…§æ—…éŠåŠé…’åº—ç”¢æ¥­/æœƒå±•åŠé«”é©—ç®¡ç†ï¼‰,2,Best 5,,,,160.5,,Prioritize English,å„ªå…ˆè€ƒæ…®è‹±æ–‡,0,0,1,0,1,0,,,
+113,PolyU,6,PolyU,JS3320,BA (Hons) Scheme in Chinese History and Culture,ä¸­åœ‹æ­·å²åŠæ–‡åŒ–(æ¦®è­½)æ–‡å­¸å£«çµ„åˆèª²ç¨‹,38,Best 5 + 1(if 6th subject >= lvl3),,,,194.7,,"Prioritize:
+Chinese Language
+English Language
+Chinese History
+Chinese Literature
+History","å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+ä¸­åœ‹æ­·å²
+ä¸­åœ‹æ–‡å­¸
+æ­·å²",0,0,1,1,1,0,,,
+114,PolyU,6,PolyU,JS3337,BSc (Hons) in Mental Health Nursing,è­·ç†å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«çµ„åˆèª²ç¨‹ - ç²¾ç¥žå¥åº·è­·ç†å­¸(æ¦®è­½)ç†å­¸å£«,2,Best 5,,,,212.5,,"Prioritize:
+Chinese Language
+English Language
+Mathematics
+Biology
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics","å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸
+ç”Ÿç‰©
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†",0,1,0,0,1,1,,,
+115,PolyU,6,PolyU,JS3375,BEng (Hons) in Environmental Engineering and Sustainable Development,ç’°å¢ƒå·¥ç¨‹åŠå¯æŒçºŒç™¼å±•å­¸(æ¦®è­½)å·¥å­¸å£«,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,"New programme in 2025, reconstructed from JS3120
+Prioritize:
+Chinese Language
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Economics
+Geography
+Integrated Science","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3120
+å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+ç¶“æ¿Ÿå­¸
+åœ°ç†
+ç¶œåˆç§‘å­¸",0,0,0,1,1,1,,,
+116,PolyU,6,PolyU,JS3478,BSc (Hons) in Medical Laboratory Science,é†«ç™‚åŒ–é©—ç§‘å­¸åŠæ”¾å°„å­¸(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ - é†«ç™‚åŒ–é©—ç§‘å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,38,Best 5 + 1(if 6th subject >= lvl3),,,,300.9,,"plus an additional bonus score for the 6th subject with Level 3 or above
+
+Prioritize:
+Chinese Language
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Combined Science: Biology + Chemistry","ç¬¬å…­ç§‘æˆç¸¾é”3ç´šä»¥ä¸Šï¼Œå¯é¡å¤–ç²å¾—åŠ åˆ†
+
+å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸",0,1,0,1,1,1,,,
+117,PolyU,6,PolyU,JS3569,BA (Hons) Scheme in Design,è¨­è¨ˆå­¸(æ¦®è­½)æ–‡å­¸å£«å­¸ä½çµ„åˆèª²ç¨‹ï¼ˆå»£å‘Šè¨­è¨ˆ/ç’°å¢ƒè¨­è¨ˆ/ä¿¡æ¯è¨­è¨ˆ/äº¤äº’è¨­è¨ˆ/å®¤å…§è¨­è¨ˆ/åª’é«”è¨­è¨ˆ/ç”¢å“è¨­è¨ˆ/æœå‹™å‰µæ–°è¨­è¨ˆ/ç¤¾æœƒå‰µæ–°è¨­è¨ˆï¼‰,2,Best 5,,,,188.2,,"Prioritize:
+Chinese Language
+English Language
+Mathematics
+Design and Applied Technology
+Information and Communication Technology
+Visual Arts","å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸
+è¨­è¨ˆèˆ‡æ‡‰ç”¨æŠ€è¡“
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+è¦–è¦ºè—è¡“",0,0,1,1,1,0,,,
+118,PolyU,6,PolyU,JS3612,BSc (Hons) in Radiography,é†«ç™‚åŒ–é©—ç§‘å­¸åŠæ”¾å°„å­¸(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ - æ”¾å°„å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,38,Best 5 + 1(if 6th subject >= lvl3),,,,325.8,,"plus an additional bonus score for the 6th subject with Level 3 or above
+
+Prioritize:
+Chinese Language
+English Language
+Mathematics
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","ç¬¬å…­ç§‘æˆç¸¾é”3ç´šæˆ–ä»¥ä¸Šè€…å¯é¡å¤–ç²å¾—åŠ åˆ†
+
+å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",0,1,0,1,1,1,,,
+119,PolyU,6,PolyU,JS3624,BSc (Hons) in Occupational Therapy,åº·å¾©æ²»ç™‚ç§‘å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«çµ„åˆèª²ç¨‹ - è·æ¥­æ²»ç™‚å­¸(æ¦®è­½)ç†å­¸å£«,2,Best 5,,,,281.8,,"Prioritize:
+Chinese Language
+English Language
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",0,1,0,1,1,1,,,
+120,PolyU,6,PolyU,JS3636,BSc (Hons) in Physiotherapy,åº·å¾©æ²»ç™‚ç§‘å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«çµ„åˆèª²ç¨‹ - ç‰©ç†æ²»ç™‚å­¸(æ¦®è­½)ç†å­¸å£«å­¸ä½,2,Best 5,,,,294.7,,"Prioritize:
+Chinese Language
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Integrated Science","å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+ç¶œåˆç§‘å­¸",0,1,0,1,1,1,,,
+121,PolyU,6,PolyU,JS3648,BSc (Hons) in Nursing,è­·ç†å­¸(æ¦®è­½)ç†å­¸å£«çµ„åˆèª²ç¨‹ - è­·ç†å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,2,Best 5,,,,216.7,,"Prioritize:
+Chinese Language
+English Language
+Mathematics
+Biology
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics","å„ªå…ˆè€ƒæ…®ï¼š
+ä¸­æ–‡
+è‹±æ–‡
+æ•¸å­¸
+ç”Ÿç‰©
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†",0,1,0,1,1,1,,,
+122,PolyU,6,PolyU,JS3739,BEng (Hons) in Civil Engineering,åœŸæœ¨å·¥ç¨‹å­¸(æ¦®è­½)å·¥å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS3120
+Prioritize:
+English Language
+Mathematics
+M1
+M2
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Integrated Science","2025æ–°å¢žèª²ç¨‹, é‡å»º JS3120
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+ç¶œåˆç§‘å­¸",1,1,0,0,1,1,,,
+123,PolyU,6,PolyU,JS3741,BEng (Hons) Scheme in Mechanical Engineering,æ©Ÿæ¢°å·¥ç¨‹å­¸(æ¦®è­½)å·¥å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆæ©Ÿæ¢°å·¥ç¨‹å­¸/ç”¢å“åˆ†æžåŠå·¥ç¨‹è¨­è¨ˆå­¸ï¼‰,2,Best 5,,,,159.5,,"Prioritize:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Design and Applied Technology
+Information and Communication Technology","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸
+è¨­è¨ˆèˆ‡æ‡‰ç”¨ç§‘æŠ€
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€",0,1,0,1,1,1,,,
+124,PolyU,6,PolyU,JS3789,BSc (Hons) in Surveying,åœ°ç”¢åŠå»ºè¨­æ¸¬é‡å­¸(æ¦®è­½)ç†å­¸å£«,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,"New programme in 2025
+plus an additional bonus score for the 6th subject with Level 3 or above
+Prioritize:
+English Language","2025æ–°å¢žèª²ç¨‹
+ç¬¬å…­ç§‘é”3ç´šä»¥ä¸Šå¯ç²å¾—é¡å¤–åŠ åˆ†
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡",0,0,1,1,1,0,,,
+125,PolyU,6,PolyU,JS3791,BSc (Hons) in Building Engineering and Management,å»ºç¯‰å·¥ç¨‹åŠç®¡ç†å­¸(æ¦®è­½)ç†å­¸å£«,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,"New programme in 2025
+plus an additional bonus score for the 6th subject with Level 3 or above
+Prioritize:
+English Language
+Mathematics
+M1
+M2
+Physics
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry","2025æ–°å¢žèª²ç¨‹
+ç¬¬å…­ç§‘é”3ç´šä»¥ä¸Šå¯ç²å¾—é¡å¤–åŠ åˆ†
+å„ªå…ˆè€ƒæ…®ï¼š
+è‹±èªž
+æ•¸å­¸
+M1
+M2
+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰©+ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç†+åŒ–å­¸",1,0,0,0,1,1,,,
+126,PolyU,6,PolyU,JS3868,Computing and AI(Computer Science/ Financial Technology and Artificial Intelligence/ Enterprise information Systems),é›»å­è¨ˆç®—åŠäººå·¥æ™ºèƒ½ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«çµ„åˆèª²ç¨‹ï¼ˆè¨ˆç®—æ©Ÿç§‘å­¸/é‡‘èžç§‘æŠ€åŠäººå·¥æ™ºèƒ½/ä¼æ¥­ä¿¡æ¯ç®¡ç†ï¼‰,2,Best 5,,193,191,203.5,,"Prioritize:
+English Language
+Mathematics
+M1
+M2
+Biology
+Chemistry
+Physics
+Business, Accounting and Financial Studies
+Business, Accounting and Financial Studies (Accounting)
+Business, Accounting and Financial Studies (Business Management)
+Combined Science: Biology + Chemistry
+Combined Science: Biology + Physics
+Combined Science: Physics + Chemistry
+Economics
+Information and Communication Technology","å„ªå…ˆè€ƒæ…®ï¼š
+è‹±æ–‡
+æ•¸å­¸
+M1
+M2
+ç”Ÿç‰©
+åŒ–å­¸
+ç‰©ç†
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆæœƒè¨ˆï¼‰
+å•†æ¥­ã€æœƒè¨ˆèˆ‡é‡‘èžç ”ç©¶ï¼ˆå•†æ¥­ç®¡ç†ï¼‰
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰© + åŒ–å­¸
+çµ„åˆç§‘å­¸ï¼šç”Ÿç‰© + ç‰©ç†
+çµ„åˆç§‘å­¸ï¼šç‰©ç† + åŒ–å­¸
+ç¶“æ¿Ÿå­¸
+è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",1,1,0,0,1,1,,,
+127,CUHK,4,CUHK,JS4006,Anthropology,äººé¡žå­¸,2,Best 5,,22.5,,,,,,0,0,0,1,1,0,,,
+128,CUHK,4,CUHK,JS4018,Chinese Language and Literature,ä¸­åœ‹èªžè¨€åŠæ–‡å­¸,2,Best 5,,27,,,,Chinese x1.2,ä¸­æ–‡ x1.2,0,0,0,1,1,0,,,
+129,CUHK,4,CUHK,JS4032,English,è‹±æ–‡,2,Best 5,,25,,,,"English x1.5
+Prioritize Literature in English","è‹±æ–‡x1.5
+å„ªå…ˆè€ƒæ…®è‹±æ–‡",0,0,0,1,1,0,,,
+130,CUHK,4,CUHK,JS4044,Fine Arts,è—è¡“,2,Best 5,,21,,,,Prioritize Visual Arts ,è¦–è¦ºè—è¡“å„ªå…ˆ,0,0,1,1,1,0,,,
+131,CUHK,4,CUHK,JS4056,History,æ­·å²,2,Best 5,,23.5,,,,,,0,0,0,1,1,0,,,
+132,CUHK,4,CUHK,JS4068,Japanese Studies,æ—¥æœ¬ç ”ç©¶,2,Best 5,,22,,,,,,0,0,0,1,1,0,,,
+133,CUHK,4,CUHK,JS4070,Linguistics,èªžè¨€å­¸,2,Best 5,,21.5,,,,,,0,0,0,0,1,0,,,
+134,CUHK,4,CUHK,JS4082,Music,éŸ³æ¨‚,2,Best 5,,20,,,,Prioritize Music,å„ªå…ˆè€ƒæ…®éŸ³æ¨‚,0,0,1,1,1,0,,,
+135,CUHK,4,CUHK,JS4094,Philosophy,å“²å­¸,5,ä¸­è‹±+3ç§‘,,22,,,,,,0,0,1,1,1,0,,,
+136,CUHK,4,CUHK,JS4100,Public Humanities,å…¬å…±äººæ–‡å­¸,2,Best 5,,23,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,0,0,1,0,1,0,,,
+137,CUHK,4,CUHK,JS4109,Religious Studies,å®—æ•™ç ”ç©¶,2,Best 5,,20.5,,,,,,0,0,1,1,1,0,,,
+138,CUHK,4,CUHK,JS4111,Theology,ç¥žå­¸,2,Best 5,,24,,,,,,0,0,1,1,1,0,,,
+139,CUHK,4,CUHK,JS4123,Translation,ç¿»è­¯,2,Best 5,,22,,,,,,0,0,0,0,1,0,,,
+140,CUHK,4,CUHK,JS4136,Chinese Studies,ä¸­åœ‹ç ”ç©¶,2,Best 5,,22,,,,English x1.25,è‹±æ–‡x1.25,0,0,0,1,1,0,,,
+141,CUHK,4,CUHK,JS4202,Integrated Bachelor of Business Administration Programme,å·¥å•†ç®¡ç†å­¸å£«ç¶œåˆèª²ç¨‹,2,Best 5,,24,,,,,,1,1,0,0,1,0,,,
+142,CUHK,4,CUHK,JS4214,Global Business Studies,ç’°çƒå•†æ¥­å­¸,2,Best 5,,35,,,,,,1,1,0,0,1,0,,,
+143,CUHK,4,CUHK,JS4226,Hospitality and Real Estate,é…’åº—æ—…éŠåŠæˆ¿åœ°ç”¢,2,Best 5,,22,,,,,,0,0,1,0,1,0,,,
+144,CUHK,4,CUHK,JS4238,"Insurance, Financial and Actuarial Analysis",ä¿éšªã€é‡‘èžèˆ‡ç²¾ç®—å­¸,2,Best 5,,40,,,,"English (x 1.25)
+Mathematics (x 1.5)
+M1 or M2 (x 1.5)
+ The best one subject of Chemistry/Physics/ Economics/ ICT (x 1.25)
+M1/M2 at Level 5 is required if
+Mathematics (Compulsory
+Part) is at Level 3 or 4","è‹±æ–‡ (x 1.25)
+æ•¸å­¸ (x 1.5)
+M1 æˆ– M2 (x 1.5)
+åŒ–å­¸/ç‰©ç†/ç¶“æ¿Ÿå­¸/è³‡è¨Šé€šä¿¡æŠ€è¡“ (x 1.25) ä¸­æœ€å¥½çš„ä¸€é–€ç§‘ç›®
+
+å¦‚æžœæ•¸å­¸ï¼ˆå¿…ä¿®éƒ¨åˆ†ï¼‰é”åˆ° 3 ç´šæˆ– 4 ç´šï¼Œå‰‡éœ€é”åˆ° 5 ç´š M1/M2 æˆç¸¾",1,1,0,1,1,0,,,
+145,CUHK,4,CUHK,JS4240,Professional Accountancy,å°ˆæ¥­æœƒè¨ˆå­¸,2,Best 5,,23.5,,,,,,0,0,0,0,1,1,,,
+146,CUHK,4,CUHK,JS4252,Quantitative Finance,è¨ˆé‡é‡‘èžå­¸,2,Best 5,,50,,,," English (x 2)
+Mathematics (x 2)
+The best one subject of M1/M2/Chemistry/ Physics/ Economics (x 1.5)","è‹±æ–‡ (x 2)
+æ•¸å­¸ (x 2)
+M1/M2/åŒ–å­¸/ç‰©ç†/ç¶“æ¿Ÿå­¸ä¸­æœ€å¥½çš„ä¸€é–€ç§‘ç›® (x 1.5)",0,1,0,1,1,1,,,
+147,CUHK,4,CUHK,JS4254,Interdisciplinary Major Programme in Global Economics and Finance,ç’°çƒç¶“æ¿Ÿèˆ‡é‡‘èžè·¨å­¸ç§‘ä¸»ä¿®èª²ç¨‹,4,è‹±+4ç§‘,,32,,,,,,0,1,0,0,1,0,,,
+148,CUHK,4,CUHK,JS4264,Bachelor of Business Administration (Integrated BBA Programme) and Juris Doctor Double Degree Programme,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆå·¥å•†ç®¡ç†å­¸å£«ç¶œåˆèª²ç¨‹ï¼‰åŠæ³•å¾‹åšå£«é›™å­¸ä½èª²ç¨‹,16,ä¸­è‹±æ•¸ + Best 2,,34.5,,,,English (x 2),è‹±æ–‡ (x2),1,1,0,0,1,0,,,
+149,CUHK,4,CUHK,JS4276,Quantitative Finance and Risk Management Science,è¨ˆé‡é‡‘èžå­¸åŠé¢¨éšªç®¡ç†ç§‘å­¸,2,Best 5,,55,,,,"English (x 2)
+Mathematics (x 2)
+The best one subject of M1/M2/
+Chemistry/ Physics/ Economics (x 1.5)","è‹±æ–‡ (x 2)
+æ•¸å­¸ (x 2)
+M1/M2/
+åŒ–å­¸/ç‰©ç†/ç¶“æ¿Ÿå­¸ (x 1.5) ä¸­æœ€å¥½çš„ç§‘ç›®",0,1,0,1,1,0,,,
+150,CUHK,4,CUHK,JS4320,Human Movement Science and Health Studies,äººé«”é‹å‹•ç§‘å­¸èˆ‡å¥åº·ç ”ç©¶,2,Best 5,,25,,,,"New programme in 2025
+Biology and Physics are preferred","2025æ–°å¢žèª²ç¨‹
+ç”Ÿç‰©å­¸å’Œç‰©ç†å„ªå…ˆ",0,0,0,0,1,0,,,
+151,CUHK,4,CUHK,JS4329,"Physical Education, Exercise Science and Health",å¥åº·èˆ‡é«”è‚²é‹å‹•ç§‘å­¸,2,Best 5,,25,,,,,,0,0,0,1,1,0,,,
+152,CUHK,4,CUHK,JS4331,B.A. (Chinese Language Studies) and B.Ed. (Chinese Language Education),æ–‡å­¸å£« (ä¸­åœ‹èªžæ–‡ç ”ç©¶) åŠæ•™è‚²å­¸å£« (ä¸­åœ‹èªžæ–‡æ•™è‚²),17,ä¸­ + Best 4,,37.5,,,,Chinese (x 2),ä¸­æ–‡ (x2ï¼‰,0,0,0,0,1,0,,,
+153,CUHK,4,CUHK,JS4343,B.A. (English Studies) and B.Ed. (English Language Education),æ–‡å­¸å£« (è‹±åœ‹èªžæ–‡ç ”ç©¶) åŠæ•™è‚²å­¸å£« (è‹±åœ‹èªžæ–‡æ•™è‚²),4,è‹±+4ç§‘,,33.5,,,,English (x 2),è‹±æ–‡ (x2),0,0,0,0,1,0,,,
+154,CUHK,4,CUHK,JS4361,B.Ed. in Mathematics and Mathematics Education,æ•™è‚²å­¸å£«(æ•¸å­¸åŠæ•¸å­¸æ•™è‚²),39,M+M1/M2+Best 3,,49,,,,"Mathematics (x 2)
+M1 or M2 (x 2) Chinese or English (x 1.5)
+The best one subject of Physics,
+Economics or ICT (x 1.5)
+Mathematics and M1/M2 must be
+included in the score calculation
+(i.e. Math + M1 or M2 + Best 3
+subjects)","æ•¸å­¸ (x 2)
+M1 æˆ– M2 (x 2) èªžæ–‡æˆ–è‹±æ–‡ (x 1.5)
+ç‰©ç†ã€ç¶“æ¿Ÿæˆ–è³‡è¨Šé€šè¨Šç§‘æŠ€ä¸­æˆç¸¾æœ€å¥½çš„ä¸€é–€ç§‘ç›® (x 1.5)
+æ•¸å­¸å’Œ M1/M2 å¿…é ˆè¨ˆå…¥åˆ†æ•¸è¨ˆç®—
+ï¼ˆå³ï¼šæ•¸å­¸ + M1 æˆ– M2 + æˆç¸¾æœ€å¥½çš„ä¸‰ç§‘ï¼‰",0,0,0,1,1,1,,,
+155,CUHK,4,CUHK,JS4372,B.Ed. in Early Childhood Education,æ•™è‚²å­¸å£«(å¹¼å…’æ•™è‚²),2,Best 5,,20,,,,,,0,0,1,0,1,0,,,
+156,CUHK,4,CUHK,JS4386,B.Sc. in Learning Design and Technology,ç†å­¸å£«ï¼ˆå­¸ç¿’è¨­è¨ˆèˆ‡ç§‘æŠ€ï¼‰,2,Best 5,,25.5,,,,"Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.5)
+â€¢ Biology, Chemistry, Physics, DAT, ICT, BAFS, Economics, Geography,
+Tech and Living (FST) (x 1.5)
+The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ DAT
+â€¢ ICT
+â€¢ BAFS
+â€¢ Economics
+â€¢ Geography
+â€¢ Tech and Living (FST)","æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.5)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€DATã€ICTã€BAFSã€ç¶“æ¿Ÿã€åœ°ç†ã€
+ç§‘æŠ€èˆ‡ç”Ÿæ´» (FST) (x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ DAT
+â€¢ ICT
+â€¢ BAFS
+â€¢ ç¶“æ¿Ÿå­¸
+â€¢ åœ°ç†
+â€¢ ç§‘æŠ€èˆ‡ç”Ÿæ´» (FST)",0,0,1,0,1,0,,,
+157,CUHK,4,CUHK,JS4408,Mechanical and Automation Engineering,æ©Ÿæ¢°èˆ‡è‡ªå‹•åŒ–å·¥ç¨‹å­¸,2,Best 5,,26.5,,,,"â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.5)
+â€¢ Physics (x 1.5)
+â€¢ Biology, Chemistry, DAT, ICT (x 1.25)
+Elective must be one of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ DAT
+â€¢ ICT","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.5)
+â€¢ ç‰©ç† (x 1.5)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€DATã€ICT (x 1.25)
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ DAT
+â€¢ ICT",1,1,0,1,1,0,,,
+158,CUHK,4,CUHK,JS4412,Computer Science and Engineering,è¨ˆç®—æ©Ÿç§‘å­¸èˆ‡å·¥ç¨‹å­¸,2,Best 5,,39.5,,,,"â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.75)
+â€¢ Biology, Chemistry, Physics, DAT, ICT
+(x 1.5)
+ The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ DAT
+â€¢ ICT","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.75)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€DATã€ICT
+(x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ DAT
+â€¢ ICT",1,1,0,1,1,0,,,
+159,CUHK,4,CUHK,JS4416,Computational Data Science,è¨ˆç®—æ•¸æ“šç§‘å­¸,2,Best 5,,50.75,,,,"â€¢ Mathematics (x 2)
+â€¢ M1 or M2 (x 2)
+â€¢ Biology, Chemistry, Physics, Economics,
+ICT (x 1.5)
+The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ Economics
+â€¢ ICT","â€¢ æ•¸å­¸ (x 2)
+â€¢ M1 æˆ– M2 (x 2)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€ç¶“æ¿Ÿã€
+ICT (x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ ç¶“æ¿Ÿå­¸
+â€¢ ICT",1,1,0,0,1,0,,,
+160,CUHK,4,CUHK,JS4428,BEng in Financial Technology,é‡‘èžç§‘æŠ€å­¸,2,Best 5,,44,,,,"â€¢ English (x 1.25)
+â€¢ Chinese (x 1.25)
+â€¢ Mathematics (x 1.75)
+â€¢ M1 or M2 (x 1.75)
+â€¢ Biology, Chemistry, Physics, BAFS,
+Economics, ICT (x 1.5)
+The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ BAFS
+â€¢ Economics
+â€¢ ICT","â€¢ è‹±æ–‡ (x 1.25)
+â€¢ ä¸­æ–‡ (x 1.25)
+â€¢ æ•¸å­¸ (x 1.75)
+â€¢ M1 æˆ– M2 (x 1.75)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€BAFSã€
+ç¶“æ¿Ÿå­¸ã€ICT (x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ BAFS
+â€¢ ç¶“æ¿Ÿå­¸
+â€¢ ICT",0,1,0,0,1,0,,,
+161,CUHK,4,CUHK,JS4434,BEng in Electronic Engineering,é›»å­å·¥ç¨‹å­¸,2,Best 5,,26,,,,"â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.5)
+â€¢ Physics (x 1.5)
+Elective must be one of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ ICT
+3 -- Best 5 subjects
+â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.5)
+â€¢ Physics (x 1.5)","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.5)
+â€¢ ç‰©ç† (x 1.5)
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ ICT
+3 -- æœ€ä½³ 5 ç§‘
+â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.5)
+â€¢ ç‰©ç† (x 1.5)",1,1,0,0,1,0,,,
+162,CUHK,4,CUHK,JS4446,Information Engineering,ä¿¡æ¯å·¥ç¨‹å­¸,2,Best 5,,34,,,,"â€¢ Mathematics (x 2)
+â€¢ M1 or M2 (x 1.75)
+â€¢ Biology, Chemistry, Physics, DAT, ICT
+(x 1.5)
+ The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ DAT
+â€¢ ICT
+Elective must be one of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics","â€¢ æ•¸å­¸ (x 2)
+â€¢ M1 æˆ– M2 (x 1.75)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€DATã€ICT
+(x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ DAT
+â€¢ ICT
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†",1,1,0,0,1,0,,,
+163,CUHK,4,CUHK,JS4458,Bachelor of Systems Engineering and Engineering Management,ç³»çµ±å·¥ç¨‹èˆ‡å·¥ç¨‹ç®¡ç†,2,Best 5,,28.5,,,,"â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.5)
+â€¢ Biology, Chemistry, Physics, BAFS,
+Economics, ICT (x 1.5)
+The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ BAFS
+â€¢ Economics
+â€¢ ICT","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.5)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€BAFSã€
+ç¶“æ¿Ÿå­¸ã€ICT (x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ BAFS
+â€¢ ç¶“æ¿Ÿå­¸
+â€¢ ICT",1,1,0,1,1,0,,,
+164,CUHK,4,CUHK,JS4460,BEng in Biomedical Engineering,ç”Ÿç‰©é†«å­¸å·¥ç¨‹å­¸,2,Best 5,,38.5,,,,"â€¢ English (x 1.5)
+â€¢ The best one subject of Mathematics
+or M1 or M2 (x 1.5)
+â€¢ Biology, Chemistry, Physics (x 1.5)
+Elective must be one of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics","â€¢ è‹±æ–‡ (x 1.5)
+â€¢ æ•¸å­¸ï¼ˆæœ€ä½³ä¸€ç§‘ï¼‰
+æˆ– M1 æˆ– M2 (x 1.5)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç† (x 1.5)
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†",0,0,0,0,1,0,,,
+165,CUHK,4,CUHK,JS4462,BEng in Energy and Environmental Engineering,èƒ½æºèˆ‡ç’°å¢ƒå·¥ç¨‹å­¸,2,Best 5,,28,,,,"â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.5)
+â€¢ Biology, Chemistry, Physics, DAT, ICT
+(x 1.5)
+â€¢ Economics, Geography (x 1.2)
+Elective must be one of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ DAT
+â€¢ ICT","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.5)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€DATã€ICT
+(x 1.5)
+â€¢ ç¶“æ¿Ÿå­¸ã€åœ°ç† (x 1.2)
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ DAT
+â€¢ ICT",0,0,0,0,1,0,,,
+166,CUHK,4,CUHK,JS4468,BEng in Artificial Intelligence: Systems and Technologies,äººå·¥æ™ºèƒ½ï¼šç³»çµ±èˆ‡ç§‘æŠ€,2,Best 5,,50,,,,"â€¢ English (x 1.25)
+â€¢ Chinese (x 1.25)
+â€¢ Mathematics (x 1.75)
+â€¢ M1 or M2 (x 1.75)
+â€¢ Biology, Chemistry, Physics, ICT (x 1.5)
+The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ ICT","â€¢ è‹±æ–‡ (x 1.25)
+â€¢ ä¸­æ–‡ (x 1.25)
+â€¢ æ•¸å­¸ (x 1.75)
+â€¢ M1 æˆ– M2 (x 1.75)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€è³‡è¨Šé€šè¨Šç§‘æŠ€ (x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",1,1,0,1,1,0,,,
+167,CUHK,4,CUHK,JS4470,Materials Science and Engineering,ææ–™ç§‘å­¸èˆ‡å·¥ç¨‹å­¸,2,Best 5,,24,,,,"New programme in 2025
+â€¢ Mathematics (x 1.25)
+â€¢ M1 or M2 (x 1.25)
+â€¢ Chemistry, Physics (x 1.25)
+The following subjects are preferred:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ ICT
+Elective must be One of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ ICT","2025æ–°å¢žèª²ç¨‹
+â€¢ æ•¸å­¸ (x 1.25)
+â€¢ M1 æˆ– M2 (x 1.25)
+â€¢ åŒ–å­¸ã€ç‰©ç† (x 1.25)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“",1,1,0,0,1,0,,,
+168,CUHK,4,CUHK,JS4501,Medicine (MBChB) Programme,å…§å¤–å…¨ç§‘é†«å­¸å£«èª²ç¨‹,3,Best 6,,34,,,,"â€¢ Chinese, English, Mathematics and
+Best of Biology/Chemistry must be
+included in the score calculation (i.e.
+Chi + Eng + Math + Best of Bio/Chem +
+Best 2 subjects) 
+
+â€¢ The programme does not consider
+M1/M2 as one elective subject
+One of the elective must be Biology or Chemistry
+Taking a 3rd elective and/or
+M1/M2 will be strongly
+recommended","â€¢ ä¸­æ–‡ã€è‹±æ–‡ã€æ•¸å­¸ä»¥åŠ
+ç”Ÿç‰©/åŒ–å­¸æœ€ä½³æˆç¸¾å¿…é ˆè¨ˆå…¥åˆ†æ•¸è¨ˆç®—ï¼ˆå³ï¼š
+ä¸­æ–‡ + è‹±æ–‡ + æ•¸å­¸ + ç”Ÿç‰©/åŒ–å­¸æœ€ä½³æˆç¸¾ +
+æœ€ä½³å…©é–€ç§‘ç›®ï¼‰
+â€¢ æœ¬èª²ç¨‹ä¸å°‡
+M1/M2 è¦–ç‚ºé¸ä¿®ç§‘ç›®
+å…¶ä¸­ä¸€é–€é¸ä¿®ç§‘ç›®å¿…é ˆæ˜¯ç”Ÿç‰©æˆ–åŒ–å­¸
+å¼·çƒˆå»ºè­°é¸ä¿®ç¬¬ä¸‰é–€é¸ä¿®ç§‘ç›®å’Œ/æˆ–
+M1/M2",0,1,0,1,1,1,,,
+169,CUHK,4,CUHK,JS4502,Medicine (MBChB) Programme Global Physician-Leadership Stream (GPS),å…§å¤–å…¨ç§‘é†«å­¸å£«èª²ç¨‹ç’°çƒé†«å­¸é ˜è¢–åŸ¹è¨“å°ˆä¿®çµ„åˆ¥,3,Best 6,,40,,,,"â€¢ Chinese, English, Mathematics and
+Best of Biology/Chemistry must be
+included in the score calculation (i.e.
+Chi + Eng + Math + Best of Bio/Chem +
+Best 2 subjects)
+
+â€¢ The programme does not consider
+M1/M2 as one elective subjec
+One of the elective must be Biology or Chemistry
+Taking a 3rd elective and/or
+M1/M2 will be strongly recommended
+
+Additional requirement:
+Total score > 40 in 6
+subjects with 5** in ANY 4
+subjects ","â€¢ ä¸­æ–‡ã€è‹±æ–‡ã€æ•¸å­¸å’Œ
+ç”Ÿç‰©/åŒ–å­¸æœ€ä½³æˆç¸¾å¿…é ˆè¨ˆå…¥åˆ†æ•¸è¨ˆç®—ï¼ˆå³ï¼š
+ä¸­æ–‡ + è‹±æ–‡ + æ•¸å­¸ + ç”Ÿç‰©/åŒ–å­¸æœ€ä½³æˆç¸¾ +
+æœ€ä½³å…©é–€ç§‘ç›®ï¼‰
+
+â€¢ æœ¬èª²ç¨‹ä¸å°‡ M1/M2 è¦–ç‚ºé¸ä¿®ç§‘ç›®ã€‚
+å…¶ä¸­ä¸€é–€é¸ä¿®ç§‘ç›®å¿…é ˆæ˜¯ç”Ÿç‰©æˆ–åŒ–å­¸ã€‚
+å¼·çƒˆå»ºè­°ä¿®è®€ç¬¬ä¸‰é–€é¸ä¿®ç§‘ç›®å’Œ/æˆ–
+M1/M2ã€‚
+
+é™„åŠ è¦æ±‚ï¼š
+6 ç§‘ç¸½åˆ† > 40 åˆ†ï¼Œå…¶ä¸­ä»» 4 ç§‘æˆç¸¾ç‚º 5**ã€‚",0,1,0,1,1,1,,,
+170,CUHK,4,CUHK,JS4513,Nursing,è­·ç†å­¸,17,ä¸­ + Best 4,,26,,,,"â€¢ The best one subject of Biology,
+Chemistry or Physics (x 1.2)
+
+The following subjects are
+preferred:
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics","â€¢ ç”Ÿç‰©ã€åŒ–å­¸æˆ–ç‰©ç†ä¸‰é–€å­¸ç§‘ä¸­ï¼Œæœ€å¥½é¸ä¸€é–€ï¼ˆx 1.2ï¼‰
+
+ä»¥ä¸‹å­¸ç§‘å„ªå…ˆè€ƒæ…®ï¼š
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†",0,0,0,0,1,1,,,
+171,CUHK,4,CUHK,JS4525,Pharmacy,è—¥åŠ‘å­¸,37,Chem+Best 4,,30.5,,,,"a) Chemistry at Level 3 or
+above is preferred
+(b) Effective from 2026 intake,
+applicants must have
+obtained â€œLevel 3 or aboveâ€
+in Chemistry","a) åŒ–å­¸æˆç¸¾é”3ç´šæˆ–ä»¥ä¸Šè€…å„ªå…ˆ
+b) è‡ª2026å¹´å…¥å­¸èµ·ï¼Œç”³è«‹è€…å¿…é ˆå–å¾—åŒ–å­¸ã€Œ3ç´šæˆ–ä»¥ä¸Šã€æˆç¸¾",0,1,0,1,1,1,,,
+172,CUHK,4,CUHK,JS4537,Public Health,å…¬å…±è¡žç”Ÿ,2,Best 5,,30,,,,"â€¢ English (x 1.5)
+â€¢ Mathematics (x1.5)
+â€¢ The best one subject of Biology,
+Chemistry, Economics or Health
+Management & Social Care (x 1.5)","â€¢ è‹±æ–‡ (x 1.5)
+â€¢ æ•¸å­¸ (x1.5)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç¶“æ¿Ÿå­¸æˆ–å¥åº·ç®¡ç†èˆ‡ç¤¾æœƒé—œæ‡·ä¸­æœ€å¥½çš„ä¸€é–€ç§‘ç›® (x 1.5)",0,0,0,0,1,1,,,
+173,CUHK,4,CUHK,JS4542,Chinese Medicine,ä¸­é†«å­¸,17,ä¸­ + Best 4,,27.5,,,,"Preferred subjects for one of
+the two electives:
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics","å…©é–€é¸ä¿®èª²ä¸­çš„ä¸€é–€ï¼š
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†",0,1,0,1,1,1,,,
+174,CUHK,4,CUHK,JS4550,Biomedical Sciences,ç”Ÿç‰©é†«å­¸,2,Best 5,,36,,,,"â€¢ English (x 1.5)
+â€¢ Biology (x 1.5)
+â€¢ Chemistry (x 1.5)
+â€¢ Chinese, English, Mathematics and
+Best of Biology/Chemistry must be
+included in the score calculation (i.e.
+Chi + Eng + Math + Best of Bio/Chem +
+Best 1 subject)
+
+Elective must include one of biology or Chemistry and category A subjects only","â€¢ è‹±æ–‡ (x 1.5)
+â€¢ ç”Ÿç‰© (x 1.5)
+â€¢ åŒ–å­¸ (x 1.5)
+â€¢ ä¸­æ–‡ã€è‹±æ–‡ã€æ•¸å­¸ä»¥åŠ
+ç”Ÿç‰©/åŒ–å­¸æœ€ä½³æˆç¸¾å¿…é ˆè¨ˆå…¥åˆ†æ•¸è¨ˆç®—ï¼ˆå³
+ä¸­æ–‡ + è‹±æ–‡ + æ•¸å­¸ + ç”Ÿç‰©/åŒ–å­¸æœ€ä½³æˆç¸¾ +
+æœ€ä½³ä¸€ç§‘ï¼‰
+
+é¸ä¿®èª²å¿…é ˆåŒ…å«ç”Ÿç‰©æˆ–åŒ–å­¸ä¸­çš„ä¸€é–€ï¼Œä¸¦ä¸”åªèƒ½åŒ…å« A é¡žç§‘ç›®",0,0,0,1,1,0,,,
+175,CUHK,4,CUHK,JS4601,Science,ç†å­¸,5,ä¸­è‹±+3ç§‘,,33,,,,"â€¢ English or Mathematics (x 1.5)
+â€¢ M1 or M2 (x 2)
+â€¢ Biology, Chemistry, Physics (x 2)
+â€¢ Economics, Geography, ICT, Tech and
+Living (FST) (x 1.5)
+
+Elective must be One of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+
+(a) Category A subjects only
+(b) The following subjects
+are preferred:
+â€¢ M1 / M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics","â€¢ è‹±æ–‡æˆ–æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 2)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç† (x 2)
+â€¢ ç¶“æ¿Ÿå­¸ã€åœ°ç†ã€ICTã€ç§‘æŠ€èˆ‡ç”Ÿæ´» (FST) (x 1.5)
+
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+
+(a) é™ A é¡žç§‘ç›®
+(b) å„ªå…ˆè€ƒæ…®ä»¥ä¸‹ç§‘ç›®ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†",0,0,1,0,1,0,,,
+176,CUHK,4,CUHK,JS4648,Earth and Environmental Sciences,åœ°çƒèˆ‡ç’°å¢ƒç§‘å­¸,2,Best 5,,41,,,,"â€¢ English (x 2)
+â€¢ Mathematics (x 2)
+â€¢ M1 or M2 (x 2)
+â€¢ Biology, Chemistry, Physics (x 2)
+â€¢ Geography (x 1.5)
+
+Elective must be one of the following:
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ Geography
+
+(a) Category A subjects only","â€¢ è‹±æ–‡ (x 2)
+â€¢ æ•¸å­¸ (x 2)
+â€¢ M1 æˆ– M2 (x 2)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç† (x 2)
+â€¢ åœ°ç† (x 1.5)
+
+é¸ä¿®èª²ç¨‹å¿…é ˆç‚ºä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ åœ°ç†
+
+(a) é¸ä¿®èª²ç¨‹é™ A é¡žç§‘ç›®",0,0,0,0,1,0,,,
+177,CUHK,4,CUHK,JS4682,Enrichment Mathematics,æ•¸å­¸ç²¾ç ”,2,Best 5,,46.5,,,,"â€¢ M1 or M2 (x 3.5)
+Elective 1 must be one of the following:
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ Economics
+â€¢ Geography
+â€¢ ICT
+â€¢ Tech and Living (FST)
+
+Elective 2 must be M1 or M2","â€¢ M1 æˆ– M2 (x 3.5)
+é¸ä¿®èª² 1 å¿…é ˆæ˜¯ä»¥ä¸‹ä¹‹ä¸€ï¼š
+â€¢ ç”Ÿç‰©å­¸
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†å­¸
+â€¢ ç¶“æ¿Ÿå­¸
+â€¢ åœ°ç†å­¸
+â€¢ è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+â€¢ ç§‘æŠ€èˆ‡ç”Ÿæ´» (FST)
+
+é¸ä¿®èª² 2 å¿…é ˆæ˜¯ M1 æˆ– M2",0,0,0,1,1,1,,,
+178,CUHK,4,CUHK,JS4690,Enrichment Stream in Theoretical Physics,ç†è«–ç‰©ç†ç²¾ç ”,2,Best 5,,43,,,,"â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 1.5)
+â€¢ Physics (x 2)
+
+Physics is a required elective
+
+Elective must be One of the following(a):
+â€¢ M1/M2
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Economics
+â€¢ Geography
+â€¢ ICT
+â€¢ Tech and Living (FST)","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 1.5)
+â€¢ ç‰©ç† (x 2)
+
+ç‰©ç†ç‚ºå¿…ä¿®é¸ä¿®èª²
+
+é¸ä¿®èª²ç¨‹å¿…é ˆæ˜¯ä»¥ä¸‹ä¹‹ä¸€(a)ï¼š
+â€¢ M1/M2
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç¶“æ¿Ÿå­¸
+â€¢ åœ°ç†
+â€¢ è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+â€¢ ç§‘æŠ€èˆ‡ç”Ÿæ´» (FST)",0,0,0,1,1,1,,,
+179,CUHK,4,CUHK,JS4719,Risk Management Science,é¢¨éšªç®¡ç†ç§‘å­¸,2,Best 5,,40.5,,,,"â€¢ Mathematics (x 2)
+â€¢ M1 or M2 (x 2)
+1st Elective must be category A subjects only
+
+2nd Elective must be M1 or M2","â€¢ æ•¸å­¸ (x 2)
+â€¢ M1 æˆ– M2 (x 2)
+ç¬¬ä¸€é¸ä¿®èª²å¿…é ˆç‚º A é¡žç§‘ç›®
+
+ç¬¬äºŒé¸ä¿®èª²å¿…é ˆæ˜¯ M1 æˆ– M2",0,1,0,0,1,0,,,
+180,CUHK,4,CUHK,JS4725,"Biotechnology, Entrepreneurship and Healthcare Management",ç”Ÿç‰©ç§‘æŠ€ã€å‰µæ¥­èˆ‡é†«ç™‚ç®¡ç†,36,Bio/Chem + Best 4,,27,,,,,,0,1,0,1,1,1,,,
+181,CUHK,4,CUHK,JS4733,Mathematics and Information Engineering,æ•¸å­¸èˆ‡ä¿¡æ¯å·¥ç¨‹å­¸,2,Best 5,,46,,,,"â€¢ Mathematics (x 2)
+â€¢ M1 or M2 (x 2)
+â€¢ Biology, Chemistry, Physics, ICT (x 1.5)
+ The following subjects are
+preferred:
+â€¢ Biology
+â€¢ Chemistry
+â€¢ Physics
+â€¢ ICT
+One of the elective must include M1 or M2","â€¢ æ•¸å­¸ (x 2)
+â€¢ M1 æˆ– M2 (x 2)
+â€¢ ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ã€è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“ (x 1.5)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ ç”Ÿç‰©
+â€¢ åŒ–å­¸
+â€¢ ç‰©ç†
+â€¢ è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+å…¶ä¸­ä¸€é–€é¸ä¿®èª²ç¨‹å¿…é ˆåŒ…å« M1 æˆ– M2",0,1,0,1,1,1,,,
+182,CUHK,4,CUHK,JS4750,Bachelor of Science in Aerospace Science and Earth Informatics + X (ASEI+X) Double Major Programme,èˆªå¤©ç§‘å­¸èˆ‡åœ°çƒä¿¡æ¯å­¸+xé›™ä¸»ä¿®èª²ç¨‹,2,Best 5,,35,,,,"â€¢ Mathematics (x 1.5)
+â€¢ M1 or M2 (x 2)
+â€¢ Physics, Geography (x 2)
+The following subjects are
+preferred:
+â€¢ M1/M2
+â€¢ Physics
+â€¢ Geography","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1 æˆ– M2 (x 2)
+â€¢ ç‰©ç†ã€åœ°ç† (x 2)
+ä»¥ä¸‹ç§‘ç›®å„ªå…ˆï¼š
+â€¢ M1/M2
+â€¢ ç‰©ç†
+â€¢ åœ°ç†",0,0,0,1,1,1,,,
+183,CUHK,4,CUHK,JS4760,Bachelor of Science in Interdisciplinary Data Analytics and X Double Major Programme,è·¨å­¸ç§‘æ•¸æ“šåˆ†æžxç†å­¸å£«é›™ä¸»ä¿®èª²ç¨‹,2,Best 5,,31,,,,"Mathematics (x 1.5)
+M1 or M2 (x 2)
+Economics or ICT (x 1.5)The following subjects are
+preferred:
+â€¢ M1 / M2
+â€¢ Economics
+â€¢ ICT
+Taking M1 / M2 will be
+strongly recommended","æ•¸å­¸ (x 1.5)
+M1 æˆ– M2 (x 2)
+ç¶“æ¿Ÿå­¸æˆ–è³‡è¨Šé€šä¿¡æŠ€è¡“ (x 1.5) å„ªå…ˆè€ƒæ…®ä»¥ä¸‹ç§‘ç›®ï¼š
+â€¢ M1 / M2
+â€¢ ç¶“æ¿Ÿå­¸
+â€¢ è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“
+å¼·çƒˆå»ºè­°ä¿®è®€ M1 / M2",1,1,0,0,1,0,,,
+184,CUHK,4,CUHK,JS4801,Social Science,ç¤¾æœƒç§‘å­¸,2,Best 5,,24.5,,,,â€¢ English (x 1.3),â€¢ è‹±æ–‡ï¼ˆx 1.3ï¼‰,0,0,1,0,1,0,,,
+185,CUHK,4,CUHK,JS4812,Architectural Studies,å»ºç¯‰å­¸,2,Best 5,,26.5,,,,â€¢ English (x 1.3),â€¢ è‹±æ–‡ï¼ˆx 1.3ï¼‰,0,0,0,0,1,0,,,
+186,CUHK,4,CUHK,JS4824,Economics,ç¶“æ¿Ÿå­¸,2,Best 5,,28,,,,"â€¢ Mathematics (x 1.5)
+â€¢ The best one subject of M1/M2,
+Chemistry, Economics or Physics (x 1.5)","â€¢ æ•¸å­¸ (x 1.5)
+â€¢ M1/M2ã€åŒ–å­¸ã€ç¶“æ¿Ÿå­¸æˆ–ç‰©ç†å­¸ä¸­æœ€å¥½çš„ç§‘ç›® (x 1.5)",0,1,0,0,1,0,,,
+187,CUHK,4,CUHK,JS4836,Geography and Resource Management,åœ°ç†èˆ‡è³‡æºç®¡ç†å­¸,2,Best 5,,28,,,,"â€¢ English (x 1.5)
+â€¢ Geography (x 1.5)","â€¢ è‹±æ–‡ (x 1.5)
+â€¢ åœ°ç† (x 1.5)",0,0,0,0,1,0,,,
+188,CUHK,4,CUHK,JS4838,Urban Studies,åŸŽå¸‚ç ”ç©¶,2,Best 5,,23.5,,,,,,0,0,1,1,1,0,,,
+189,CUHK,4,CUHK,JS4848,Government and Public Administration,æ”¿æ²»èˆ‡è¡Œæ”¿å­¸,2,Best 5,,25,,,,"â€¢ English (x 1.5)
+â€¢ Chinese (x 1.25)","â€¢ è‹±æ–‡ (x 1.5)
+â€¢ ä¸­æ–‡ (x 1.25)",1,0,0,0,1,0,,,
+190,CUHK,4,CUHK,JS4850,Journalism and Communication,æ–°èžèˆ‡å‚³æ’­å­¸,2,Best 5,,27.5,,,,"â€¢ English (x 1.3)
+â€¢ Chinese (x 1.3)","â€¢ è‹±æ–‡ (x 1.3)
+â€¢ ä¸­æ–‡ (x 1.3)",0,0,1,0,1,0,,,
+191,CUHK,4,CUHK,JS4858,Global Communication,å…¨çƒå‚³æ’­,2,Best 5,,25.5,,,,â€¢ English (x 1.3),â€¢ è‹±æ–‡ï¼ˆx 1.3ï¼‰,0,0,0,0,1,0,,,
+192,CUHK,4,CUHK,JS4862,Psychology,å¿ƒç†å­¸,2,Best 5,,30,,,,"â€¢ English (x 1.5)
+â€¢ Mathematics (x 1.5)","â€¢ è‹±æ–‡ï¼ˆx 1.5ï¼‰
+â€¢ æ•¸å­¸ï¼ˆx 1.5ï¼‰",0,0,0,0,1,0,,,
+193,CUHK,4,CUHK,JS4874,Social Work,ç¤¾æœƒå·¥ä½œ,2,Best 5,,25.5,,,,,,0,0,1,0,1,0,,,
+194,CUHK,4,CUHK,JS4886,Sociology,ç¤¾æœƒå­¸,2,Best 5,,25,,,,â€¢ English (x 1.5),â€¢ è‹±æ–‡ï¼ˆx 1.5ï¼‰,0,0,1,0,1,0,,,
+195,CUHK,4,CUHK,JS4892,Global Studies,å…¨çƒç ”ç©¶,2,Best 5,,23.5,,,,â€¢ English (x 1.5),â€¢ è‹±æ–‡ï¼ˆx 1.5ï¼‰,0,0,0,0,1,0,,,
+196,CUHK,4,CUHK,JS4893,Data Science and Policy Studies,æ•¸æ“šç§‘å­¸èˆ‡æ”¿ç­–ç ”ç©¶,2,Best 5,,22,,,,,,1,1,0,0,1,0,,,
+197,CUHK,4,CUHK,JS4903,Bachelor of Laws,æ³•å­¸å£«,16,ä¸­è‹±æ•¸ + Best 2,,33,,,,"â€¢ English (x 2)
+â€¢ Chinese, English and Mathematics
+must be included in the score
+calculation
+(i.e. Chi + Eng + Math + Best 2
+subjects)","â€¢ è‹±æ–‡ (x 2)
+â€¢ ä¸­æ–‡ã€è‹±æ–‡å’Œæ•¸å­¸
+å¿…é ˆè¨ˆå…¥åˆ†æ•¸è¨ˆç®—
+ï¼ˆå³ï¼šä¸­æ–‡ + è‹±æ–‡ + æ•¸å­¸ + æœ€ä½³å…©é–€
+ç§‘ç›®ï¼‰""",0,1,0,1,1,1,,,
+198,HKUST,7,HKUST,JS5101,International Research Enrichment,åœ‹éš›ç§‘ç ”,40,E+M+Best 2 of Physics/Chemistry/Biology/M1/M2+Best 1,,36.75,34.5,,,Preferred subjects: Science subjects/M1/M2,é¦–é¸ç§‘ç›®ï¼šç†ç§‘/M1/M2,0,0,1,1,1,0,,,
+199,HKUST,7,HKUST,JS5102,Science (Group A),ç†å­¸ï¼¡çµ„,41,E+M+Best 2 of Physics/Chemistry/Biology//M1/M2+Best 2,,31.13,29.66,,,"English/ Biology/ Chemistry x1.5
+Physics/ M1/ M2 x2
+Elective must be one of Biology/ Chemistry/ Physics/ M1/ M2","è‹±æ–‡/ç”Ÿç‰©/åŒ–å­¸ x1.5
+ç‰©ç†/M1/M2 x2
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©å­¸/åŒ–å­¸/ç‰©ç†/M1/M2ä¹‹ä¸€",0,0,0,0,1,0,,,
+200,HKUST,7,HKUST,JS5103,Science (Group B),ç†å­¸ï¼¢çµ„,41,E+M+Best 2 of Physics/Chemistry/Biology//M1/M2+Best 2,,37.38,34,,,"English/ Physics/ M1/ M2 x1.5
+Biology/ Chemistry x2
+Elective must be one of Biology/ Chemistry/ Physics/ M1/ M2","è‹±æ–‡/ç‰©ç†/M1/M2 x1.5
+ç”Ÿç‰©/åŒ–å­¸ x2
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©å­¸/åŒ–å­¸/ç‰©ç†/M1/M2ä¹‹ä¸€",0,0,0,0,1,0,,,
+201,HKUST,7,HKUST,JS5118,BSc in Biomedical and Health Sciences,ç†å­¸å£«ï¼ˆç”Ÿç‰©é†«å­¸åŠå¥åº·ç§‘å­¸ï¼‰,41,E+M+Best 2 of Physics/Chemistry/Biology//M1/M2+Best 2,,,,,,"New programme in 2025
+English/ Physics/ M1/ M2 x1.5
+Biology/ Chemistry x2
+Elective must be one of Biology/ Chemistry/ Physics/ M1/ M2","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/ç‰©ç†/M1/M2 x1.5
+ç”Ÿç‰©/åŒ–å­¸ x2
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©å­¸/åŒ–å­¸/ç‰©ç†/M1/M2ä¹‹ä¸€",0,1,0,1,1,0,,,
+202,HKUST,7,HKUST,JS5181,Science (Group A) with an Extended Major in Artificial Intelligence,ç†å­¸ï¼¡çµ„ â€“ å»¶ä¼¸ä¸»ä¿®äººå·¥æ™ºèƒ½,41,E+M+Best 2 of Physics/Chemistry/Biology//M1/M2+Best 2,,37.38,34,,,"English/ Biology/ Chemistry x1.5
+Physics/ M1/ M2 x2
+Elective must be one of Biology/ Chemistry/ Physics/ M1/ M2","è‹±æ–‡/ç”Ÿç‰©/åŒ–å­¸ x1.5
+ç‰©ç†/M1/M2 x2
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©å­¸/åŒ–å­¸/ç‰©ç†/M1/M2ä¹‹ä¸€",1,1,0,1,1,0,,,
+203,HKUST,7,HKUST,JS5212,BEng in Computer Engineering,å·¥å­¸å£«ï¼ˆè¨ˆç®—æ©Ÿå·¥ç¨‹å­¸ï¼‰,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,"New programme in 2025
+English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",1,1,0,0,1,0,,,
+204,HKUST,7,HKUST,JS5220,Department of Chemical and Biological Engineering,åŒ–å­¸åŠç”Ÿç‰©å·¥ç¨‹å­¸ç³»,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,"New programme in 2025
+English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",0,1,0,1,1,0,,,
+205,HKUST,7,HKUST,JS5230,Department of Civil and Environmental Engineering,åœŸæœ¨åŠç’°å¢ƒå·¥ç¨‹å­¸ç³»,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,"New programme in 2025
+English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",1,1,0,0,1,0,,,
+206,HKUST,7,HKUST,JS5240,Department of Computer Science and Engineering,è¨ˆç®—æ©Ÿç§‘å­¸åŠå·¥ç¨‹å­¸ç³»,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,"New programme in 2025
+English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",1,1,0,0,1,0,,,
+207,HKUST,7,HKUST,JS5250,Department of Electronic and Computer Engineering,é›»å­åŠè¨ˆç®—æ©Ÿå·¥ç¨‹å­¸ç³»,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,"New programme in 2025
+English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",1,1,0,0,1,0,,,
+208,HKUST,7,HKUST,JS5260,Department of Industrial Engineering and Decision Analytics,å·¥æ¥­å·¥ç¨‹åŠæ±ºç­–åˆ†æžå­¸ç³»,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,"New programme in 2025
+English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",1,1,0,0,1,0,,,
+209,HKUST,7,HKUST,JS5270,Department of Mechanical and Aerospace Engineering,æ©Ÿæ¢°åŠèˆªç©ºèˆªå¤©å·¥ç¨‹å­¸ç³»,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,"New programme in 2025
+English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",0,1,0,1,1,0,,,
+210,HKUST,7,HKUST,JS5282,Engineering with an Extended Major in Artificial Intelligence,å·¥ç¨‹å­¸ â€“ å»¶ä¼¸ä¸»ä¿®äººå·¥æ™ºèƒ½,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,39.78,38.21,,,"English/Math/ Biology/ Chemistry/ Physics x2
+M1/M2 x1.5
+Elective must be one of Biology/ Chemistry/ Physics/ ICT","è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT ä¹‹ä¸€",1,1,0,1,1,0,,,
+211,HKUST,7,HKUST,JS5300,Business and Management,å·¥å•†ç®¡ç†,20,E + M + Best 3,,32.5,32.05,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,1,1,0,0,1,0,,,
+212,HKUST,7,HKUST,JS5311,BBA in Economics,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆç¶“æ¿Ÿå­¸ï¼‰,20,E + M + Best 3,,35.05,34.14,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,1,0,0,0,1,0,,,
+213,HKUST,7,HKUST,JS5312,BBA in Finance,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆé‡‘èžå­¸ï¼‰,20,E + M + Best 3,,43.5,42.75,,,"English/ Math x2
+Best of Chemistry/ Economics/ Physics/ M1/ M2 x1.5","è‹±æ–‡/æ•¸å­¸ x2
+åŒ–å­¸/ç¶“æ¿Ÿ/ç‰©ç†/M1/M2 æœ€ä½³ x1.5",1,1,0,0,1,0,,,
+214,HKUST,7,HKUST,JS5313,BBA in Global Business,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆç’°çƒå•†æ¥­ç®¡ç†ï¼‰,20,E + M + Best 3,,53.44,50.06,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,1,1,0,0,1,0,,,
+215,HKUST,7,HKUST,JS5314,BBA in Information Systems,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆè³‡è¨Šç³»çµ±å­¸ï¼‰,20,E + M + Best 3,,35.4,34,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,1,0,0,0,1,0,,,
+216,HKUST,7,HKUST,JS5315,BBA in Management,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆç®¡ç†å­¸ï¼‰,20,E + M + Best 3,,33.55,32.04,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,1,0,0,0,1,0,,,
+217,HKUST,7,HKUST,JS5316,BBA in Marketing,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆå¸‚å ´å­¸ï¼‰,20,E + M + Best 3,,32.5,32.05,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,1,0,0,0,1,0,,,
+218,HKUST,7,HKUST,JS5317,BBA in Operations Management,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆç‡Ÿé‹ç®¡ç†å­¸ï¼‰,20,E + M + Best 3,,32.48,31.3,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,1,0,0,0,1,0,,,
+219,HKUST,7,HKUST,JS5318,BBA in Professional Accounting,å·¥å•†ç®¡ç†å­¸å£«ï¼ˆå°ˆæ¥­æœƒè¨ˆå­¸ï¼‰,20,E + M + Best 3,,32.4,31.93,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,0,1,0,0,1,0,,,
+220,HKUST,7,HKUST,JS5331,BSc in Economics and Finance,ç†å­¸å£«ï¼ˆç¶“æ¿ŸåŠé‡‘èžå­¸ï¼‰,20,E + M + Best 3,,50.06,48.56,,,"English/ Math x2
+Best of Chemistry/ Economics/ Physics/ M1/ M2 x1.5","è‹±æ–‡/æ•¸å­¸ x2
+åŒ–å­¸/ç¶“æ¿Ÿ/ç‰©ç†/M1/M2 æœ€ä½³ x1.5",1,1,0,0,1,0,,,
+221,HKUST,7,HKUST,JS5332,BSc in Quantitative Finance,ç†å­¸å£«ï¼ˆé‡åŒ–é‡‘èžå­¸ï¼‰,20,E + M + Best 3,,60.94,59.11,,,"English/ Math x2
+Best of Chemistry/ Economics/ Physics/ M1/ M2 x1.5","è‹±æ–‡/æ•¸å­¸ x2
+åŒ–å­¸/ç¶“æ¿Ÿ/ç‰©ç†/M1/M2 æœ€ä½³ x1.5",0,1,0,0,1,0,,,
+222,HKUST,7,HKUST,JS5411,BSc in Global China Studies,ç†å­¸å£«ï¼ˆç’°çƒä¸­åœ‹ç ”ç©¶ï¼‰,5,ä¸­è‹±+3ç§‘,,28,27.5,,,"English x2
+Chinese x1.5","è‹±æ–‡ x2
+ä¸­æ–‡ x1.5",0,0,0,0,1,0,,,
+223,HKUST,7,HKUST,JS5412,BSc in Quantitative Social Analysis,ç†å­¸å£«ï¼ˆå®šé‡ç¤¾æœƒæ•¸æ“šåˆ†æžï¼‰,20,E + M + Best 3,,30.88,30,,,"English/ Math x2
+M1/M2 x1.5","è‹±æ–‡/æ•¸å­¸ x2
+M1/M2 x1.5",0,0,0,0,1,0,,,
+224,HKUST,7,HKUST,JS5711,BSc in Integrative Systems and Design,ç†å­¸å£«ï¼ˆç¶œåˆç³»çµ±èˆ‡è¨­è¨ˆï¼‰,19,E + M + X(S) + 2S,,39.28,33.24,,,"English/ Math/ Biology/ Chemistry/ Physics/ Combined Science/ DAT x2
+M1/ M2 x1.5
+
+Elective must be one of Biology/ Chemistry/ Physics/ Combined Science/ DAT/ ICT","è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/çµ„åˆç§‘å­¸/DAT x2
+M1/M2 x1.5
+
+é¸ä¿®èª²ç¨‹å¿…é ˆæ˜¯ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/çµ„åˆç§‘å­¸/DAT/ICTä¹‹ä¸€",1,0,0,0,1,0,,,
+225,HKUST,7,HKUST,JS5811,BSc in Biotechnology and Business,ç†å­¸å£«ï¼ˆç”Ÿç‰©ç§‘æŠ€åŠå•†å­¸ï¼‰,21,E + M + Bio/Chem + Best 2,,39.75,38.91,,,"English/ Math x2
+Biology/ Chemistry x1.5
+Elective must include one of Biology or Chemistry","è‹±æ–‡/æ•¸å­¸ x2
+ç”Ÿç‰©/åŒ–å­¸ x1.5
+é¸ä¿®èª²å¿…é ˆåŒ…å«ç”Ÿç‰©æˆ–åŒ–å­¸ä¸­çš„ä¸€é–€",0,0,0,0,1,0,,,
+226,HKUST,7,HKUST,JS5812,BSc in Environmental Management and Technology,ç†å­¸å£«ï¼ˆç’°å¢ƒç®¡ç†åŠç§‘æŠ€ï¼‰,20,E + M + Best 3,,31.4,30.55,,,English/ Math x2,è‹±æ–‡/æ•¸å­¸ x2,0,0,0,0,1,0,,,
+227,HKUST,7,HKUST,JS5813,BSc in Mathematics and Economics,ç†å­¸å£«ï¼ˆæ•¸å­¸èˆ‡ç¶“æ¿Ÿå­¸ï¼‰,19,E + M + X(S) + 2S,,42.6,39.2,,,"English/ Math/ M1/ M2 x2
+Biology/ Chemistry/ Physics/ Economics x1.5
+Elective must include one of Biology/ Chemistry/ Physics/ Economics/ M1/ M2","è‹±æ–‡/æ•¸å­¸/M1/M2 x2
+ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ç¶“æ¿Ÿå­¸ x1.5
+é¸ä¿®èª²å¿…é ˆåŒ…å«ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ç¶“æ¿Ÿ/M1/M2 ä¸­çš„ä¸€é–€",0,0,0,0,1,0,,,
+228,HKUST,7,HKUST,JS5814,BSc in Risk Management and Business Intelligence,ç†å­¸å£«ï¼ˆé¢¨éšªç®¡ç†åŠå•†æ¥­æ™ºèƒ½å­¸ï¼‰,20,E + M + Best 3,,45,42.88,,,"English/ Math x2
+M1/ M2 x1.5","è‹±æ–‡/æ•¸å­¸ x2
+M1/M2 x1.5",1,1,0,0,1,0,,,
+229,HKUST,7,HKUST,JS5822,BSc in Sustainable and Green Finance,ç†å­¸å£«ï¼ˆå¯æŒçºŒç™¼å±•åŠç¶ è‰²é‡‘èžï¼‰,20,E + M + Best 3,,38.63,37.13,,,"English/ Math x2
+Best of Chemistry/ Economics/ Physics/ M1/ M2 x1.5","è‹±æ–‡/æ•¸å­¸ x2
+åŒ–å­¸/ç¶“æ¿Ÿ/ç‰©ç†/M1/M2 æœ€ä½³ x1.5",0,0,0,0,1,0,,,
+230,HKUST,7,HKUST,JS5901,BEng/BSc & BBA Dual Degree Program in Technology & Management,ç§‘æŠ€åŠç®¡ç†å­¸é›™å­¸ä½èª²ç¨‹,19,E + M + X(S) + 2S,,61.66,58.55,,,"English/ Math/ Biology/ Chemistry/ Physics x2
+M1/ M2 x1.5
+Elective must include one of Biology/ Chemistry/ Physics/ Combined Science/ ICT","è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x2
+M1/M2 x1.5
+é¸ä¿®èª²å¿…é ˆåŒ…å«ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/çµ„åˆç§‘å­¸/è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“ä¸­çš„ä¸€é–€",1,0,0,0,1,0,,,
+231,HKU,8,HKU,JS6004,Bachelor of Arts in Architectural Studies,å»ºç¯‰å­¸æ–‡å­¸å£«,2,Best 5,31,29,28,,,,,1,0,0,0,1,0,,,
+232,HKU,8,HKU,JS6016,Bachelor of Science in Surveying,ç†å­¸å£«(æ¸¬é‡å­¸),2,Best 5,31,29,29,,,,,0,0,1,0,1,0,,,
+233,HKU,8,HKU,JS6028,Bachelor of Arts in Landscape Studies,åœ’å¢ƒå­¸æ–‡å­¸å£«,2,Best 5,33,32,30,,,,,0,0,1,0,1,0,,,
+234,HKU,8,HKU,JS6042,Bachelor of Arts in Urban Studies,æ–‡å­¸å£«(åŸŽå¸‚ç ”ç©¶),2,Best 5,31,28,26,,,,,0,0,1,0,1,0,,,
+235,HKU,8,HKU,JS6054,Bachelor of Arts,æ–‡å­¸å£«,32,E+Best 4,33,31,29,,,English/Chinese x1.5,è‹±æ–‡/ä¸­æ–‡ x1.5,0,0,1,0,1,0,,,
+236,HKU,8,HKU,JS6066,Bachelor of Arts and Bachelor of Education in Language Education - English (double degree),æ–‡å­¸å£«åŠæ•™è‚²å­¸å£«(èªžæ–‡æ•™è‚²) - è‹±æ–‡æ•™è‚² (é›™å­¸ä½èª²ç¨‹),32,E+Best 4,39,36,32,,,English x1.5,è‹±æ–‡ x1.5,0,0,0,0,1,0,,,
+237,HKU,8,HKU,JS6078,Bachelor of Arts and Bachelor of Laws (double degree),æ–‡å­¸å£«åŠæ³•å­¸å£« (é›™å­¸ä½èª²ç¨‹),24,E + Best 5 ,41,38,38,,,Must include English,å¿…é ˆåŒ…å«è‹±æ–‡,0,1,0,1,1,1,,,
+238,HKU,8,HKU,JS6080,Bachelor of Arts and Bachelor of Education in Language Education - Chinese (double degree),æ–‡å­¸å£«åŠæ•™è‚²å­¸å£«(èªžæ–‡æ•™è‚²) - ä¸­æ–‡æ•™è‚² (é›™å­¸ä½èª²ç¨‹),17,ä¸­ + Best 4,36,35,34,,,Chinese x1.5,ä¸­æ–‡ x1.5,0,0,0,0,1,0,,,
+239,HKU,8,HKU,JS6092,Bachelor of Education in Early Childhood Education and Special Education,æ•™è‚²å­¸å£«(å¹¼å…’æ•™è‚²åŠç‰¹æ®Šæ•™è‚²),32,E+Best 4,28,27,26,,,English x1.5,è‹±æ–‡ x1.5,0,0,1,0,1,0,,,
+240,HKU,8,HKU,JS6107,Bachelor of Dental Surgery,ç‰™é†«å­¸å£«,25,BIo/chem + Best 5,,,,,,"Biology/Chemistry x1.3
+lvl3 or above in one of Biology/Chemistry","ç”Ÿç‰©/åŒ–å­¸ x1.3
+ç”Ÿç‰©/åŒ–å­¸å…¶ä¸­ä¸€é–€èª²ç¨‹é”åˆ°3ç´šæˆ–ä»¥ä¸Š",0,1,0,1,1,1,,,
+241,HKU,8,HKU,JS6119,Bachelor of Education and Bachelor of Science (double degree),æ•™è‚²å­¸å£«åŠç†å­¸å£« (é›™å­¸ä½èª²ç¨‹),27,E+M+M1/M2+Best 2,44,42,40,,,"English/Mathematics/Biology/Chemistry/Physics/M1/M2 x1.5
+lvl3 or above in one of Biology/Chemistry/Physics","è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/M1/M2 x1.5
+ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†å…¶ä¸­ä¹‹ä¸€é”åˆ°3ç´šæˆ–ä»¥ä¸Š",0,0,0,0,1,0,,,
+242,HKU,8,HKU,JS6157,Bachelor of Science in Speech and Hearing Sciences,ç†å­¸å£«(è¨€èªžåŠè½è¦ºç§‘å­¸),2,Best 5,34,32,32,,,,,0,0,0,1,1,1,,,
+243,HKU,8,HKU,JS6224,Bachelor of Arts and Sciences in Applied Artificial Intelligence,æ–‡ç†å­¸å£«(æ‡‰ç”¨äººå·¥æ™ºèƒ½),27,E+M+M1/M2+Best 2,57,55,52,,,"English/Math/M1/M2 x2
+Biology/Chemistry/Physics/ICT x1.5
+lvl4 or above in M1/M2","è‹±æ–‡/æ•¸å­¸/M1/M2 x2
+ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/ICT x1.5
+M1/M2 4ç´šæˆ–ä»¥ä¸Š",1,1,0,0,1,0,,,
+244,HKU,8,HKU,JS6236,Bachelor of Arts and Sciences in Design+,æ–‡ç†å­¸å£«(è¨­è¨ˆï¼‹),2,Best 5,,,,,,,,0,0,1,1,1,0,,,
+245,HKU,8,HKU,JS6248,Bachelor of Arts and Sciences in Financial Technology,æ–‡ç†å­¸å£«(é‡‘èžç§‘æŠ€),20,E + M + Best 3,32,31,29,,,,,1,1,0,0,1,0,,,
+246,HKU,8,HKU,JS6250,Bachelor of Arts and Sciences in Global Health and Development,æ–‡ç†å­¸å£«(ç’°çƒè¡žç”ŸåŠç™¼å±•),2,Best 5,34,28,26,,,,,0,0,0,0,1,0,,,
+247,HKU,8,HKU,JS6262,Bachelor of Engineering in Data Science and Engineering,å·¥å­¸å­¸å£«(æ•¸æ“šç§‘å­¸åŠå·¥ç¨‹),#N/A,#N/A,,,,,,,,1,1,0,0,1,0,,,
+248,HKU,8,HKU,JS6274,Bachelor of Arts in Global Creative Industries,æ–‡å­¸å£«ï¼ˆå…¨çƒå‰µæ„ç”¢æ¥­ï¼‰,32,E+Best 4,,,,,,"New programme in 2025 
+English x2","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡x2",0,0,1,0,1,0,,,
+249,HKU,8,HKU,JS6286,Bachelor of Arts in Humanities and Digital Technologies,æ–‡å­¸å£«(äººæ–‡åŠæ•¸ç¢¼ç§‘æŠ€),32,E+Best 4,34,32,30,,,English/Chinese x1.5,è‹±æ–‡/ä¸­æ–‡ x1.5,0,0,1,0,1,0,,,
+250,HKU,8,HKU,JS6298,Bachelor of Arts and Bachelor of Engineering in Artificial Intelligence and Data Science,æ–‡å­¸å£«åŠå·¥å­¸å­¸å£«(äººå·¥æ™ºèƒ½åŠæ•¸æ“šç§‘å­¸),19,E + M + X(S) + 2S,,,,,,"New programme in 2025 
+English x2
+Math x1.5
+Biology/Chemistry/Economics/ICT/M1/M2/Physics x1.5
+lvl3 or above in one of Biology/Chemistry/Physics/Economics/ICT","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡x2
+æ•¸å­¸ x1.5
+ç”Ÿç‰©/åŒ–å­¸/ç¶“æ¿Ÿå­¸/ICT/M1/M2/ç‰©ç† x1.5
+ç”Ÿç‰©å­¸/åŒ–å­¸/ç‰©ç†/ç¶“æ¿Ÿå­¸/ICT ä¹‹ä¸€é”åˆ° 3 ç´šæˆ–ä»¥ä¸Š",1,1,0,0,1,0,,,
+251,HKU,8,HKU,JS6303,Bachelor of Engineering Elite Programme,å·¥å­¸å­¸å£«ç²¾è‹±èª²ç¨‹,20,E + M + Best 3,,,,,,"New programme in 2025 
+lvl3 or above in one of Biology/ Chemistry/ Combined Science/Physics
+Prioritize lvl3 or above in M1/M2","2025æ–°å¢žèª²ç¨‹
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,1,0,0,1,0,,,
+252,HKU,8,HKU,JS6315,Bachelor of Engineering in Data and Systems Engineering,å·¥å­¸å­¸å£«(æ•¸æ“šèˆ‡ç³»çµ±å·¥ç¨‹),20,E + M + Best 3,,,,,,"New programme in 2025 
+lvl3 or above in one of Biology/ Chemistry/ Combined Science/Physics
+Prioritize lvl3 or above in M1/M2","2025æ–°å¢žèª²ç¨‹
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,1,0,0,1,0,,,
+253,HKU,8,HKU,JS6339,Bachelor of Engineering in Mechanical Engineering,å·¥å­¸å­¸å£«(æ©Ÿæ¢°å·¥ç¨‹),20,E + M + Best 3,,,,,,"New programme in 2025 
+lvl3 or above in one of Biology/ Chemistry/ Combined Science/Physics
+Prioritize lvl3 or above in M1/M2","2025æ–°å¢žèª²ç¨‹
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,1,0,0,1,0,,,
+254,HKU,8,HKU,JS6353,Bachelor of Engineering in Civil Engineering,å·¥å­¸å­¸å£«(åœŸæœ¨å·¥ç¨‹),20,E + M + Best 3,,,,,,"New programme in 2025 
+lvl3 or above in one of Biology/ Chemistry/ Combined Science/Physics
+Prioritize lvl3 or above in M1/M2","2025æ–°å¢žèª²ç¨‹
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,1,0,0,1,0,,,
+255,HKU,8,HKU,JS6377,Bachelor of Engineering and Master of Science in Engineering in Artificial Intelligence in Engineering,å·¥å­¸å­¸å£«èˆ‡äººå·¥æ™ºèƒ½ç†å­¸ç¢©å£«è¯åˆèª²ç¨‹,20,E + M + Best 3,,,,,,"New programme in 2025 
+lvl3 or above in one of Biology/ Chemistry/ Combined Science/Physics
+Prioritize lvl3 or above in M1/M2","2025æ–°å¢žèª²ç¨‹
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,1,0,0,1,1,,,
+256,HKU,8,HKU,JS6406,Bachelor of Laws,æ³•å­¸å£«,24,E + Best 5 ,36,35,33,,,Must include English,å¿…é ˆåŒ…å«è‹±æ–‡,0,1,0,1,1,1,,,
+257,HKU,8,HKU,JS6418,Bachelor of Nursing Advanced Leadership Track,è­·ç†å­¸å­¸å£«èè‹±é ˜è¢–åŸ¹è‚²å°ˆä¿®çµ„åˆ¥,3,Best 6,36,35,34,,,6th subject x0.5,ç¬¬ 6 ç§‘ x0.5,0,1,0,0,1,1,,,
+258,HKU,8,HKU,JS6456,Bachelor of Medicine and Bachelor of Surgery,å…§å¤–å…¨ç§‘é†«å­¸å£«,3,Best 6,45,44,42,,,lvl3 or above in one of Chemistry/Combined Science with chemistry component,åŒ–å­¸/çµ„åˆç§‘å­¸ï¼ˆå«åŒ–å­¸æˆåˆ†ï¼‰é”åˆ° 3 ç´šæˆ–ä»¥ä¸Š,0,1,0,1,1,1,,,
+259,HKU,8,HKU,JS6468,Bachelor of Nursing,è­·ç†å­¸å­¸å£«,3,Best 6,27,26,25,,,6th subject x0.5,ç¬¬ 6 ç§‘ x0.5,0,1,0,0,1,1,,,
+260,HKU,8,HKU,JS6482,Bachelor of Chinese Medicine,ä¸­é†«å…¨ç§‘å­¸å£«,3,Best 6,33,32,31,,,"6th subject x0.5
+lvl3 or above one of Biology/Chemistry/ Combined Science/ Integrated Science/ Physics ","ç¬¬å…­ç§‘ x0.5
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç¶œåˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š",0,1,0,1,1,1,,,
+261,HKU,8,HKU,JS6494,Bachelor of Pharmacy,è—¥åŠ‘å­¸å­¸å£«,3,Best 6,39,39,37,,,lvl3 or above in one of Chemistry/ Combined Science with Chemistry component,åŒ–å­¸/åŒ…å«åŒ–å­¸æˆåˆ†çš„ç¶œåˆç§‘å­¸ä¹‹ä¸€çš„æˆç¸¾ç‚º 3 ç´šæˆ–ä»¥ä¸Š,0,1,0,0,1,1,,,
+262,HKU,8,HKU,JS6602,Bachelor of Science in Innovation and Technology,ç†å­¸å£«(å‰µæ–°èˆ‡ç§‘æŠ€),43,E+M+Best 4,,,,,,"New programme in 2025 
+English/Mathematics/ Biology/ Chemistry/ Physics/ Combines Science/ DAT/ICT/Integrated Science/M1/M2/ Technology and living x2
+Other subjects x1.5","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/çµ„åˆç§‘å­¸/DAT/ICT/ç¶œåˆç§‘å­¸/M1/M2/ç§‘æŠ€èˆ‡ç”Ÿæ´» x2
+å…¶ä»–ç§‘ç›® x1.5",1,1,1,0,1,0,,,
+263,HKU,8,HKU,JS6688,Science Master Class,ç§‘ç ”å°ˆæ‰å•Ÿå°Žèª²ç¨‹ (é›™å­¸ä½èª²ç¨‹),31,E+M+Best 2 in M1/M2 and Sci+Best subject,38,35,33,,,"Biology/Chemistry/Physics/M1/M2 x 1.2
+lvl3 or above in one of Biology/Chemistry/Physics/M1/M2","ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/M1/M2 x 1.2
+ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/M1/M2å…¶ä¸­ä¹‹ä¸€é”åˆ°3ç´šæˆ–ä»¥ä¸Š",0,0,0,0,1,0,,,
+264,HKU,8,HKU,JS6705,Bachelor of Psychology,å¿ƒç†å­¸å­¸å£«,2,Best 5,32,29,28,,,,,0,0,1,0,1,1,,,
+265,HKU,8,HKU,JS6717,Bachelor of Social Sciences,ç¤¾æœƒç§‘å­¸å­¸å£«,2,Best 5,27,26,25,,,,,0,0,1,0,1,0,,,
+266,HKU,8,HKU,JS6729,Bachelor of Science in Actuarial Science,ç†å­¸å£«(ç²¾ç®—å­¸),27,E+M+M1/M2+Best 2,34,33,31,,,"English/Mathematics/M1/M2 x1.2
+lvl4 or above in M1/M2","è‹±æ–‡/æ•¸å­¸/M1/M2 x1.2
+M1/M2 å››ç´šæˆ–ä»¥ä¸Š",0,0,0,0,1,0,,,
+267,HKU,8,HKU,JS6731,Bachelor of Social Work,ç¤¾æœƒå·¥ä½œå­¸å­¸å£«,2,Best 5,29,27,26,,,,,0,0,1,0,1,0,,,
+268,HKU,8,HKU,JS6755,Bachelor of Business Administration,å·¥å•†ç®¡ç†å­¸å­¸å£«,43,E+M+Best 4,34,33,32,,,"English/Mathematics x1.5
+6th subject x0.2","è‹±æ–‡/æ•¸å­¸ x1.5
+ç¬¬å…­ç§‘ x0.2",1,0,0,0,1,0,,,
+269,HKU,8,HKU,JS6767,Bachelor of Economics / Bachelor of Economics and Finance,ç¶“æ¿Ÿå­¸å­¸å£« / ç¶“æ¿Ÿé‡‘èžå­¸å­¸å£«,43,E+M+Best 4,38,36,35,,,"English/Mathematics x1.5
+6th subject x0.2","è‹±æ–‡/æ•¸å­¸ x1.5
+ç¬¬å…­ç§‘ x0.2",1,1,0,0,1,0,,,
+270,HKU,8,HKU,JS6779,Statistical Decision Sciences,çµ±è¨ˆæ±ºç­–ç§‘å­¸,22,M + Best 4,,,,,,"New programme in 2025 
+Mathematics x1.5","2025æ–°å¢žèª²ç¨‹
+æ•¸å­¸ x1.5",0,1,0,0,1,0,,,
+271,HKU,8,HKU,JS6781,Bachelor of Business Administration / Bachelor of Business Administration in Accounting and Finance,å·¥å•†ç®¡ç†å­¸å­¸å£« / å·¥å•†ç®¡ç†å­¸å­¸å£«(æœƒè¨ˆåŠè²¡å‹™),43,E+M+Best 4,35,34,33,,,"English/Mathematics x1.5
+6th subject x0.2","è‹±æ–‡/æ•¸å­¸ x1.5
+ç¬¬å…­ç§‘ x0.2",1,1,0,0,1,0,,,
+272,HKU,8,HKU,JS6793,Bachelor of Business Administration (Information Systems),å·¥å•†ç®¡ç†å­¸å­¸å£«(è³‡è¨Šç³»çµ±),43,E+M+Best 4,34,32,31,,,"English/Mathematics x1.5
+6th subject x0.2
+lvl3 or above in one of Biology/Chemistry/Combined Science/ICT/Integrated Science/Physics
+Prioritize lvl3 or above in M1/M2","è‹±æ–‡/æ•¸å­¸ x1.5
+ç¬¬å…­ç§‘ x0.2
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“/ç¶œåˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,0,0,0,1,0,,,
+273,HKU,8,HKU,JS6808,Bachelor of Business Administration (Law) and Bachelor of Laws (double degree),å·¥å•†ç®¡ç†å­¸å­¸å£«(æ³•å­¸)åŠæ³•å­¸å£« (é›™å­¸ä½èª²ç¨‹),30,E+M+Best 5,48,46,45,,,"English/Mathematics x1.5
+7th subject x0.2","è‹±æ–‡/æ•¸å­¸ x1.5
+ç¬¬ä¸ƒç§‘ x0.2",0,1,0,0,1,1,,,
+274,HKU,8,HKU,JS6810,Bachelor of Social Sciences (Government and Laws) and Bachelor of Laws (double degree),ç¤¾æœƒç§‘å­¸å­¸å£«(æ”¿æ²»å­¸èˆ‡æ³•å­¸)åŠæ³•å­¸å£« (é›™å­¸ä½èª²ç¨‹),3,Best 6,39,38,36,,,,,0,1,0,0,1,0,,,
+275,HKU,8,HKU,JS6822,Bachelor of Journalism,æ–°èžå­¸å­¸å£«,4,è‹±+4ç§‘,29,26,26,,,English x1.5 ,è‹±æ–‡x1.5,0,0,1,0,1,0,,,
+276,HKU,8,HKU,JS6846,Bachelor of Science in Marketing Analytics and Technology,ç†å­¸å£«(ç‡ŸéŠ·åˆ†æžåŠç§‘æŠ€),43,E+M+Best 4,33,32,31,,,"English/Mathematics x1.5
+6th subject x0.2
+lvl3 or above in one of Biology/BAFS/Chemistry/Combined Science/Economics/ ICT/ Integrated Science/Physics
+Prioritize lvl3 or above in M1/M2","è‹±æ–‡/æ•¸å­¸ x1.5
+ç¬¬å…­ç§‘ x0.2
+ç”Ÿç‰©/BAFS/åŒ–å­¸/çµ„åˆç§‘å­¸/ç¶“æ¿Ÿå­¸/ICT/ç¶œåˆç§‘å­¸/ç‰©ç†å­¸ä¹‹ä¸€æˆç¸¾é”3ç´šæˆ–ä»¥ä¸Š
+M1/M2 æˆç¸¾é”åˆ°3ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,1,0,0,1,0,,,
+277,HKU,8,HKU,JS6858,Bachelor of Science and Bachelor of Laws (double degree),ç†å­¸å£«åŠæ³•å­¸å£«(é›™å­¸ä½èª²ç¨‹),33,E+M/M1/M2+Sci+Best 3,57,54,53,,,"English/Mathematics/M1/M2 x2
+Best of Physics/ Chemistry/ Biology x2
+lvl3 or above in one of Physics/ Biology/ Chemistry","è‹±æ–‡/æ•¸å­¸/M1/M2 x2
+ç‰©ç†/åŒ–å­¸/ç”Ÿç‰©æœ€ä½³ x2
+ç‰©ç†/ç”Ÿç‰©/åŒ–å­¸å…¶ä¸­ä¹‹ä¸€æˆç¸¾3ç´šæˆ–ä»¥ä¸Š",0,1,0,1,1,1,,,
+278,HKU,8,HKU,JS6860,Bachelor of Finance in Asset Management and Private Banking,é‡‘èžå­¸å­¸å£«(è³‡ç”¢ç®¡ç†åŠç§äººéŠ€è¡Œ),30,E+M+Best 5,48,47,47,,,"English/Mathematics x1.5
+7th subject x0.2","è‹±æ–‡/æ•¸å­¸ x1.5
+ç¬¬ä¸ƒç§‘ x0.2",0,1,0,0,1,0,,,
+279,HKU,8,HKU,JS6884,Bachelor of Science in Quantitative Finance,ç†å­¸å£«(è¨ˆé‡é‡‘èž),44,E+M+M1/M2+Best 3,51,49,48,,,"English x1.5
+Mathematics/M1/M2 x1.25
+7th subject x0.2
+lvl3 or above in M1/M2","è‹±æ–‡ x1.5
+æ•¸å­¸/M1/M2 x1.25
+ç¬¬ä¸ƒç§‘ x0.2
+M1/M2 ç­‰ç´š 3 æˆ–ä»¥ä¸Š",0,1,0,0,1,0,,,
+280,HKU,8,HKU,JS6896,Bachelor of Business Administration in International Business and Global Management,å·¥å•†ç®¡ç†å­¸å­¸å£«(åœ‹éš›å•†æ¥­åŠç’°çƒç®¡ç†),30,E+M+Best 5,,,,,,,,1,1,0,0,1,0,,,
+281,HKU,8,HKU,JS6901,Bachelor of Science,ç†å­¸å£«,26,E+M+Sci+Best 2,37,34,33,,,Mathematics/M1/M2/Biology/Chemistry/Physics x1.5,æ•¸å­¸/M1/M2/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç† x1.5,0,0,0,0,1,0,,,
+282,HKU,8,HKU,JS6925,Bachelor of Engineering in Biomedical Engineering,å·¥å­¸å­¸å£«(ç”Ÿç‰©é†«å­¸å·¥ç¨‹),20,E + M + Best 3,32,29,28,,,"lvl3 or above in one of Biology/ Chemistry/ Combined Science/Physics
+Prioritize lvl3 or above in M1/M2","ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",0,1,0,1,1,1,,,
+283,HKU,8,HKU,JS6937,Global Engineering and Business Programme,ç’°çƒå·¥ç¨‹èˆ‡å•†æ¥­èª²ç¨‹,20,E + M + Best 3,34,32,31,,,"lvl3 or above in one of Biology/ Chemistry/Physics
+Prioritize lvl3 or above in M1/M2","ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,0,0,0,1,0,,,
+284,HKU,8,HKU,JS6949,Bachelor of Biomedical Sciences,ç”Ÿç‰©é†«å­¸å­¸å£«,3,Best 6,41,39,39,,,lvl3 or above in Biology/Chemistry/ Combined Science with Biology/chemistry component,ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸ï¼ˆå«ç”Ÿç‰©/åŒ–å­¸éƒ¨åˆ†ï¼‰3ç´šæˆ–ä»¥ä¸Š,0,1,0,1,1,1,,,
+285,HKU,8,HKU,JS6987,Bachelor of Engineering in Computer Engineering / Electrical Engineering / Electronic Engineering,å·¥å­¸å­¸å£«(è¨ˆç®—æ©Ÿå·¥ç¨‹/é›»æ©Ÿå·¥ç¨‹/é›»å­å·¥ç¨‹),20,E + M + Best 3,,,,,,"New programme in 2025 
+lvl3 or above in one of Biology/ Chemistry/ Combined Science/Physics
+Prioritize lvl3 or above in M1/M2","2025æ–°å¢žèª²ç¨‹
+ç”Ÿç‰©/åŒ–å­¸/çµ„åˆç§‘å­¸/ç‰©ç†ä¸‰ç´šæˆ–ä»¥ä¸Š
+M1/M2 ä¸‰ç´šæˆ–ä»¥ä¸Šå„ªå…ˆè€ƒæ…®",1,1,0,0,1,0,,,
+286,HKU,8,HKU,JS6999,Computing and Data Science,è¨ˆç®—èˆ‡æ•¸æ“šç§‘å­¸,20,E + M + Best 3,,,,,,"New programme in 2025 
+Mathematics/Biology/ Chemistry/ Economics/ Physics/ ICT/ M1/M2 x1.5","2025æ–°å¢žèª²ç¨‹
+æ•¸å­¸/ç”Ÿç‰©/åŒ–å­¸/ç¶“æ¿Ÿå­¸/ç‰©ç†/ICT/M1/M2 x1.5",1,1,0,0,1,0,,,
+287,LU,3,LU,JS7101,Bachelor of Arts (Honours) in Chinese,ä¸­æ–‡(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,25,24.5,,,Chinese/ English/ Chinese History/ Chinese Literature x1.5,ä¸­æ–‡/è‹±æ–‡/ä¸­åœ‹æ­·å²/ä¸­åœ‹æ–‡å­¸ x1.5,0,0,0,0,1,0,,,
+288,LU,3,LU,JS7123,Bachelor of Liberal Arts (Hons) in Global Development and Sustainability,ç’°çƒå¯æŒçºŒç™¼å±•(æ¦®è­½)åšé›…å­¸å£«,2,Best 5,,25,23.75,,,"English x2
+Math/ M1/ M2/ Geography  x1.5
+Biology/ BAFS/ Chemistry/ DAT/ Economics/ Health Management and Social Care/ ICT/ Physics/ Technology and Living/ Tourism and Hospitality Studies x1.25","è‹±æ–‡ x2
+æ•¸å­¸/M1/M2/åœ°ç† x1.5
+ç”Ÿç‰©/BAFS/åŒ–å­¸/DAT/ç¶“æ¿Ÿå­¸/å¥åº·ç®¡ç†èˆ‡ç¤¾æœƒé—œæ‡·/ICT/ç‰©ç†/ç§‘æŠ€èˆ‡ç”Ÿæ´»/æ—…éŠèˆ‡æ—…é¤¨ç ”ç©¶ x1.25",0,0,0,0,1,0,,,
+289,LU,3,LU,JS7133,Bachelor of Arts (Honours) in Animation and Digital Arts,å‹•ç•«åŠæ•¸ç¢¼è—è¡“(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,23,22.25,,,Chinse/ English/ ICT/ Visual Arts x1.5,ä¸­æ–‡/è‹±æ–‡/ICT/è¦–è¦ºè—è¡“ x1.5,0,0,0,0,1,0,,,
+290,LU,3,LU,JS7204,"Bachelor of Arts (Honours) in Translation, Cross-cultural Studies, and Corporate Communication",ç¿»è­¯ã€è·¨æ–‡åŒ–ç ”ç©¶åŠä¼æ¥­å‚³è¨Š(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,24.5,24,,,"English x2
+Chinese/ Chinese Literature/ Literature in English x1.5","è‹±æ–‡ x2
+ä¸­æ–‡/ä¸­åœ‹æ–‡å­¸/è‹±æ–‡æ–‡å­¸ x1.5",0,0,0,0,1,0,,,
+291,LU,3,LU,JS7211,Bachelor of Business Administration (Honours) - Accounting and Corporate Governance,å·¥å•†ç®¡ç†(æ¦®è­½)å­¸å£« â€“ æœƒè¨ˆèˆ‡ä¼æ¥­ç®¡æ²»,2,Best 5,,,,,,"New programme in 2025
+English/ Math x2
+M1/ M2/ BAFS x1.5","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸ x2
+M1/M2/BAFS x1.5",0,0,0,0,1,0,,,
+292,LU,3,LU,JS7212,Bachelor of Business Administration (Honours) - Business Analytics and Innovation,å·¥å•†ç®¡ç†(æ¦®è­½)å­¸å£« â€“ å•†æ¥­åˆ†æžèˆ‡å‰µæ–°,2,Best 5,,,,,,"New programme in 2025
+English/ Math x2
+M1/ M2/ICT x1.5","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸ x2
+M1/M2/ICT x1.5",1,1,0,0,1,0,,,
+293,LU,3,LU,JS7213,Bachelor of Business Administration (Honours) - Finance,å·¥å•†ç®¡ç†(æ¦®è­½)å­¸å£« â€“ é‡‘èž,2,Best 5,,,,,,"New programme in 2025
+English/ Math x2
+M1/ M2/ICT/ BAFS/ Economics x1.5","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸ x2
+M1/ M2/ BAFS/ ç¶“æ¿Ÿå­¸/ ICT x1.5",1,1,0,0,1,0,,,
+294,LU,3,LU,JS7214,Bachelor of Business Administration (Honours) - Human Resource Management and Analytics,å·¥å•†ç®¡ç†(æ¦®è­½)å­¸å£« â€“ äººåŠ›è³‡æºç®¡ç†èˆ‡åˆ†æž,2,Best 5,,,,,,"New programme in 2025
+English/ Math x2
+M1/ M2/ICT/ BAFS/ Economics x1.5","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸ x2
+M1/ M2/ BAFS/ ç¶“æ¿Ÿå­¸/ ICT x1.5",1,0,0,0,1,0,,,
+295,LU,3,LU,JS7215,Bachelor of Business Administration (Honours) - Marketing and Social Media,å·¥å•†ç®¡ç†(æ¦®è­½)å­¸å£« â€“ å¸‚å ´å­¸èˆ‡ç¤¾äº¤åª’é«”,2,Best 5,,,,,,"New programme in 2025
+English/ Math x2
+M1/ M2/ICT/ BAFS/ Economics x1.5","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡/æ•¸å­¸ x2
+M1/ M2/BAFS/ ç¶“æ¿Ÿå­¸/ ICT x1.5",1,0,0,0,1,0,,,
+296,LU,3,LU,JS7216,Bachelor of Business Administration (Honours) - Risk and Insurance Management,å·¥å•†ç®¡ç†(æ¦®è­½)å­¸å£« - é¢¨éšªåŠä¿éšªç®¡ç†,2,Best 5,,23.5,23,,,"English/ Math/ M1/M2 x2
+Economics/ ICT x1.5","è‹±æ–‡/æ•¸å­¸/M1/M2 x2
+ç¶“æ¿Ÿå­¸/ ICT x1.5",0,1,0,0,1,0,,,
+297,LU,3,LU,JS7225,Bachelor of Science (Honours) in Data Science,æ•¸æ“šç§‘å­¸(æ¦®è­½)ç†å­¸å£«,2,Best 5,,29.75,28.88,,,,,1,1,0,0,1,0,,,
+298,LU,3,LU,JS7301,Bachelor of Social Sciences (Honours) - Economics,ç¤¾æœƒç§‘å­¸(æ¦®è­½)å­¸å£« - ç¶“æ¿Ÿå­¸,2,Best 5,,26,25,,,"English x2
+Math/ M1/ M2/ Economics x1.5","è‹±æ–‡ x2
+æ•¸å­¸/ M1/ M2/ ç¶“æ¿Ÿå­¸ x1.5",1,0,0,1,1,0,,,
+299,LU,3,LU,JS7302,Bachelor of Social Sciences (Honours) â€“ Political Science,ç¤¾æœƒç§‘å­¸(æ¦®è­½)å­¸å£« - æ”¿æ²»èˆ‡åœ‹éš›äº‹å‹™å­¸,2,Best 5,,25,23.5,,,"English x2
+Math/ M1/ M2/ Chinese History/ Geography/ History x1.5","è‹±æ–‡ x2
+æ•¸å­¸/ M1/ M2/ ä¸­åœ‹æ­·å²/ åœ°ç†/ æ­·å² x1.5",0,0,0,0,1,0,,,
+300,LU,3,LU,JS7303,Bachelor of Social Sciences (Honours) - Psychology,ç¤¾æœƒç§‘å­¸(æ¦®è­½)å­¸å£« - å¿ƒç†å­¸,2,Best 5,,24,23.25,,,"English x2
+Math x1.5","è‹±æ–‡ x2
+æ•¸å­¸ x1.5",0,0,1,0,1,1,,,
+301,LU,3,LU,JS7304,Bachelor of Social Sciences (Honours) Sociology,ç¤¾æœƒç§‘å­¸(æ¦®è­½)å­¸å£« - ç¤¾æœƒå­¸,2,Best 5,,23.5,23,,,"English x2
+Math x1.5","è‹±æ–‡ x2
+æ•¸å­¸ x1.5",0,0,1,0,1,0,,,
+302,LU,3,LU,JS7305,Bachelor of Social Sciences (Honours) - Health and Social Service Management,ç¤¾æœƒç§‘å­¸(æ¦®è­½)å­¸å£« - å¥åº·åŠç¤¾æœƒæœå‹™ç®¡ç†,2,Best 5,,19.75,19.5,,,English/ Ethics and Religious Studies/ Health Management and Social Care x1.5,è‹±æ–‡/å€«ç†èˆ‡å®—æ•™ç ”ç©¶/å¥åº·ç®¡ç†èˆ‡ç¤¾æœƒé—œæ‡· x1.5,0,0,1,0,1,0,,,
+303,LU,3,LU,JS7306,Bachelor of Social Sciences (Honours) - Social and Public Policy Studies,ç¤¾æœƒç§‘å­¸(æ¦®è­½)å­¸å£« - ç¤¾æœƒèˆ‡å…¬å…±æ”¿ç­–ç ”ç©¶,2,Best 5,,23,22.5,,,"English x2
+Math/ M1/ M2 x1.5","è‹±æ–‡ x2
+æ•¸å­¸/M1/M2 x1.5",0,0,0,0,1,0,,,
+304,LU,3,LU,JS7307,Bachelor of Social Sciences (Honours) - Social Data Science,ç¤¾æœƒç§‘å­¸(æ¦®è­½)å­¸å£« - ç¤¾æœƒæ•¸æ“šç§‘å­¸,2,Best 5,,,,,,"New programme in 2025
+English x2
+Math/M1/ M2/ICT x1.5","2025æ–°å¢žèª²ç¨‹
+è‹±æ–‡ x2
+æ•¸å­¸/M1/ M2/ ICT x1.5",0,0,0,0,1,0,,,
+305,LU,3,LU,JS7503,Bachelor of Arts (Honours) in Contemporary English Studies,ç•¶ä»£è‹±èªžèªžè¨€æ–‡å­¸èª²ç¨‹(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,27,26,,,"English x2.5
+Chinese/ Literature in English x1.5","è‹±æ–‡ x2.5
+ä¸­æ–‡/è‹±æ–‡æ–‡å­¸ x1.5",0,0,0,0,1,0,,,
+306,LU,3,LU,JS7606,Bachelor of Arts (Honours) in Cultural Studies,æ–‡åŒ–ç ”ç©¶(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,24,24,,,"English x2
+Chinese x1.5","è‹±æ–‡ x2
+ä¸­æ–‡ x1.5",0,0,1,0,1,0,,,
+307,LU,3,LU,JS7709,Bachelor of Arts (Honours) in History,æ­·å²(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,25.6,25.3,,,"English x2
+Chinese x1.5
+Chinese History/ History x1.2","è‹±æ–‡ x2
+ä¸­æ–‡ x1.5
+ä¸­åœ‹æ­·å²/æ­·å² x1.2",0,0,0,0,1,0,,,
+308,LU,3,LU,JS7802,Bachelor of Arts (Honours) in Philosophy,å“²å­¸(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,25,24.5,,,"English x2
+Chinese/ Math x1.5","è‹±æ–‡ x2
+ä¸­æ–‡/æ•¸å­¸ x1.5",0,0,1,0,1,0,,,
+309,LU,3,LU,JS7905,Bachelor of Arts (Honours) in Visual Studies,è¦–è¦ºç ”ç©¶(æ¦®è­½)æ–‡å­¸å£«,2,Best 5,,27,26,,,"English/ Chinese x2
+ICT/ Visual Arts x1.5","è‹±æ–‡/ä¸­æ–‡ x2
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€/è¦–è¦ºè—è¡“ x1.5",0,0,0,1,1,0,,,
+310,EdUHK,5,EdUHK,JS8001,Bachelor of Arts (Honours) in Creative and Digital Arts and Bachelor of Education (Honours) (Music),å‰µæ„è—è¡“èˆ‡æ•¸ç¢¼è—è¡“æ¦®è­½æ–‡å­¸å£«åŠéŸ³æ¨‚æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8801
+Music x1.5","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8801
+éŸ³æ¨‚ x1.5",0,0,0,1,1,0,,,
+311,EdUHK,5,EdUHK,JS8002,Bachelor of Arts (Honours) in Creative and Digital Arts and Bachelor of Education (Honours) (Visual Arts),å‰µæ„è—è¡“èˆ‡æ•¸ç¢¼è—è¡“æ¦®è­½æ–‡å­¸å£«åŠè¦–è¦ºè—è¡“æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8802
+Visual Arts x1.5","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8802
+è¦–è¦ºè—è¡“ x1.5",0,0,0,1,1,0,,,
+312,EdUHK,5,EdUHK,JS8003,Bachelor of Arts (Honours) in Digital Chinese Culture and Communication and Bachelor of Education (Honours) (Chinese Language),æ•¸ç¢¼ä¸­åœ‹æ–‡åŒ–èˆ‡å‚³æ„æ¦®è­½æ–‡å­¸å£«åŠä¸­æ–‡æ•™è‚²æ¦®è­½å­¸å£«,17,ä¸­ + Best 4,,,,,,"New programme in 2025, reconstructed from JS8105
+Chinese Language (x1.5)
+English Language (x1.5)
+Chinese Literature (x1.5)
+ICT (x1.5)","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8105
+ä¸­æ–‡ (x1.5)
+è‹±æ–‡ (x1.5)
+ä¸­åœ‹æ–‡å­¸ (x1.5)
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€ (x1.5)",0,0,0,0,1,0,,,
+313,EdUHK,5,EdUHK,JS8004,Bachelor of Arts (Honours) in English Studies and Digital Communication and Bachelor of Education (Honours) (English Language),è‹±èªžç ”ç©¶åŠæ•¸ç¢¼å‚³è¨Šæ¦®è­½æ–‡å­¸å£«åŠè‹±æ–‡æ•™è‚²æ¦®è­½å­¸å£«,32,E+Best 4,,,,,,"New programme in 2025, reconstructed from JS8222
+English Language (x1.5)
+ICT (x1.5)
+Literature in English (x1.5)","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8222
+è‹±æ–‡(x1.5)
+è³‡è¨Šé€šä¿¡æŠ€è¡“ (x1.5)
+è‹±æ–‡æ–‡å­¸ (x1.5)",0,0,0,0,1,0,,,
+314,EdUHK,5,EdUHK,JS8005,Bachelor of Arts (Honours) in Heritage Education and Arts Management and Bachelor of Education (Honours) (Chinese History),æ–‡åŒ–å‚³æ‰¿æ•™è‚²èˆ‡è—è¡“ç®¡ç†æ¦®è­½æ–‡å­¸å£«åŠä¸­åœ‹æ­·å²æ•™è‚²æ¦®è­½å­¸å£«,17,ä¸­ + Best 4,,,,,,"New programme in 2025, reconstructed from JS8381
+Chinese History (x1.5)
+History (x1.5)","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8381
+ä¸­åœ‹æ­·å² (x1.5)
+æ­·å² (x1.5)",0,0,0,1,1,0,,,
+315,EdUHK,5,EdUHK,JS8006,Bachelor of Social Sciences (Honours) in Psychology and Bachelor of Education (Honours) (Early Childhood Education),å¿ƒç†å­¸æ¦®è­½ç¤¾æœƒç§‘å­¸å­¸å£«åŠå¹¼å…’æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed JS8404
+Chinese Language (x1.5)
+English Language (x1.5)","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8404
+ä¸­æ–‡ (x1.5)
+è‹±æ–‡(x1.5)",0,0,0,0,1,1,,,
+316,EdUHK,5,EdUHK,JS8007,"Bachelor of Arts (Honours) in Personal Finance and Bachelor of Education (Honours) (Business, Accounting and Financial Studies)",å€‹äººç†è²¡æ¦®è­½æ–‡å­¸å£«åŠä¼æ¥­ã€æœƒè¨ˆèˆ‡è²¡å‹™æ¦‚è«–æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8371
+BAFS (Accounting / Business
+Management) (x1.5)
+Economics (x1.5)
+
+Elective must be one of Economics or BAFS","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8371
+BAFSï¼ˆæœƒè¨ˆ/å•†æ¥­ç®¡ç†ï¼‰(x1.5)
+ç¶“æ¿Ÿå­¸ (x1.5)
+
+é¸ä¿®èª²å¿…é ˆæ˜¯ç¶“æ¿Ÿå­¸æˆ–BAFSä¹‹ä¸€",0,1,0,0,1,0,,,
+317,EdUHK,5,EdUHK,JS8008,Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology and Bachelor of Education (Honours) (Information and Communication Technology and Primary Science),äººå·¥æ™ºèƒ½èˆ‡æ•™è‚²ç§‘æŠ€æ¦®è­½ç†å­¸å£«åŠè³‡è¨ŠåŠé€šè¨Šç§‘æŠ€åŠå°å­¸ç§‘å­¸æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8361
+Math, M1/M2 (x1.5)
+ICT (x1.5)
+Biology, Chemistry, Physics (x1.5)
+Combined Science (x1.5)
+Integrated Science (x1.5)
+
+Elective must include one of ICT/ Biology/ Chemistry/ Physics","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8361
+æ•¸å­¸ï¼ŒM1/M2ï¼ˆx1.5ï¼‰
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€ï¼ˆx1.5ï¼‰
+ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç†ï¼ˆx1.5ï¼‰
+çµ„åˆç§‘å­¸ï¼ˆx1.5ï¼‰
+ç¶œåˆç§‘å­¸ï¼ˆx1.5ï¼‰
+
+é¸ä¿®èª²å¿…é ˆåŒ…å«è³‡è¨Šèˆ‡é€šè¨ŠæŠ€è¡“/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†ä¸­çš„ä¸€é–€",0,1,0,0,1,0,,,
+318,EdUHK,5,EdUHK,JS8009,Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology and Bachelor of Education (Honours) (Primary Mathematics),äººå·¥æ™ºèƒ½èˆ‡æ•™è‚²ç§‘æŠ€æ¦®è­½ç†å­¸å£«åŠå°å­¸æ•¸å­¸æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8246
+Math, M1/M2 (x1.5)
+Physics (x1.5)
+
+Elective must include one of ICT/ Biology/ Chemistry/ Physics/ M1/M2","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8246
+æ•¸å­¸ï¼ŒM1/M2ï¼ˆx1.5ï¼‰
+ç‰©ç†ï¼ˆx1.5ï¼‰
+
+é¸ä¿®èª²ç¨‹å¿…é ˆåŒ…å«è³‡è¨Šé€šè¨ŠæŠ€è¡“/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/M1/M2 ä¸­çš„ä¸€é–€",0,1,0,0,1,0,,,
+319,EdUHK,5,EdUHK,JS8010,Bachelor of Science (Honours) in Sports Science and Coaching and Bachelor of Education (Honours) (Physical Education),é‹å‹•ç§‘å­¸åŠæ•™ç·´æ¦®è­½ç†å­¸å£«åŠé«”è‚²æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8325
+Physical Education (x1.5)","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8325
+é«”è‚²ï¼ˆx1.5ï¼‰",0,0,0,0,1,1,,,
+320,EdUHK,5,EdUHK,JS8011,Bachelor of Science (Honours) in Integrated Environmental Management and Bachelor of Education (Honours) (Science),ç¶œåˆç’°å¢ƒç®¡ç†æ¦®è­½ç†å­¸å£«åŠç§‘å­¸æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8430
+Chemistry (x1.5)
+Biology (x1.3)
+Physics (x1.2)
+Math, M1/M2 (x1.1)
+Geography (x1.1)
+
+Elective must include one of Biology/ Chemistry/ Physics","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8430
+åŒ–å­¸ (x1.5)
+ç”Ÿç‰© (x1.3)
+ç‰©ç† (x1.2)
+æ•¸å­¸ï¼ŒM1/M2 (x1.1)
+åœ°ç† (x1.1)
+
+é¸ä¿®èª²å¿…é ˆåŒ…å«ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†å­¸ä¸­çš„ä¸€é–€",0,0,0,0,1,0,,,
+321,EdUHK,5,EdUHK,JS8012,Bachelor of Social Sciences (Honours) in Sociology and Community Studies and Bachelor of Education (Honours) (Geography),ç¤¾æœƒå­¸èˆ‡ç¤¾å€ç ”ç©¶æ¦®è­½ç¤¾æœƒç§‘å­¸å­¸å£«åŠåœ°ç†æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8428
+English (x1.5)
+Geography (x1.5)
+
+Elective must include one of Geography or Tourism and Hospitality Studies","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8428
+è‹±æ–‡(x1.5)
+åœ°ç† (x1.5)
+
+é¸ä¿®èª²å¿…é ˆåŒ…å«åœ°ç†æˆ–æ—…éŠèˆ‡é…’åº—ç®¡ç†å­¸ä¸­çš„ä¸€é–€",0,0,1,0,1,0,,,
+322,EdUHK,5,EdUHK,JS8013,Bachelor of Social Sciences (Honours) in Sociology and Community Studies and Bachelor of Education (Honours) (Primary Humanities),ç¤¾æœƒå­¸èˆ‡ç¤¾å€ç ”ç©¶æ¦®è­½ç¤¾æœƒç§‘å­¸å­¸å£«åŠå°å­¸äººæ–‡ç§‘æ•™è‚²æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8234
+Chinese History (x1.5)
+Economics (x1.5)
+Geography (x1.5)
+History (x1.5)","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8234
+ä¸­åœ‹å² (x1.5)
+ç¶“æ¿Ÿå­¸ (x1.5)
+åœ°ç† (x1.5)
+æ­·å² (x1.5)",0,0,1,0,1,0,,,
+323,EdUHK,5,EdUHK,JS8507,Higher Diploma in Early Childhood Education,å¹¼å…’æ•™è‚²é«˜ç´šæ–‡æ†‘,,#N/A,,16,14.5,,,"Chinese Language (x1.5)
+English Language (x1.5)","ä¸­æ–‡ (x1.5)
+è‹±æ–‡ (x1.5)",0,0,1,0,1,0,,,
+324,EdUHK,5,EdUHK,JS8651,Bachelor of Social Sciences (Honours) in Psychology,å¿ƒç†å­¸æ¦®è­½ç¤¾æœƒç§‘å­¸å­¸å£«,2,Best 5,,20,20,,,"Chinese Language (x1.5)
+English Language (x1.5)","ä¸­æ–‡ (x1.5)
+è‹±æ–‡ (x1.5)",0,0,1,0,1,1,,,
+325,EdUHK,5,EdUHK,JS8663,Bachelor of Arts (Honours) in Special Education,ç‰¹æ®Šæ•™è‚²æ¦®è­½æ–‡å­¸å£«,2,Best 5,,22.8,23,,,"Chinese Language (x1.5)
+English Language (x1.5)","ä¸­æ–‡ (x1.5)
+è‹±æ–‡ (x1.5)",0,0,0,1,1,1,,,
+326,EdUHK,5,EdUHK,JS8674,Bachelor of Arts (Honours) in Digital Chinese Culture and Communication,æ•¸ç¢¼ä¸­åœ‹æ–‡åŒ–èˆ‡å‚³æ„æ¦®è­½æ–‡å­¸å£«,2,Best 5,,,,,,"New programme in 2025, rconstructed from JS8600
+Chinese Language (x1.5)
+Chinese Literature (x1.5)
+ICT (x1.5)","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8600
+ä¸­æ–‡ (x1.5)
+ä¸­åœ‹æ–‡å­¸ (x1.5)
+è³‡è¨Šèˆ‡é€šè¨Šç§‘æŠ€ (x1.5)",0,0,0,0,1,0,,,
+327,EdUHK,5,EdUHK,JS8675,Bachelor of Arts (Honours) in English Studies and Digital Communication,è‹±èªžç ”ç©¶åŠæ•¸ç¢¼å‚³è¨Šæ¦®è­½æ–‡å­¸å£«,2,Best 5,,,,,,"English Language (x1.5)
+ICT (x1.5)
+Literature in English (x1.5)","è‹±æ–‡ (x1.5)
+è³‡è¨Šé€šä¿¡æŠ€è¡“ (x1.5)
+è‹±æ–‡æ–‡å­¸ (x1.5)",0,0,0,0,1,0,,,
+328,EdUHK,5,EdUHK,JS8685,Bachelor of Arts (Honours) in Creative and Digital Arts (Music),å‰µæ„è—è¡“èˆ‡æ•¸ç¢¼è—è¡“æ¦®è­½æ–‡å­¸å£« (éŸ³æ¨‚),2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8636
+Music x1.5","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8636
+éŸ³æ¨‚ x1.5",0,0,0,0,1,0,,,
+329,EdUHK,5,EdUHK,JS8686,Bachelor of Arts (Honours) in Creative and Digital Arts (Visual Arts),å‰µæ„è—è¡“èˆ‡æ•¸ç¢¼è—è¡“æ¦®è­½æ–‡å­¸å£« (è¦–è¦ºè—è¡“),2,Best 5,,,,,,"New programme in 2025, reconstructed from JS8648
+Visual Arts x1.5","2025æ–°å¢žèª²ç¨‹, é‡å»º JS8648
+è¦–è¦ºè—è¡“ x1.5",0,0,0,0,1,0,,,
+330,EdUHK,5,EdUHK,JS8687,Bachelor of Arts (Honours) in Heritage Education and Arts Management,æ–‡åŒ–å‚³æ‰¿æ•™è‚²èˆ‡è—è¡“ç®¡ç†æ¦®è­½æ–‡å­¸å£«,2,Best 5,,25.5,25,,,"Chinese Language (x1.5)
+English Language (x1.5)
+Chinese History (x1.5)
+DAT (x1.5)
+History (x1.5)
+Visual Arts x1.5","ä¸­æ–‡ (x1.5)
+è‹±æ–‡ (x1.5)
+ä¸­åœ‹å² (x1.5)
+DAT (x1.5)
+æ­·å² (x1.5)
+è¦–è¦ºè—è¡“ x1.5",0,0,0,1,1,0,,,
+331,EdUHK,5,EdUHK,JS8688,Bachelor of Arts (Honours) in Personal Finance,å€‹äººç†è²¡æ¦®è­½æ–‡å­¸å£«,2,Best 5,,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,0,1,0,0,1,1,,,
+332,EdUHK,5,EdUHK,JS8702,Bachelor of Science (Honours) in Integrated Environmental Management,ç¶œåˆç’°å¢ƒç®¡ç†æ¦®è­½ç†å­¸å£«,2,Best 5,,22.2,21.7,,,"Biology (x1.6)
+Chemistry (x1.6)
+Geography (x1.2)
+Math, M1/M2 (x1.2)
+Physics (x1.1)
+
+Elective must include one of Biology/ Chemistry/ Physics/ Geography/ Combined Science/ Integrated Science","ç”Ÿç‰©å­¸ (x1.6)
+åŒ–å­¸ (x1.6)
+åœ°ç† (x1.2)
+æ•¸å­¸ï¼ŒM1/M2 (x1.2)
+ç‰©ç† (x1.1)
+
+é¸ä¿®èª²å¿…é ˆåŒ…å«ç”Ÿç‰©å­¸/åŒ–å­¸/ç‰©ç†/åœ°ç†/çµ„åˆç§‘å­¸/ç¶œåˆç§‘å­¸ä¸­çš„ä¸€é–€",0,0,0,0,1,0,,,
+333,EdUHK,5,EdUHK,JS8714,Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology,äººå·¥æ™ºèƒ½èˆ‡æ•™è‚²ç§‘æŠ€æ¦®è­½ç†å­¸å£«,2,Best 5,,23.5,22.5,,,"Math, M1/M2 (x1.5)
+Biology, Chemistry, Physics (x1.5)
+DAT (x1.5)
+ICT (x1.5)
+Combined Science (x1.5)
+Integrated Science (x1.5)
+
+Elective must include one ICT/ Biology/ Chemistry/ Physics/ M1/ M2","æ•¸å­¸ã€M1/M2 (x1.5)
+ç”Ÿç‰©ã€åŒ–å­¸ã€ç‰©ç† (x1.5)
+DAT (x1.5)
+ICT (x1.5)
+çµ„åˆç§‘å­¸ (x1.5)
+ç¶œåˆç§‘å­¸ (x1.5)
+
+é¸ä¿®èª²å¿…é ˆåŒ…å«ICT/ç”Ÿç‰©/åŒ–å­¸/ç‰©ç†/M1/M2ä¸­çš„ä¸€é–€",1,1,0,0,1,0,,,
+334,EdUHK,5,EdUHK,JS8726,Bachelor of Science (Honours) in Sports Science and Coaching,é‹å‹•ç§‘å­¸åŠæ•™ç·´æ¦®è­½ç†å­¸å£«,2,Best 5,,28.5,26.5,,,"Biology (x2)
+Physical Education (x2)
+English Language (x1.5)
+Math, M1/M2 (x1.5)
+DAT (x1.5)
+ICT (x1.5)","ç”Ÿç‰© (x2)
+é«”è‚² (x2)
+è‹±æ–‡ (x1.5)
+æ•¸å­¸ï¼ŒM1/M2 (x1.5)
+DAT (x1.5)
+ICT (x1.5)",0,0,0,0,1,0,,,
+335,EdUHK,5,EdUHK,JS8727,Bachelor of Science (Honours) in Speech Pathology and Rehabilitation,è¨€èªžç—…ç†å­¸åŠå¾©åº·æ¦®è­½ç†å­¸å£«,2,Best 5,,,,,,"New programme in 2025
+Chinese Language (x1.5)
+English Language (x1.5)","2025æ–°å¢žèª²ç¨‹
+ä¸­æ–‡ (x1.5)
+è‹±æ–‡ (x1.5)",0,0,0,1,1,1,,,
+336,HKMU,9,HKMU,JS9009,Bachelor of Social Sciences with Honours,ç¤¾æœƒç§‘å­¸æ¦®è­½å­¸å£«,2,Best 5,,16,15,,,,,0,0,1,0,0,0,,,
+337,HKMU,9,HKMU,JS9010,Bachelor of Social Sciences with Honours in Psychology,å¿ƒç†å­¸æ¦®è­½ç¤¾æœƒç§‘å­¸å­¸å£«,2,Best 5,,16,14,,,,,0,0,1,0,0,0,,,
+338,HKMU,9,HKMU,JS9011,Bachelor of Arts with Honours in Chinese,ä¸­æ–‡æ¦®è­½æ–‡å­¸å£«,2,Best 5,,21,20,,,Chinese x2,ä¸­æ–‡ x2,0,0,0,0,0,0,,,
+339,HKMU,9,HKMU,JS9013,Bachelor of Arts with Honours in Language Studies and Translation,èªžè¨€ç ”ç©¶èˆ‡ç¿»è­¯æ¦®è­½æ–‡å­¸å£«,2,Best 5,,20,18,,,"Chinese Language (x1.5)
+English Language (x1.5)","ä¸­æ–‡ (x1.5)
+è‹±æ–‡(x1.5)",1,0,0,0,0,0,,,
+340,HKMU,9,HKMU,JS9016,Bachelor of Arts with Honours in Creative Advertising and Media Design,å‰µæ„å»£å‘ŠåŠåª’é«”è¨­è¨ˆæ¦®è­½æ–‡å­¸å£«,2,Best 5,,19,18,,,"Chinese Language (x1.5)
+English Language (x1.5)","ä¸­æ–‡ (x1.5)
+è‹±æ–‡ (x1.5)",0,0,0,0,0,0,,,
+341,HKMU,9,HKMU,JS9019,Bachelor of Arts with Honours in English Language and Culture,è‹±èªžåŠæ–‡åŒ–æ¦®è­½æ–‡å­¸å£«,2,Best 5,,16,15,,,,,0,0,0,0,0,0,,,
+342,HKMU,9,HKMU,JS9220,Bachelor of Business Administration with Honours in Professional Accounting,å°ˆæ¥­æœƒè¨ˆæ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,17,16,,,,,1,1,0,0,0,0,,,
+343,HKMU,9,HKMU,JS9230,Bachelor of Business Administration with Honours in Business Management,å•†æ¥­ç®¡ç†å­¸æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,16,15,,,,,1,0,0,0,0,0,,,
+344,HKMU,9,HKMU,JS9240,Bachelor of Business Administration with Honours in Global Business,ç’°çƒå•†æ¥­æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,17,16,,,,,1,0,0,0,0,0,,,
+345,HKMU,9,HKMU,JS9262,Bachelor of Business Administration with Honours in Human Resource Management,äººåŠ›è³‡æºç®¡ç†å­¸æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,16,16,,,,,1,0,0,0,0,0,,,
+346,HKMU,9,HKMU,JS9266,Bachelor of Business Administration with Honours in Marketing,å¸‚å ´å­¸æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,16,15,,,,,1,0,0,0,0,0,,,
+347,HKMU,9,HKMU,JS9276,Bachelor of Business Administration with Honours in Real Estate and Surveying,æˆ¿åœ°ç”¢åŠæ¸¬é‡å­¸æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,0,0,0,0,0,0,,,
+348,HKMU,9,HKMU,JS9280,"Bachelor of Applied Psychology with Honours, Bachelor of Business Management with Honours",æ‡‰ç”¨å¿ƒç†å­¸æ¦®è­½å­¸å£«ï¼Œå•†æ¥­ç®¡ç†æ¦®è­½å­¸å£«,2,Best 5,,15,14,,,,,0,0,0,0,0,0,,,
+349,HKMU,9,HKMU,JS9291,Bachelor of Business Administration with Honours in Sustainable Tourism and Hospitality Management,æŒçºŒæ—…éŠåŠæ¬¾å¾…ç®¡ç†æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,16,14,,,,,0,0,0,0,0,0,,,
+350,HKMU,9,HKMU,JS9294,Bachelor of Business Administration with Honours in Sports and eSports Management,é‹å‹•åŠé›»ç«¶é‹å‹•ç®¡ç†æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,2,Best 5,,17,15,,,,,0,0,0,0,0,0,,,
+351,HKMU,9,HKMU,JS9520,Bachelor of Education with Honours (Putonghua and Chinese Language Education) and Bachelor of Language Studies with Honours (Chinese Linguistic Studies),æ•™è‚²æ¦®è­½å­¸å£«ï¼ˆæ™®é€šè©±åŠä¸­æ–‡æ•™è‚²ï¼‰åŠèªžè¨€ç ”ç©¶æ¦®è­½å­¸å£«ï¼ˆæ¼¢èªžèªžè¨€å­¸ç ”ç©¶ï¼‰,2,Best 5,,20,18,,,Chinese x2,ä¸­æ–‡ x2,0,0,0,0,0,0,,,
+352,HKMU,9,HKMU,JS9530,Bachelor of Education with Honours in English Language Teaching and Bachelor of English Language Studies with Honours,è‹±èªžæ•™å­¸æ¦®è­½æ•™è‚²å­¸å£«åŠè‹±èªžç ”ç©¶æ¦®è­½å­¸å£«,2,Best 5,,20,19,,,English x2,è‹±æ–‡ x2,0,0,0,0,0,0,,,
+353,HKMU,9,HKMU,JS9540,Bachelor of English Language Studies with Honours,è‹±èªžç ”ç©¶æ¦®è­½å­¸å£«,2,Best 5,,19,17,,,English x3,è‹±æ–‡ x3,0,0,1,1,0,0,,,
+354,HKMU,9,HKMU,JS9550,Bachelor of Language Studies with Honours (Applied Chinese Language Studies),æ•™è‚²æ¦®è­½å­¸å£«ï¼ˆä¸­åœ‹èªžæ–‡æ•™å­¸ï¼‰åŠèªžè¨€ç ”ç©¶æ¦®è­½å­¸å£«ï¼ˆæ‡‰ç”¨ä¸­åœ‹èªžè¨€ï¼‰,2,Best 5,,19,19,,,"Chinese x2
+Chinese Literature x2","ä¸­æ–‡ x2
+ä¸­åœ‹æ–‡å­¸ x2",0,0,0,0,0,0,,,
+355,HKMU,9,HKMU,JS9555,Bachelor of Language Studies with Honours in Bilingual Studies with Applied Drama,é›™èªžç ”ç©¶åŠæ‡‰ç”¨æˆ²åŠ‡èªžè¨€ç ”ç©¶æ¦®è­½å­¸å£«,2,Best 5,,,,,,"New programme in 2025
+Chinese Language x2
+English Language x2","2025æ–°å¢žèª²ç¨‹
+ä¸­æ–‡ x2
+è‹±æ–‡ x2",0,0,0,1,0,0,,,
+356,HKMU,9,HKMU,JS9560,Bachelor of Education with Honours (Chinese Language Teaching) and Bachelor of Language Studies with Honours (Applied Chinese Language Studies),æ•™è‚²æ¦®è­½å­¸å£«ï¼ˆä¸­åœ‹èªžæ–‡æ•™å­¸ï¼‰åŠèªžè¨€ç ”ç©¶æ¦®è­½å­¸å£«ï¼ˆæ‡‰ç”¨ä¸­åœ‹èªžè¨€ï¼‰,2,Best 5,,22,21,,,"Chinese x2
+Chinese Literature x2","ä¸­æ–‡ x2
+ä¸­åœ‹æ–‡å­¸ x2",0,0,0,0,0,0,,,
+357,HKMU,9,HKMU,JS9580,Bachelor of Education with Honours in Early Childhood Education (Leadership and Special Educational Needs),æ•™è‚²æ¦®è­½å­¸å£«(å¹¼å…’æ•™è‚²: é ˜å°ŽåŠç‰¹æ®Šæ•™è‚²éœ€è¦),2,Best 5,,16,14,,,"Child Care and Education x2
+Child Care and Development x2","å…’ç«¥ç…§é¡§èˆ‡æ•™è‚² x2
+å…’ç«¥ç…§é¡§èˆ‡ç™¼å±• x2",0,0,1,1,0,1,,,
+358,HKMU,9,HKMU,JS9719,Bachelor of Science with Honours in Cyber and Computer Security,ç¶²è·¯åŠé›»è…¦å®‰å…¨æ¦®è­½ç†å­¸å£«,2,Best 5,,16,14,,,,,1,1,0,0,0,0,,,
+359,HKMU,9,HKMU,JS9720,Bachelor of Engineering with Honours in Electronic and Computer Engineering,é›»å­åŠé›»è…¦å·¥ç¨‹å­¸æ¦®è­½å·¥å­¸å£«,2,Best 5,,17,16,,,,,1,1,0,0,0,0,,,
+360,HKMU,9,HKMU,JS9731,Bachelor of Science with Honours in Environmental Science and Green Management,ç’°å¢ƒç§‘å­¸èˆ‡ç¶ è‰²ç®¡ç†æ¦®è­½ç†å­¸å£«,2,Best 5,,17,15,,,,,0,0,0,0,0,0,,,
+361,HKMU,9,HKMU,JS9732,Bachelor of Science with Honours in Biomedical Sciences and Biotechnology,ç”Ÿç‰©é†«å­¸èˆ‡ç”Ÿç‰©ç§‘æŠ€æ¦®è­½ç†å­¸å£«,2,Best 5,,16,16,,,,,0,1,0,1,0,0,,,
+362,HKMU,9,HKMU,JS9733,Bachelor of Science with Honours in Science (STEAM),ç§‘å­¸ï¼ˆï¼³ï¼´ï¼¥ï¼¡ï¼­ï¼‰æ¦®è­½ç†å­¸å£«,2,Best 5,,17,15,,,,,0,0,0,0,0,0,,,
+363,HKMU,9,HKMU,JS9776,Bachelor of Science with Honours in Building Engineering and Management,å»ºé€ å·¥ç¨‹èˆ‡ç®¡ç†æ¦®è­½ç†å­¸å£«,2,Best 5,,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,1,1,0,0,0,0,,,
+364,SSSDP,10,SFU,JSSA01,Bachelor of Nursing (Honours),è­·ç†å­¸æ¦®è­½å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,0,0,0,0,0,0,,,
+365,SSSDP,10,SFU,JSSA02,Bachelor of Science (Honours) in Digital Entertainment Technology,æ•¸ç¢¼å¨›æ¨‚ç§‘æŠ€ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,0,0,1,0,0,0,,,
+366,SSSDP,10,SFU,JSSA03,Bachelor of Science (Honours) in Physiotherapy,ç‰©ç†æ²»ç™‚å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,21,,,,,,0,1,0,1,0,1,,,
+367,SSSDP,10,SFU,JSSA04,Bachelor of Science (Honours) in Artificial Intelligence,äººå·¥æ™ºèƒ½ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,1,1,0,0,0,0,,,
+368,SSSDP,10,SFU,JSSA05,Bachelor of Arts (Honours) in Translation Technology,ç¿»è­¯ç§‘æŠ€ (æ¦®è­½) æ–‡å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,17,,,,,,0,0,1,0,0,0,,,
+369,SSSDP,10,SFU,JSSA06,Bachelor of Business Administration (Honours) in Applied Hotel and Tourism Management,å·¥å•†ç®¡ç†ï¼ˆæ¦®è­½ï¼‰é…’åº—åŠæ—…éŠç®¡ç†æ‡‰ç”¨å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15,,,,,,1,0,0,0,0,0,,,
+370,SSSDP,10,CHC,JSSC02,Bachelor of Science (Honours) in Architecture,å»ºç¯‰å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,15,,13,,,,,1,0,0,0,0,1,,,
+371,SSSDP,10,HSUHK,JSSH01, Bachelor of Business Administration (Honours) in Supply Chain Management,ä¾›æ‡‰éˆç®¡ç†å·¥å•†ç®¡ç†ï¼ˆæ¦®è­½ï¼‰å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16.23,,,,,,0,0,1,0,0,0,,,
+372,SSSDP,10,HSUHK,JSSH02,Bachelor of Science (Honours) in Actuarial Studies and Insurance,ç²¾ç®—åŠä¿éšª ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16.42,,,,,,0,0,0,0,0,0,,,
+373,SSSDP,10,HSUHK,JSSH03,Bachelor of Science (Honours) in Applied Computing,è¨ˆç®—æ©Ÿæ‡‰ç”¨ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15.73,,,,,,1,1,0,0,0,0,,,
+374,SSSDP,10,HSUHK,JSSH04,Bachelor of Science (Honours) in Data Science and Business Intelligence,æ•¸æ“šç§‘å­¸åŠå•†æ¥­æ™ºèƒ½å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,1,1,0,0,0,0,,,
+375,SSSDP,10,HSUHK,JSSH05,Bachelor of Management Science and Information Management (Honours),ç®¡ç†ç§‘å­¸èˆ‡è³‡è¨Šç®¡ç†ï¼ˆæ¦®è­½ï¼‰å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16.05,,,,,,1,0,0,0,0,0,,,
+376,SSSDP,10,HSUHK,JSSH06,Bachelor of Arts (Honours) in Art and Design,è—è¡“è¨­è¨ˆï¼ˆæ¦®è­½ï¼‰æ–‡å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15.49,,,,,,0,0,0,0,0,0,,,
+377,SSSDP,10,TWC,JSST01,Bachelor of Health Science (Honours) in Nursing,è­·ç†å­¸ï¼ˆæ¦®è­½ï¼‰å¥åº·ç§‘å­¸å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16.2,,,,,,0,0,0,0,0,1,,,
+378,SSSDP,10,TWC,JSST02,Bachelor of Science (Honours) in Medical Laboratory Science,é†«ç™‚åŒ–é©—ç§‘å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,21.2,,,,,,0,0,0,1,0,1,,,
+379,SSSDP,10,TWC,JSST03,Bachelor of Science (Honours) in Radiation Therapy,æ”¾å°„æ²»ç™‚å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,24.3,,,,,,0,1,0,0,0,1,,,
+380,SSSDP,10,TWC,JSST04,Bachelor of Science (Honours) in Occupational Therapy,è·æ¥­æ²»ç™‚å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,21.3,,,,,,0,1,0,0,0,1,,,
+381,SSSDP,10,TWC,JSST05,Bachelor of Science (Honours) in Physiotherapy,ç‰©ç†æ²»ç™‚å­¸(æ¦®è­½)ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,23.7,,,,,,0,1,0,1,0,1,,,
+382,SSSDP,10,TWC,JSST06,Bachelor of Science (Honours) in Applied Gerontology,æ‡‰ç”¨è€å¹´å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,18,,,,,,0,0,1,1,0,0,,,
+383,SSSDP,10,TWC,JSST07,Bachelor of Health Information and Services Management (Honours),é†«ç™‚è³‡è¨ŠåŠæœå‹™ç®¡ç†ï¼ˆæ¦®è­½ï¼‰å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15.8,,,,,,0,0,1,0,0,0,,,
+384,SSSDP,10,TWC,JSST08,Bachelor of Science (Honours) in Medical Imaging,é†«ç™‚å½±åƒå­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,0,1,0,0,0,1,,,
+385,SSSDP,10,HKMU,JSSU12,Bachelor of Arts with Honours in Creative Writing and Film ArtsUPDATED,å‰µæ„å¯«ä½œèˆ‡é›»å½±è—è¡“æ¦®è­½æ–‡å­¸å£«,13,3C+2X,,19,17,,,"Chinese x1.5
+English x2","ä¸­æ–‡ x1.5
+è‹±æ–‡ x2",0,0,1,1,0,0,,,
+386,SSSDP,10,HKMU,JSSU14,Bachelor of Fine Arts with Honours in Animation and Visual EffectsUPDATED,å‹•ç•«åŠè¦–è¦ºç‰¹æ•ˆæ¦®è­½è—è¡“å­¸å£«,13,3C+2X,,16,15,,,,,0,0,0,1,0,0,,,
+387,SSSDP,10,HKMU,JSSU15,Bachelor of Fine Arts with Honours in Imaging Design and Digital Art,å½±åƒè¨­è¨ˆåŠæ•¸ç¢¼è—è¡“æ¦®è­½è—è¡“å­¸å£«,13,3C+2X,,16,15,,,,,1,0,1,0,0,0,,,
+388,SSSDP,10,HKMU,JSSU18,Bachelor of Arts with Honours in New Music and Interactive Entertainment,æ–°éŸ³æ¨‚åŠäº’å‹•å¨›æ¨‚æ¦®è­½æ–‡å­¸å£«,13,3C+2X,,16,14,,,,,0,0,0,1,0,0,,,
+389,SSSDP,10,HKMU,JSSU40,Bachelor of Nursing with Honours in General Health Care,è­·ç†å­¸æ¦®è­½å­¸å£«ï¼ˆæ™®é€šç§‘ï¼‰,13,3C+2X,,20,19,,,"Biology x1.2
+Chemistry x1.2
+Physics x1.2
+Health Management & Social Care x1.2","ç”Ÿç‰©å­¸ x1.2
+åŒ–å­¸ x1.2
+ç‰©ç†å­¸ x1.2
+å¥åº·ç®¡ç†èˆ‡ç¤¾æœƒé—œæ‡· x1.2",0,0,0,0,0,1,,,
+390,SSSDP,10,HKMU,JSSU50,Bachelor of Nursing with Honours in Mental Health Care,è­·ç†å­¸æ¦®è­½å­¸å£«ï¼ˆç²¾ç¥žç§‘ï¼‰,13,3C+2X,,17,16,,,"Biology x1.2
+Chemistry x1.2
+Physics x1.2
+Health Management & Social Care x1.2","ç”Ÿç‰©å­¸ x1.2
+åŒ–å­¸ x1.2
+ç‰©ç†å­¸ x1.2
+å¥åº·ç®¡ç†èˆ‡ç¤¾æœƒé—œæ‡· x1.2",0,0,0,0,0,1,,,
+391,SSSDP,10,HKMU,JSSU55,Bachelor of Science with Honours in Physiotherapy,ç‰©ç†æ²»ç™‚å­¸æ¦®è­½ç†å­¸å£«,13,3C+2X,,25,24,,,,,0,1,0,1,0,1,,,
+392,SSSDP,10,HKMU,JSSU61,"Bachelor of Applied Science with Honours in Integrated Testing, Inspection and Certification",ç¶œåˆæª¢æ¸¬å’Œèªè­‰æ¦®è­½æ‡‰ç”¨ç†å­¸å£«,13,3C+2X,,16,16,,,,,0,0,1,0,0,0,,,
+393,SSSDP,10,HKMU,JSSU67,Bachelor of Science with Honours in Medical Laboratory Science,é†«ç™‚åŒ–é©—ç§‘å­¸æ¦®è­½ç†å­¸å£«,13,3C+2X,,17,17,,,,,0,0,0,0,0,1,,,
+394,SSSDP,10,HKMU,JSSU69,Bachelor of Science with Honours in Food Testing Science,é£Ÿå“æ¸¬è©¦ç§‘å­¸æ¦®è­½ç†å­¸å£«,13,3C+2X,,16,15,,,,,0,0,0,0,0,1,,,
+395,SSSDP,10,HKMU,JSSU70,Bachelor of Science with Honours in Data Science and Artificial Intelligence,æ•¸æ“šç§‘å­¸åŠäººå·¥æ™ºèƒ½æ¦®è­½ç†å­¸å£«,13,3C+2X,,16,15,,,,,1,1,0,0,0,0,,,
+396,SSSDP,10,HKMU,JSSU72,Bachelor of Science with Honours in Computer Science,é›»è…¦ç§‘å­¸æ¦®è­½ç†å­¸å£«,13,3C+2X,,16,16,,,,,1,1,0,0,0,0,,,
+397,SSSDP,10,HKMU,JSSU77,Bachelor of Science with Honours in Construction Management and Quantity Surveying,å»ºç¯‰ç®¡ç†åŠå·¥æ–™æ¸¬é‡å­¸æ¦®è­½ç†å­¸å£«,,#N/A,,17,16,,,,,1,0,0,0,0,0,,,
+398,SSSDP,10,HKMU,JSSU78,Bachelor of Engineering with Honours in Building Services Engineering and Sustainable Development,å±‹å®‡è¨­å‚™å·¥ç¨‹åŠå¯æŒçºŒç™¼å±•æ¦®è­½å·¥å­¸å£«,13,3C+2X,,17,16,,,,,1,0,0,0,0,0,,,
+399,SSSDP,10,HKMU,JSSU79,Bachelor of Engineering with Honours in Civil Engineering,åœŸæœ¨å·¥ç¨‹æ¦®è­½å·¥å­¸å£«,13,3C+2X,,16,16,,,,,1,1,0,0,0,0,,,
+400,SSSDP,10,HKMU,JSSU90,Bachelor of International Hospitality and Attractions Management with Honours,åœ‹éš›æ¬¾å¾…åŠæ™¯å€ç®¡ç†æ¦®è­½å­¸å£«,13,3C+2X,,16,15,,,,,1,0,1,0,0,0,,,
+401,SSSDP,10,HKMU,JSSU93,Bachelor of Business Administration with Honours in Aviation Services Management,èˆªç©ºæœå‹™ç®¡ç†æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,13,3C+2X,,16,16,,,,,0,0,0,0,0,0,,,
+402,SSSDP,10,HKMU,JSSU95,Bachelor of Sports and Recreation Management with Honours,é‹å‹•åŠåº·æ¨‚ç®¡ç†æ¦®è­½å­¸å£«,13,3C+2X,,17,15,,,,,0,0,1,0,0,0,,,
+403,SSSDP,10,HKMU,JSSU96,Bachelor of Business Administration with Honours in Financial Technology and Innovation,é‡‘èžç§‘æŠ€åŠå‰µæ–°æ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,13,3C+2X,,17,16,,,,,1,1,0,0,0,0,,,
+404,SSSDP,10,HKMU,JSSU97,Bachelor of Business Administration with Honours in Global Marketing and Supply Chain Management,ç’°çƒå¸‚å ´åŠä¾›æ‡‰éˆæ¦®è­½å·¥å•†ç®¡ç†å­¸å£«,13,3C+2X,,17,16,,,,,1,0,0,1,0,0,,,
+405,SSSDP,10,VTC-THEi,JSSV01,Bachelor of Arts (Honours) in Fashion Design,æ™‚è£è¨­è¨ˆï¼ˆæ¦®è­½ï¼‰æ–‡å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15,,,,,,0,0,1,0,0,0,,,
+406,SSSDP,10,VTC-THEi,JSSV02,Bachelor of Arts (Honours) in Product Design,ç”¢å“è¨­è¨ˆï¼ˆæ¦®è­½ï¼‰æ–‡å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15,,,,,,0,0,1,1,0,0,,,
+407,SSSDP,10,VTC-THEi,JSSV03,Bachelor of Arts (Honours) in Landscape Architecture,åœ’å¢ƒå»ºç¯‰ï¼ˆæ¦®è­½ï¼‰æ–‡å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,0,0,0,0,0,0,,,
+408,SSSDP,10,VTC-THEi,JSSV04,Bachelor of Arts (Honours) in Culinary Arts and Management,å»šè—åŠç®¡ç†ï¼ˆæ¦®è­½ï¼‰æ–‡å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,0,0,1,1,0,0,,,
+409,SSSDP,10,VTC-THEi,JSSV05,Bachelor of Engineering (Honours) in Civil Engineering,åœŸæœ¨å·¥ç¨‹ï¼ˆæ¦®è­½ï¼‰å·¥å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,1,1,0,0,0,0,,,
+410,SSSDP,10,VTC-THEi,JSSV07,"Bachelor of Science (Honours) in Horticulture, Arboriculture and Landscape Management",åœ’è—æ¨¹è—åŠåœ’å¢ƒç®¡ç†ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15,,,,,,0,0,1,1,0,0,,,
+411,SSSDP,10,VTC-THEi,JSSV08,Bachelor of Science (Honours) in Surveying,æ¸¬é‡å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,0,0,1,0,0,0,,,
+412,SSSDP,10,VTC-THEi,JSSV09,Bachelor of Social Sciences (Honours) in Sports and Recreation ManagementUPDATED,é‹å‹•åŠåº·æ¨‚ç®¡ç†ï¼ˆæ¦®è­½ï¼‰ç¤¾æœƒç§‘å­¸å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15,,,,,,0,0,1,0,0,0,,,
+413,SSSDP,10,VTC-THEi,JSSV10,Bachelor of Engineering (Honours) in Building Services Engineering,å±‹å®‡è¨­å‚™å·¥ç¨‹ï¼ˆæ¦®è­½ï¼‰å·¥å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15,,,,,,0,0,0,0,0,0,,,
+414,SSSDP,10,VTC-THEi,JSSV13,Bachelor of Social Sciences (Honours) in Sports Coaching,é‹å‹•æ•™ç·´(æ¦®è­½)ç¤¾æœƒç§‘å­¸å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,,,,,New programme in 2025,2025æ–°å¢žèª²ç¨‹,0,0,1,0,0,0,,,
+415,SSSDP,10,UOWCHK,JSSW01,Bachelor of Aviation (Honours) in Operations and Management,ç‡Ÿé‹åŠç®¡ç†ï¼ˆæ¦®è­½ï¼‰èˆªç©ºå­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,14.3,,,,,,0,0,1,0,0,0,,,
+416,SSSDP,10,UOWCHK,JSSW02,Bachelor of Maritime Services and Operations Management (Honours),èˆªé‹æœå‹™åŠç‡Ÿé‹ç®¡ç†å­¸å£«ï¼ˆæ¦®è­½ï¼‰,45,ä¸­è‹±æ•¸ + Best 1 elective,,14,,,,,,0,0,0,0,0,0,,,
+417,SSSDP,10,HKSYU,JSSY01,Bachelor of Commerce (Honours) in Financial Technology,é‡‘èžç§‘æŠ€ï¼ˆæ¦®è­½ï¼‰å•†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,15.9,,,,,,1,1,0,0,0,0,,,
+418,SSSDP,10,HKSYU,JSSY02,Bachelor of Science (Honours) in Applied Data Science,æ‡‰ç”¨æ•¸æ“šç§‘å­¸ï¼ˆæ¦®è­½ï¼‰ç†å­¸å£«,45,ä¸­è‹±æ•¸ + Best 1 elective,,16,,,,,,1,1,0,0,0,0,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,, ,,,,,,,,,,,,,,,,,,,
+,,,,,Standard:,,,,,,,,,,,,,,,,,,,
+,,,,1,4C+2X,,,,,,,,,,,,,,,,,,,
+,,,,2,Best 5,,,,,,,,,,,,,,,,,,,
+,,,,3,Best 6,,,,,,,,,,,,,,,,,,,
+,,,,4,è‹±+4ç§‘,,,,,,,,,,,,,,,,,,,
+,,,,5,ä¸­è‹±+3ç§‘,,,,,,,,,,,,,,,,,,,
+,,,,6,E + M + 2X(S) + 1S,,,,,,,,,,,,,,,,,,,
+,,,,7,E + M + X + 2S,,,,,,,,,,,,,,,,,,,
+,,,,8,E + M + Best 4,,,,,,,,,,,,,,,,,,,
+,,,,9,E + M + 4S^,,,,,,,,,,,,,,,,,,,
+,,,,10,E + M + X + 3S,,,,,,,,,,,,,,,,,,,
+,,,,11,E + M + X(S) + 3S,,,,,,,,,,,,,,,,,,,
+,,,,12,4C+1X,,,,,,,,,,,,,,,,,,,
+,,,,,"""E= English, M= Math
+X= Elective [X(S)= Science Elective]
+S= Other Subject(s)
+^Chemistry/ Economics/ Physics/ M1/ M2 + 3 Other Subject(s)",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Rule number,New Calculation Methods:,è¬ä¸€åšä¸åˆ°,,è¬ä¸€åšä¸åˆ°,,,,,,,,,,,,,,,,
+,,,,13,3C+2X,,,4C+2X,,,,,,,,,,,,,,,,
+,,,,14,Best 4,,,Best 5,,,,,,,,,,,,,,,,
+,,,,15,E + Best Math + Best 3,E + M + X + 2S,7,E + M + Best 4,,,,,,,,,,,,,,,,
+,,,,16,ä¸­è‹±æ•¸ + Best 2,4C+2X,1,ä¸­è‹±+3ç§‘,,,,,,,,,,,,,,,,
+,,,,17,ä¸­ + Best 4,ä¸­è‹±+3ç§‘,5,4C+1X,,,,,,,,,,,,,,,,
+,,,,18,Math + Best M1/M2 + Best 3,E + M + X(S) + 3S,11,E + M + 2X(S) + 1S,,,,,,,,,,,,,,,,
+,,,,19,E + M + X(S) + 2S,E + M + X + 2S,7,E + M + X + 2S,,,,,,,,,,,,,,,,
+,,,,20,E + M + Best 3,E + M + X + 3S,10,E + M + Best 4,,,,,,,,,,,,,,,,
+,,,,21,E + M + Bio/Chem + Best 2,E + M + X(S) + 3S,11,E + M + X(S) + 3S,,,,,,,,,,,,,,,,
+,,,,22,M + Best 4,E + M + Best 4,10,Best 5,,,,,,,,,,,,,,,,
+,,,,23,E + Best 3,ä¸­è‹±+3ç§‘,5,E + M + Best 4,,,,,,,,,,,,,,,,
+,,,,24,E + Best 5 ,Best 5,2,Best 6,,,,,,,,,,,,,,,,
+,,,,25,BIo/chem + Best 5,Best 5,2,E + M + 4S^,,,,,,,,,,,,,,,,
+,,,,26,E+M+Sci+Best 2,E + M + X(S) + 3S,11,E + M + X(S) + 3S,,,,,,,,,,,,,,,,
+,,,,27,E+M+M1/M2+Best 2,E + M + X(S) + 3S,11,E + M + 2X(S) + 1S,,,,,,,,,,,,,,,,
+,,,,28,Best 7,Best 6,3,Best 6,,,,,,,,,,,,,,,,
+,,,,29,E+M+M1/M2+Best 4,E + M + 4S^,9,E + M + Best 5,,,,,,,,,,,,,,,,
+,,,,30,E+M+Best 5,E + M + Best 4,8,Best 6,,,,,,,,,,,,,,,,
+,,,,31,E+M+Best 2 in M1/M2 and Sci+Best subject,E + M + Best 4,8,E + M + X(S) + 3S,,,,,,,,,,,,,,,,
+,,,,32,E+Best 4,E + M + 4S^,9,Best 5,,,,,,,,,,,,,,,,
+,,,,33,E+M/M1/M2+Sci+Best 3,E + M + Best 4,8,E + M + X(S) + 3S,,,,,,,,,,,,,,,,
+,,,,34,M+Best 3,,,,,,,,,,,,,,,,,,,
+,,,,35,E+M+Biology+Chemistry+Best 1,,,,,,,,,,,,,,,,,,,
+,,,,36,Bio/Chem + Best 4,,,,,,,,,,,,,,,,,,,
+,,,,37,Chem+Best 4,,,,,,,,,,,,,,,,,,,
+,,,,38,Best 5 + 1(if 6th subject >= lvl3),,,,,,,,,,,,,,,,,,,
+,,,,39,M+M1/M2+Best 3,,,,,,,,,,,,,,,,,,,
+,,,,40,E+M+Best 2 of Physics/Chemistry/Biology/M1/M2+Best 1,,,,,,,,,,,,,,,,,,,
+,,,,41,E+M+Best 2 of Physics/Chemistry/Biology//M1/M2+Best 2,,,,,,,,,,,,,,,,,,,
+,,,,42,E+M+Best 1 of Physics/Chemistry/Biology//ICT+Best 2,,,,,,,,,,,,,,,,,,,
+,,,,43,E+M+Best 4,,,,,,,,,,,,,,,,,,,
+,,,,44,E+M+M1/M2+Best 3,,,,,,,,,,,,,,,,,,,
+,,,,45,ä¸­è‹±æ•¸ + Best 1 elective,,,,,,,,,,,,,,,,,,,
+,,,,,"Sci:Biology, chemistry, Combined Science, Integrated Science, Physics",,,,,,,,,,,,,,,,,,,

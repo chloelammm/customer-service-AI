@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightPick HK - AI Service Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto+Sans+TC', sans-serif; }
+        .rp-blue { background-color: #0047AB; }
+        .rp-text-blue { color: #0047AB; }
+        .sidebar-gradient { background: linear-gradient(180deg, #0047AB 0%, #002D6B 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 flex min-h-screen">
+
+    <aside class="w-64 sidebar-gradient text-white hidden lg:flex flex-col p-6 sticky top-0 h-screen">
+        <div class="mb-10 text-xl font-bold border-b border-blue-400 pb-4 italic">RightPick HK</div>
+        <nav class="space-y-6 text-sm opacity-90">
+            <a href="#" class="block hover:text-blue-200">Home / 首頁</a>
+            <a href="#" class="block hover:text-blue-200">JUPAS Strategy / 升學策略</a>
+            <a href="#" class="block hover:text-blue-200">Career Analysis / 職業分析</a>
+            <a href="#" class="block hover:text-blue-200">Social Care / 社會關懷</a>
+            <a href="#" class="block hover:text-blue-200">About Us / 關於我們</a>
+        </nav>
+        <div class="mt-auto pt-6 border-t border-blue-400 text-xs opacity-60">
+            © 2026 RightPick Technology Limited
+        </div>
+    </aside>
+
+    <main class="flex-1 p-8">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex justify-between items-center mb-10">
+                <h2 class="text-2xl font-bold text-slate-800">Welcome back to RightPick</h2>
+                <div class="flex gap-4">
+                    <button class="text-sm px-4 py-2 border rounded-full text-slate-600 hover:bg-white transition">繁體中文</button>
+                    <button class="text-sm px-4 py-2 rp-blue text-white rounded-full">Sign In</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-600 hover:shadow-md transition cursor-pointer">
+                    <span class="text-2xl mb-2 block">🎓</span>
+                    <h4 class="font-bold text-slate-800">JUPAS AI Guide</h4>
+                    <p class="text-xs text-slate-500 mt-2">Personalized university placement analysis based on your goals.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-emerald-500 hover:shadow-md transition cursor-pointer">
+                    <span class="text-2xl mb-2 block">💼</span>
+                    <h4 class="font-bold text-slate-800">Career Personality</h4>
+                    <p class="text-xs text-slate-500 mt-2">Identify your 18-type personality match for the job market.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-orange-400 hover:shadow-md transition cursor-pointer">
+                    <span class="text-2xl mb-2 block">🤝</span>
+                    <h4 class="font-bold text-slate-800">Community Support</h4>
+                    <p class="text-xs text-slate-500 mt-2">Language and dental services for the marginalized.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-12 text-center border-2 border-dashed border-slate-200">
+                <p class="text-slate-400">Interactive Career Trends and Data Visualization will appear here.</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="ai-panel" class="w-80 bg-white border-l shadow-2xl flex flex-col transition-all duration-300">
+        <div class="rp-blue p-5 text-white">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">🤖</div>
+                <div>
+                    <h3 class="font-bold text-sm">RightPick Pathfinder</h3>
+                    <p class="text-[10px] opacity-70">Multimodal AI Concierge</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-1 p-4 overflow-y-auto space-y-4" id="chat-box">
+            <div class="bg-blue-50 p-3 rounded-tr-xl rounded-br-xl rounded-bl-xl text-sm rp-text-blue leading-relaxed">
+                Welcome to RightPick HK. Would you like to start a <strong>Career Match</strong> or explore <strong>DSE JUPAS</strong> options?
+            </div>
+            
+            <div class="space-y-2">
+                <button class="w-full text-left text-xs p-2.5 rounded-lg border border-slate-200 hover:border-blue-400 hover:bg-blue-50 transition">
+                    🔍 Find my personality type
+                </button>
+                <button class="w-full text-left text-xs p-2.5 rounded-lg border border-slate-200 hover:border-blue-400 hover:bg-blue-50 transition">
+                    📈 Compare fresh grad salaries
+                </button>
+                <button class="w-full text-left text-xs p-2.5 rounded-lg border border-slate-200 hover:border-blue-400 hover:bg-blue-50 transition">
+                    🏠 Minorities/Elderly Services
+                </button>
+            </div>
+        </div>
+
+        <div class="p-4 border-t">
+            <div class="flex gap-2 mb-3">
+                <span class="text-[10px] bg-slate-100 px-2 py-1 rounded text-slate-500">EN</span>
+                <span class="text-[10px] bg-slate-100 px-2 py-1 rounded text-slate-500">繁</span>
+                <span class="text-[10px] bg-slate-100 px-2 py-1 rounded text-slate-500">हिन्दी</span>
+            </div>
+            <div class="relative">
+                <input type="text" placeholder="Ask anything..." class="w-full text-sm bg-slate-100 p-3 pr-10 rounded-xl outline-none focus:ring-2 focus:ring-blue-500">
+                <button class="absolute right-3 top-3 text-blue-600">➔</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
