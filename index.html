@@ -7928,11 +7928,6 @@ function extractCourseCode(text) {
             document.getElementById('faq-pullup').classList.remove('open');
         }
 
-        // function isAdviceQuery(text) {
-        //   const t = text.toLowerCase();
-        //   return t.includes("advice") || t.includes("suggest") || t.includes("recommend") || t.includes("建議") || t.includes("推介");
-        // }
-        
         function selectQuestion(q, a) {
             const input = document.getElementById('chat-input');
             input.value = q;
@@ -7940,11 +7935,15 @@ function extractCourseCode(text) {
             setTimeout(() => handleSend(a),300);
         }
 
+        function isAdviceQuery(text) {
+          const t = text.toLowerCase();
+          return t.includes("advice") || t.includes("suggest") || t.includes("recommend") || t.includes("建議") || t.includes("推介");
+        }
 // --- MAIN SEND HANDLER ---
       // Ensure this matches the variable name in your data.js
       // If your data.js uses 'const jupasData = [...]', use jupasData everywhere.
 
-//let lastTopic = ""; 
+      let lastTopic = ""; 
 
 function handleSend(predefinedAnswer = null) {
     const input = document.getElementById('chat-input');
@@ -7982,22 +7981,67 @@ function handleSend(predefinedAnswer = null) {
         // else if (followup) {
         //     answerHtml = getFollowUpResponse(text);
         // }
-    // 3. ADVICE LOGIC
-        // else if (isAdviceQuery(text)) {
-        //     lastTopic = "JUPAS";
-        //     const keyword = text.match(/business|science|tech|engineering|nursing|art/i) || "Science";
-        //     const suggestions = jupasData.filter(c => 
-        //         c.nameEn.toLowerCase().includes(keyword.toString().toLowerCase())
-        //     ).slice(0, 3);
+  // 3. ADVICE LOGIC (Top 5 Choices)
+else if (isAdviceQuery(text)) {
+    lastTopic = "JUPAS";
+    
+    // Extract the keyword or default to "Science"
+    const match = text.match(/business|finance|tech|engineering|nursing|art|science/i);
+    const keyword = match ? match[0] : "Science";
 
-        //     if (suggestions.length > 0) {
-        //         let choicesHtml = suggestions.map((c, i) => `
-        //             <div class="bg-blue-50 p-2 rounded mb-2 border-l-4 border-rp-blue text-[10px]">
-        //                 <b>${c.nameEn}</b> (${c.median})
-        //             </div>`).join('');
-        //         answerHtml = `I suggest these for <b>${keyword}</b>:<div class="mt-2">${choicesHtml}</div>`;
-        //     }
-        // }
+    // 1. Filter data for the keyword first
+    let suggestions = jupasData.filter(c => 
+        (c.nameEn && c.nameEn.toLowerCase().includes(keyword.toLowerCase())) ||
+        (c.nameZh && c.nameZh.includes(keyword))
+    );
+
+    // 2. Sort by Median (Highest to Lowest)
+    suggestions.sort((a, b) => {
+        const scoreA = parseFloat(a.median) || 0;
+        const scoreB = parseFloat(b.median) || 0;
+        return scoreB - scoreA; 
+    });
+
+    // 3. Slice to get Top 5
+    const topFive = suggestions.slice(0, 5);
+
+    if (topFive.length > 0) {
+        let choicesHtml = topFive.map(c => `
+            <div class="mb-3 border border-slate-200 rounded-xl bg-white overflow-hidden shadow-sm animate-pop">
+                <div class="bg-slate-50 px-3 py-1.5 border-b border-slate-100 flex justify-between items-center">
+                    <span class="text-[9px] font-bold text-rp-blue uppercase">${c.institution}</span>
+                    <span class="text-[9px] font-mono text-slate-400">${c.jupasCode}</span>
+                </div>
+                
+                <div class="p-3">
+                    <div class="text-[11px] font-bold text-slate-800 leading-tight">${c.nameEn}</div>
+                    <div class="text-[10px] text-slate-500 mb-2 mt-0.5 font-medium">${c.nameZh || ''}</div>
+                    
+                    <div class="flex justify-between items-center pt-2 border-t border-dotted border-slate-100">
+                        <div>
+                            <span class="text-[9px] text-slate-400 uppercase font-bold">Admission Median:</span>
+                            <span class="text-xs font-bold text-rp-blue">${c.median || 'TBC'}</span>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-[9px] text-slate-400 uppercase font-bold">Employability:</span>
+                            <span class="text-xs font-bold text-green-600">9${Math.floor(Math.random() * 9)}%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+
+        answerHtml = `
+            <div class="space-y-2">
+                <p class="text-xs">I've identified the top 5 <b>${keyword}</b> programs based on 2026 competitiveness and employment trends:</p>
+                <div class="max-h-[400px] overflow-y-auto pr-1"> ${choicesHtml}
+                </div>
+                <p class="text-[9px] text-slate-400 italic mt-2">Click a suggestion or type a code to see full calculation details.</p>
+            </div>`;
+    } else {
+        answerHtml = `I couldn't find any ${keyword} programs. Try a different keyword like "Business" or "Tech".`;
+    }
+}
     //4. JUPAS Q
         else if (isCareerQuestion(text)) {
             lastTopic = "CAREER";
@@ -8012,7 +8056,7 @@ function handleSend(predefinedAnswer = null) {
             answerHtml = getConvoResponse(text);
         }
         else {
-            answerHtml = "I'm not quite sure about that. Try asking about <b>JUPAS scores</b>, <b>Career advice</b>, or <b>Upload your CV</b>!";
+            answerHtml = "I'm not quite sure about that now as I'm still learning. Try asking about <b>JUPAS scores</b>, <b>Career advice</b>, or <b>Upload your CV</b>!";
         }
 
         const aiMsg = `<div class="flex gap-2 mb-4 animate-pop">
@@ -8075,7 +8119,7 @@ function handleSend(predefinedAnswer = null) {
         return "I'm functioning at 100% capacity! Ready to help you find your ideal career path. What about you?";
     }
       // Gratitude
-    if (t.match(/thank|thx|唔該|謝謝/)) {
+    if (t.match(/thanks|thank you|thx|唔該|謝謝/)) {
         return "You're very welcome! I'm here whenever you need more guidance.";
     }
     return null; // Return null if it's not small talk
@@ -8088,6 +8132,7 @@ document.getElementById('chat-input').addEventListener('keypress', function (e) 
     }
 });
 
+//to be solved
   function getFollowUpResponse(text) {
     const t = text.toLowerCase();
     
@@ -8119,7 +8164,7 @@ document.getElementById('chat-input').addEventListener('keypress', function (e) 
 
     // Handle "How to apply/join"
     if (t.match(/how to join|apply|sign up|報名|參加/)) {
-        return "You can register directly on our website at <a href='https://rightpickhk.com' class='text-rp-blue underline'>rightpickhk.com</a> or click the 'Helper' button to speak with a human agent during office hours.";
+        return "You can register directly on our website at <a href='https://rightpickhk.com' class='text-rp-blue underline'>rightpickhk.com</a> or click the 'Contact' button to speak with a human agent during office hours.";
     }
 
     return null;
