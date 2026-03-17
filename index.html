@@ -7732,57 +7732,69 @@ const jupasData = [
         }
     }
 
-    // 4. AI Response based on keywords
+    // 4. AI Response based on keywords based on Career/Job Match
     setTimeout(() => {
         document.getElementById('typing').classList.add('hidden');
         let response = "";
         
+        // Define Job Card Styles for consistency
+        const jobCardBase = `
+            <div class="mt-2 border-t pt-2">
+                <div class="text-[10px] font-bold text-rp-blue uppercase mb-1">Recommended for You</div>
+                <div class="bg-slate-50 border border-slate-200 rounded-lg p-2">
+        `;
+
         if (foundSkill === "Tech") {
-            response = "I've analyzed your CV! I see strong <b>Technical skills</b>. You might be interested in <b>JS9719 (Cyber Security)</b> at MetU or Computer Science programs.";
+            response = `I've analyzed your CV! I see strong <b>Technical skills</b>. Based on the 2026 market, you're a great fit for Software Engineering roles.
+                        ${jobCardBase}
+                            <div class="font-bold text-slate-800">Junior Full-stack Developer</div>
+                            <div class="text-[9px] text-slate-500">RightPick Technology Limited • Internship/Permanent</div>
+                            <div class="mt-1 text-[9px] bg-blue-100 text-blue-700 inline-block px-2 py-0.5 rounded">High Match: 94%</div>
+                        </div>
+                    </div>`;
         } else if (foundSkill === "Finance") {
-            response = "Impressive <b>Finance background</b>. Based on your profile, <b>JS1001 (Global Business)</b> at CityU would be a great fit.";
+            response = `Impressive <b>Finance background</b>. Your profile suggests you would excel in data-driven financial analysis.
+                        ${jobCardBase}
+                            <div class="font-bold text-slate-800">Business Analyst Trainee</div>
+                            <div class="text-[9px] text-slate-500">HSBC / Standard Chartered • Graduate Programme</div>
+                            <div class="mt-1 text-[9px] bg-blue-100 text-blue-700 inline-block px-2 py-0.5 rounded">High Match: 88%</div>
+                        </div>
+                    </div>`;
+        } else if (foundSkill === "Design") {
+            response = `Great <b>Creative portfolio</b>. Your skills in UI/UX align perfectly with current digital transformation projects in HK.
+                        ${jobCardBase}
+                            <div class="font-bold text-slate-800">UI/UX Designer</div>
+                            <div class="text-[9px] text-slate-500">Creative Media Agency • Entry Level</div>
+                            <div class="mt-1 text-[9px] bg-blue-100 text-blue-700 inline-block px-2 py-0.5 rounded">High Match: 91%</div>
+                        </div>
+                    </div>`;
         } else {
-            response = "CV received! I've scanned your profile. Would you like me to match your experience with our 2026 JUPAS database? [available soon]";
+            response = "CV received! I've scanned your profile. You have a versatile skillset suitable for <b>Project Management</b> or <b>Operations</b> roles. Would you like me to show current openings in these fields?";
         }
 
-        stream.insertAdjacentHTML('beforeend', `<div class="flex gap-2 mb-4 animate-pop"><div class="chat-icon bg-blue-100">🤖</div><div class="bg-white p-3 rounded-xl text-xs text-slate-700 shadow-sm border border-slate-100 w-full">${response}</div></div>`);
+        stream.insertAdjacentHTML('beforeend', `
+            <div class="flex gap-2 mb-4 animate-pop">
+                <div class="chat-icon bg-blue-100 text-[14px]">🤖</div>
+                <div class="bg-white p-3 rounded-xl text-xs text-slate-700 shadow-sm border border-slate-100 w-full">
+                    ${response}
+                </div>
+            </div>`);
         stream.scrollTop = stream.scrollHeight;
     }, 2000);
 }    
-
-
-        // function isJupasQuestion(text) {
-        //     const t = text.toLowerCase();
-        //     return t.includes('jupas') ||
-        //            t.includes('admission score') ||
-        //            t.includes('cut off') || t.includes('dse') ||
-        //            t.includes('分數') ||
-        //            t.includes('收生') ||
-        //            extractCourseCode(text) !== null;
-        // }
+//define what the user entry is about
         function isJupasQuestion(text) {
             const t = text.toLowerCase();
             const keywords = ['jupas', 'admission', 'score', 'cut off', 'dse', '分數', '收生', 'median'];
             return keywords.some(k => t.includes(k)) || extractCourseCode(text) !== null;
         }
 
-        // function findCourse(query) {
-        //     loadJupasData();
-            
-        //     // 1. Try exact code match
-        //     const code = extractCourseCode(query);
-        //     if (code) {
-        //         const byCode = jupasData.find(r => r.jupasCode && r.jupasCode.toUpperCase() === code);
-        //         if (byCode) return byCode;
-        //     }
-            
-        //     // 2. Try partial name match
-        //     const q = query.toLowerCase();
-        //     return jupasData.find(r => 
-        //         (r.nameEn && r.nameEn.toLowerCase().includes(q)) || 
-        //         (r.nameZh && r.nameZh.includes(q))
-        //     ) || null;
-        // }
+        function isCareerQuestion(text) {
+            const t = text.toLowerCase();
+            const careerKeywords = ['job', 'career', 'work', 'salary', 'intern', '找工作', '職位'];
+            return careerKeywords.some(k => t.includes(k));
+        }
+
         function findCourse(query) {
             if (typeof jupasData === 'undefined') return null;
             
@@ -7798,29 +7810,6 @@ const jupasData = [
             ) || null;
         }
 
-        // function buildJupasAnswer(course) {
-        //     const uni = course.University || 'N/A';
-        //     const code = course.jupasCode || 'N/A';
-        //     const nameZh = course.nameZh || '';
-        //     const nameEn = course.nameEn || '';
-            
-        //     // Grab whichever score is available (median, average, or upper/lower)
-        //     const scoreData = course.median || course.average || course.lowerQuartile || 'Data unavailable';
-            
-        //     // Format remarks (replace line breaks with HTML breaks)
-        //     const remarks = (course.remarkZh || course.remarkEn || 'None').replace(/\n/g, '<br>');
-
-        //     return `
-        //         Here is the latest JUPAS data from our database:<br><br>
-        //         <b>${uni} - ${code}</b><br>
-        //         ${nameZh}<br>
-        //         <span class="text-[10px] text-slate-500">${nameEn}</span><br><br>
-        //         • <b>Admission Score (Median/Avg):</b> <span class="text-rp-blue font-bold">${scoreData}</span><br>
-        //         • <b>Subject Requirements / Remarks:</b><br>
-        //         <span class="text-[10px] bg-blue-50 p-2 block mt-1 rounded">${remarks}</span><br>
-        //         <i>If you share your DSE predicted grades, I can help calculate your weighted score!</i>
-        //     `;
-        // }
 function buildJupasAnswer(course) {
             const uni = course.institution || course.University || 'Institution';
             const code = course.jupasCode || 'N/A';
@@ -7877,6 +7866,23 @@ function buildJupasAnswer(course) {
             `;
         }
 
+function findCoursesByScore(userScore) {
+    const score = parseFloat(userScore);
+    if (isNaN(score)) return null;
+
+    // Filter courses where the user's score is >= Lower Quartile 
+    // and ideally close to the Median.
+    return courses.filter(c => {
+        const median = parseFloat(c.median);
+        return !isNaN(median) && (score >= median - 2 && score <= median + 3);
+    }).slice(0, 3); // Return top 3 matches
+}
+
+function extractCourseCode(text) {
+    const match = text.toUpperCase().match(/JS\d{4}/);
+    return match ? match[0] : null;
+}
+
         // --- ORIGINAL DEMO FAQ DATA ---
         const faqContent = {
             'JUPAS': [
@@ -7922,72 +7928,202 @@ function buildJupasAnswer(course) {
             document.getElementById('faq-pullup').classList.remove('open');
         }
 
+        // function isAdviceQuery(text) {
+        //   const t = text.toLowerCase();
+        //   return t.includes("advice") || t.includes("suggest") || t.includes("recommend") || t.includes("建議") || t.includes("推介");
+        // }
+        
         function selectQuestion(q, a) {
             const input = document.getElementById('chat-input');
             input.value = q;
             closePullup();
-            setTimeout(() => handleSend(a), 300);
+            setTimeout(() => handleSend(a),300);
         }
 
-        // --- MAIN SEND HANDLER ---
-        function handleSend(predefinedAnswer = null) {
-            const input = document.getElementById('chat-input');
-            const stream = document.getElementById('chat-stream');
-            const typing = document.getElementById('typing');
-            const text = input.value.trim();
+// --- MAIN SEND HANDLER ---
+      // Ensure this matches the variable name in your data.js
+      // If your data.js uses 'const jupasData = [...]', use jupasData everywhere.
 
-            if (!text) return;
+//let lastTopic = ""; 
 
-            // Display User Message
-            const userMsg = `<div class="flex justify-end mb-4"><div class="bg-rp-blue text-white p-3 rounded-2xl rounded-tr-none text-xs max-w-[80%] shadow-md animate-pop">${text}</div></div>`;
-            stream.insertAdjacentHTML('beforeend', userMsg);
-            input.value = '';
-            closePullup();
+function handleSend(predefinedAnswer = null) {
+    const input = document.getElementById('chat-input');
+    const stream = document.getElementById('chat-stream');
+    const typing = document.getElementById('typing');
 
-            // Start typing indicator
-            typing.classList.remove('hidden');
-            stream.scrollTop = stream.scrollHeight;
+    const text = input.value.trim();    
+    
+    if (!text) return;
 
-            setTimeout(() => {
-                typing.classList.add('hidden');
-                
-                let answerHtml = '';
+    // Display User Message
+    const userMsg = `<div class="flex justify-end mb-4"><div class="bg-rp-blue text-white p-3 rounded-2xl rounded-tr-none text-xs max-w-[80%] shadow-md animate-pop">${text}</div></div>`;
+    stream.insertAdjacentHTML('beforeend', userMsg);
+    input.value = '';
+    closePullup();
+    
+    //typing indicator
+    typing.classList.remove('hidden');
+    stream.scrollTop = stream.scrollHeight;
 
-                // If predefined answer was passed (from FAQ clicks), use it immediately
-                if (predefinedAnswer) {
-                    answerHtml = predefinedAnswer;
-                } 
-                // If it looks like a JUPAS query, search the embedded datasheet
-                else if (isJupasQuestion(text)) {
-                    const course = findCourse(text);
-                    if (course) {
-                        answerHtml = buildJupasAnswer(course);
-                    } else {
-                        answerHtml = `I'm sorry, I couldn't find a matching programme for that in the JUPAS database. Please try providing the exact JUPAS Code (e.g., <b>JS1001</b>) or try a different name.`;
-                    }
-                } 
-                // Fallback demo response for anything else
-                else {
-                    answerHtml = `I'm looking into "${text}" for you. As this is a demo, please select a question from the categories above for specific data results, or ask me about a JUPAS code like <b>JS1000</b>!`;
-                }
+    setTimeout(() => {
+        typing.classList.add('hidden');
+        let answerHtml = '';
 
-                const aiMsg = `<div class="flex gap-2 mb-4 animate-pop">
-                    <div class="chat-icon bg-blue-100 text-[14px]">🤖</div>
-                    <div class="bg-white p-3 rounded-xl rounded-tl-none text-xs text-slate-700 shadow-sm border border-slate-100 leading-relaxed w-full">
-                        ${answerHtml}
-                    </div>
-                </div>`;
-                stream.insertAdjacentHTML('beforeend', aiMsg);
-                stream.scrollTop = stream.scrollHeight;
-            }, 1200);
+        const convoMatch = getConvoResponse(text);
+        const followUp = getFollowUpResponse(text);
+
+        if (predefinedAnswer) {
+            answerHtml = predefinedAnswer;
+        } 
+        else if (convoMatch) {
+            answerHtml = convoMatch;
+        }
+    // 2. CHECK FOR FOLLOW-UPS (Only if it's not a greeting)
+        // else if (followup) {
+        //     answerHtml = getFollowUpResponse(text);
+        // }
+    // 3. ADVICE LOGIC
+        // else if (isAdviceQuery(text)) {
+        //     lastTopic = "JUPAS";
+        //     const keyword = text.match(/business|science|tech|engineering|nursing|art/i) || "Science";
+        //     const suggestions = jupasData.filter(c => 
+        //         c.nameEn.toLowerCase().includes(keyword.toString().toLowerCase())
+        //     ).slice(0, 3);
+
+        //     if (suggestions.length > 0) {
+        //         let choicesHtml = suggestions.map((c, i) => `
+        //             <div class="bg-blue-50 p-2 rounded mb-2 border-l-4 border-rp-blue text-[10px]">
+        //                 <b>${c.nameEn}</b> (${c.median})
+        //             </div>`).join('');
+        //         answerHtml = `I suggest these for <b>${keyword}</b>:<div class="mt-2">${choicesHtml}</div>`;
+        //     }
+        // }
+    //4. JUPAS Q
+        else if (isCareerQuestion(text)) {
+            lastTopic = "CAREER";
+            answerHtml = "I've scanned the 2026 job market. Your field is seeing a 12% growth in salary. Please <b>Upload your CV</b> so I can provide a specific match reasoning!";
+        }
+        else if (isJupasQuestion(text)) {
+            lastTopic = "JUPAS";
+            const course = findCourse(text);
+            answerHtml = course ? buildJupasAnswer(course) : "I couldn't find that specific course. Try a code like <b>JS1001</b>.";
+        }
+        else if (getConvoResponse(text)) {
+            answerHtml = getConvoResponse(text);
+        }
+        else {
+            answerHtml = "I'm not quite sure about that. Try asking about <b>JUPAS scores</b>, <b>Career advice</b>, or <b>Upload your CV</b>!";
         }
 
-        // Allow pressing Enter to send message
-        document.getElementById('chat-input').addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') {
-                handleSend();
-            }
-        });
+        const aiMsg = `<div class="flex gap-2 mb-4 animate-pop">
+            <div class="chat-icon bg-blue-100 text-[14px]">🤖</div>
+            <div class="bg-white p-3 rounded-xl rounded-tl-none text-xs text-slate-700 shadow-sm border border-slate-100 w-full">
+                ${answerHtml}
+            </div>
+        </div>`;
+        stream.insertAdjacentHTML('beforeend', aiMsg);
+        stream.scrollTop = stream.scrollHeight;
+    }, 800);
+}
+
+// Updated search to use jupasData consistently
+  function findCoursesByScore(userScore) {
+    const score = parseFloat(userScore);
+    return jupasData.filter(c => {
+        const m = parseFloat(c.median);
+        return !isNaN(m) && (score >= m - 1 && score <= m + 2);
+    }).slice(0, 3);
+}
+
+
+//simple greet replies 
+  function getConvoResponse(text) {
+  const t = text.toLowerCase();
+  
+  // 1. Company Identity & Background
+  if (t.includes("rightpick") || t.includes("正選")) {
+      return `RightPick Technology Limited is an award-winning EduTech startup (HK Tech 300 & Cyberport community). 🏆<br><br>
+              We use <b>Multimodal AI</b> (voice, visual, and text) to analyze student personalities and match them with the best-fit JUPAS programs and career paths based on 1M+ data points.`;
+  }
+    // Bot Identity
+  if (t.includes("who are you") || t.includes("你係邊個")) {
+    return "Hello! I'm the RightPick Service Assistant. I can help you with <b>Career Analysis</b>, <b>JUPAS Matching</b>, or info about our <b>Community Projects</b>. What's on your mind?";            
+  }
+
+  // 2. The "Technology" behind the bot
+  if (t.includes("how does it work") || t.includes("原理") || t.includes("technology")) {
+      return `Our AI isn't just a search engine! It uses <b>Natural Language Processing (NLP)</b> to crawl real-time recruitment trends and <b>Social Media Analysis</b> to understand long-term user behavior. This helps us provide highly accurate career matches.`;
+  }
+
+  // 3. Social Impact (The Tai Po / Dental project you mentioned)
+  if (t.includes("community") || t.includes("dental") || t.includes("elderly") || t.includes("牙科")) {
+      return `RightPick is committed to social impact! 💙<br><br>
+              One of our initiatives includes helping <b>Tai Po residents</b> and the elderly access community services, such as free dental check-ups and outreach programs (ODCP) in collaboration with local NGOs. How can I help you with community info today?`;
+  }
+
+  // 4. Contact / Office Info
+  if (t.includes("contact") || t.includes("office") || t.includes("address")) {
+      return `You can find us at our corporate office in <b>Quarry Bay (Eastern Harbour Centre)</b> or our PropTech hub in <b>Fanling</b>. Feel free to email us at <a href="mailto:rightpickhk@gmail.com" class="text-blue-500 underline">rightpickhk@gmail.com</a>.`;
+  }
+
+  // Standard Greetings
+  if (t.match(/hi|hello|你好|hey|早晨/)) {
+      return "Hello! I'm the RightPick Service Assistant. I can help you with <b>Career Analysis</b>, <b>JUPAS Matching</b>, or info about our <b>Community Projects</b>. What's on your mind?";
+  }
+    // Well-being
+    if (t.includes("how are you") || t.includes("你點呀")) {
+        return "I'm functioning at 100% capacity! Ready to help you find your ideal career path. What about you?";
+    }
+      // Gratitude
+    if (t.match(/thank|thx|唔該|謝謝/)) {
+        return "You're very welcome! I'm here whenever you need more guidance.";
+    }
+    return null; // Return null if it's not small talk
+}
+
+// Allow pressing Enter to send message
+document.getElementById('chat-input').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        handleSend();
+    }
+});
+
+  function getFollowUpResponse(text) {
+    const t = text.toLowerCase();
+    
+    // Handle "Why?" questions
+    if (t.includes("why") || t.includes("點解") || t.includes("reason")) {
+        if (lastTopic === "CAREER") {
+            return "Our AI matched your **technical skills** and **years of experience** against our 2026 database. This role offers the best salary growth potential for your profile.";
+        }
+        if (lastTopic === "JUPAS") {
+            return "Based on your **DSE predicted grades**, this program is within your 'Safe' range while offering high career prospects in the current market.";
+        }
+    }
+    
+    // Handle "Is it good?"
+    if (t.match(/good|ok|okay|好唔好/)) {
+        return "It's a great match! According to RightPick data, 85% of users with your profile found success in this career path within 6 months.";
+    }
+
+    // Handle simple affirmative/curiosity responses
+    if (t.match(/tell me more|more info|details|還有嗎|更多/)) {
+        if (lastTopic === "RIGHTPICK") {
+            return "Beyond AI matching, RightPick also offers <b>1-on-1 career coaching</b> and <b>interview simulation</b> tools. Would you like to see our success stories?";
+        }
+        if (lastTopic === "CAREER") {
+            return "I can also help you optimize your CV keywords for HK's top Applicant Tracking Systems (ATS). Just ask 'How to improve my CV?'";
+        }
+
+    }
+
+    // Handle "How to apply/join"
+    if (t.match(/how to join|apply|sign up|報名|參加/)) {
+        return "You can register directly on our website at <a href='https://rightpickhk.com' class='text-rp-blue underline'>rightpickhk.com</a> or click the 'Helper' button to speak with a human agent during office hours.";
+    }
+
+    return null;
+}
     </script>
 </body>
 </html>
