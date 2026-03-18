@@ -7886,14 +7886,14 @@ function extractCourseCode(text) {
         // --- ORIGINAL DEMO FAQ DATA ---
         const faqContent = {
             'JUPAS': [
-                { q: "How do I calculate my scores?", a: "To calculate your admission score, we use the <b>Best 5</b> or <b>4C+2X</b> formula. Based on 2026 trends, English and Mathematics carry a higher weighting (x1.5) for Engineering and Science faculties." },
-                { q: "Show 2026 admission medians.", a: "For 2026 please enter the certain course code (eg.JS1001) and we will display the information for you."},
-                { q: "Help me pick my Band A majors.", a: "Based on RightPick's job market analysis, we recommend placing <b>AI & Data Science</b> in A1 and <b>Global Business</b> in A2 to maximize both career prospects and admission probability." }
-            ],
-            'Career': [
-                { q: "What is the 18-type personality test?", a: "Our proprietary <b>18-type test</b> expands on MBTI to specifically target the HK labor market. It identifies your 'Workplace Persona'—such as the <i>Strategic Architect</i> or <i>Community Liaison</i>." },
-                { q: "Match my skills to a career.", a: "Please <b>Upload your CV</b> using the button below! I will parse your internships and skills to find a 95% match in our current 2026 job database." }
-            ],
+                { q: "How do I calculate my scores?", a: "To calculate your admission score, we use the <b>Best 5</b> or <b>4C+2X</b> formula. To get the most accuarte result, please try enter the course name (eg. JS1001) to know the actual calculations." },
+                { q: "Show 2026 admission medians.", a: "For 2025/2026 admission medians,  please enter the certain course code (eg.JS1001) and we will display the information for you."},
+                { q: "What JUPAS courses should I study?", a: "To know what you want to study, we recommend you to do the <b>Job approach </b>, like Junior full-stack developer, Accountant, UI/UX designer etc. Then we can reverse match the courses with the best historical admission scores and job outcomes." },
+             ],
+              'Career': [
+              { q: "What is the 18-type personality test?", a: "Our proprietary <b>18-type test</b> expands on MBTI to specifically target the HK labor market. It identifies your 'Workplace Persona'—such as the <i>Strategic Architect</i> or <i>Community Liaison</i>." },
+              { q: "Match my skills to a career.", a: "Please <b>Upload your CV</b> using the button below! I will parse your internships and skills to find a 95% match in our current 2026 job database." }
+          ],
             'Social': [
                 { q: "Senior AI companionship demo.", a: "Our Senior AI provides 24/7 Cantonese companionship and health reminders. It is currently being trialed in 15 community centers across the New Territories." },
                 { q: "Workplace Cantonese for minorities.", a: "We offer a 4-week 'Business Cantonese' crash course specifically for software developers and office staff. Next session starts April 1st." }
@@ -7947,10 +7947,43 @@ function extractCourseCode(text) {
           return hasJupas && (hasAdviceWord || hasIntentWord);
         }
 // --- MAIN SEND HANDLER ---
-      // Ensure this matches the variable name in your data.js
-      // If your data.js uses 'const jupasData = [...]', use jupasData everywhere.
+      // data.js , use jupasData everywhere.
 
       let lastTopic = ""; 
+
+const jobToProgramme = {
+  "full stack": ["JS4412", "JS1204", "JS1072", "JS4428"], // Computer Science / Engineering
+  "developer": ["JS4412", "JS1204", "JS1072", "JS4428"],
+  "frontend": ["JS4412", "JS1204"], 
+  "backend": ["JS4428", "JS1204"],
+  "ui ux": ["JS1042", "JS2810"], // Creative Media / Visual Arts
+  "accountant": ["JS4240", "JS1002", "JS3060"], // Accounting
+  "banker": ["JS4252", "JS4238", "JS4824"], // Finance / Economics
+  "doctor": ["JS4501", "JS4502"], // Medicine
+  "nurse": ["JS4513", "JS3648"], // Nursing
+  "lawyer": ["JS4903", "JS1061"], // Law
+  "teacher": ["JS4331", "JS4343"], // Education
+  "marketing": ["JS1007", "JS3080"], // Marketing
+  // 加多啲 jobs...
+};
+
+function isJobQuestion(text) {
+  const t = text.toLowerCase();
+  return Object.keys(jobToProgramme).some(key => t.includes(key));
+}
+
+function getJobProgrammes(jobText) {
+  const t = jobText.toLowerCase();
+  for (let [jobKey, codes] of Object.entries(jobToProgramme)) {
+    if (t.includes(jobKey)) {
+      return codes.map(code => jupasData.find(c => c.jupasCode === code))
+        .filter(Boolean)
+        .slice(0, 4); // Top 4
+    }
+  }
+  return [];
+}
+
 
 function handleSend(predefinedAnswer = null) {
     const input = document.getElementById('chat-input');
@@ -7977,12 +8010,13 @@ function handleSend(predefinedAnswer = null) {
 
         const convoMatch = getConvoResponse(text);
         const followUp = getFollowUpResponse(text);
-  //2.  Predefined FAQ Answer (Overrides all other logic)
+
+  //1.  Predefined FAQ Answer (Overrides all other logic)
         if (predefinedAnswer) {
             answerHtml = predefinedAnswer;
         } 
-  //3.  ADVICE LOGIC (Top 5 Choices)
-else if (isAdviceQuery(text)) {
+  //2.  ADVICE LOGIC (Top 5 Choices)
+        else if (isAdviceQuery(text)) {
     lastTopic = "JUPAS";
     
     // Extract the keyword or default to "Science"
@@ -8042,9 +8076,29 @@ else if (isAdviceQuery(text)) {
         answerHtml = `I couldn't find any ${keyword} programs. Try a different keyword like "Business" or "Tech".`;
     }
 }
+        
         else if (convoMatch) {
             answerHtml = convoMatch;
         }
+
+  //3. NEW - Job-to-JUPAS Matching Logic
+        else if (isJobQuestion(text)) {
+        lastTopic = "CAREER";
+        
+        const programmes = getJobProgrammes(text);
+        if (programmes.length > 0) {
+          answerHtml = `
+            <div class="space-y-3">
+              <p class="text-xs">想做 <b>${text}</b>？呢啲 JUPAS 科最適合！（基於 2026 median 同就業率）</p>
+              ${buildAdviceTable(programmes, "career match")}  <!-- 用之前個 table function -->
+              <p class="text-9px text-slate-400">你可以講「full stack developer」或「accountant」嚟搵更多職業建議！</p>
+            </div>
+          `;
+        } else {
+          answerHtml = "未搵到呢個職業嘅最佳 JUPAS 科。試下講「developer」、「accountant」或「nurse」？";
+        }
+      }
+
     //4.  Career Q
         else if (isCareerQuestion(text)) {
             lastTopic = "CAREER";
@@ -8087,7 +8141,6 @@ else if (isAdviceQuery(text)) {
     }).slice(0, 3);
 }
 
-
 //simple greet replies 
   function getConvoResponse(text) {
   const t = text.toLowerCase();
@@ -8099,7 +8152,7 @@ else if (isAdviceQuery(text)) {
   }
     // Bot Identity
   if (t.includes("who are you") || t.includes("你係邊個")) {
-    return "Hello! I'm the RightPick Service Assistant. I can help you with <b>Career Analysis</b>, <b>JUPAS Matching</b>, or info about our <b>Community Projects</b>. What's on your mind?";            
+    return "Hello! I'm the RightPick Service Assistant. I can help you with <b>Career Analysis</b>, <b>JUPAS Matching</b>, or info about our <b>Community Projects</b>. What's on your mind?";          
   }
 
   // 2. The "Technology" behind the bot
@@ -8140,7 +8193,7 @@ document.getElementById('chat-input').addEventListener('keypress', function (e) 
     }
 });
 
-/*to be solved*/ 
+//NEW - simple follow-up (one q atm)
   function getFollowUpResponse(text) {
     const t = text.toLowerCase();
     
@@ -8153,12 +8206,10 @@ document.getElementById('chat-input').addEventListener('keypress', function (e) 
             return "Based on your <b>DSE predicted grades</b>, this program is within your 'Safe' range while offering high career prospects in the current market.";
         }
     }
-    
     // Handle "Is it good?"
     if (t.match(/good|ok|okay|好唔好/)) {
         return "It's a great match! According to RightPick data, 85% of users with your profile found success in this career path within 6 months.";
     }
-
     // Handle simple affirmative/curiosity responses
     if (t.match(/tell me more|more info|details|還有嗎|更多/)) {
         if (lastTopic === "RIGHTPICK") {
@@ -8169,14 +8220,63 @@ document.getElementById('chat-input').addEventListener('keypress', function (e) 
         }
 
     }
-
     // Handle "How to apply/join"
     if (t.match(/how to join|apply|sign up|報名|參加/)) {
         return "You can register directly on our website at <a href='https://rightpickhk.com' class='text-rp-blue underline'>rightpickhk.com</a> or click the 'Contact' button to speak with a human agent during office hours.";
     }
-
     return null;
 }
+
+//NEW - Build Advice Table for Job-to-JUPAS Matching
+  function buildAdviceTable(programmes, keyword) {
+  if (!programmes || programmes.length === 0) return "I couldn't find any programmes for that keyword.";
+
+  const rows = programmes.map((c, i) => `
+    <tr class="${i % 2 === 0 ? "bg-slate-50" : ""}">
+      <td class="px-3 py-1.5 text-10px text-slate-500">${i + 1}</td>
+      <td class="px-3 py-1.5 text-10px font-semibold text-slate-800">
+        ${c.institution} · ${c.jupasCode}
+      </td>
+      <td class="px-3 py-1.5 text-10px text-slate-700">
+        ${c.nameEn}
+      </td>
+      <td class="px-3 py-1.5 text-10px text-slate-500">
+        ${c.median || "TBC"}
+      </td>
+      <td class="px-3 py-1.5 text-10px text-slate-500">
+        ${c.remarkEn || c.remarkZh || "-"}
+      </td>
+    </tr>
+  `).join("");
+
+  return `
+    <div class="space-y-2">
+      <p class="text-xs">
+        I’ve picked these ${keyword || ""} programmes based on 2026 medians and finance‑related prospects.
+      </p>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-left border border-slate-200 rounded-lg overflow-hidden">
+          <thead class="bg-slate-100">
+            <tr>
+              <th class="px-3 py-1.5 text-10px text-slate-500">#</th>
+              <th class="px-3 py-1.5 text-10px text-slate-500">Institution · Code</th>
+              <th class="px-3 py-1.5 text-10px text-slate-500">Programme</th>
+              <th class="px-3 py-1.5 text-10px text-slate-500">2026 Median</th>
+              <th class="px-3 py-1.5 text-10px text-slate-500">Key subjects / remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows}
+          </tbody>
+        </table>
+      </div>
+      <p class="text-9px text-slate-400 italic">
+        You can ask “why this one?” or type a specific code (e.g. JS1001) for full calculation details.
+      </p>
+    </div>
+  `;
+}
+
     </script>
 </body>
 </html>
