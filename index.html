@@ -7937,7 +7937,14 @@ function extractCourseCode(text) {
 
         function isAdviceQuery(text) {
           const t = text.toLowerCase();
-          return t.includes("advice") || t.includes("suggest") || t.includes("recommend") || t.includes("建議") || t.includes("推介");
+          const adviceWords = ["advice", "advise", "suggest", "recommend"];
+          const intentWords = ["jupas", "which jupas", "what jupas", "choose jupas", "jupas for"];
+
+          const hasAdviceWord = adviceWords.some(w => t.includes(w));
+          const hasIntentWord = intentWords.some(w => t.includes(w));
+          const hasJupas      = t.includes("jupas");
+        
+          return hasJupas && (hasAdviceWord || hasIntentWord);
         }
 // --- MAIN SEND HANDLER ---
       // Ensure this matches the variable name in your data.js
@@ -7970,18 +7977,11 @@ function handleSend(predefinedAnswer = null) {
 
         const convoMatch = getConvoResponse(text);
         const followUp = getFollowUpResponse(text);
-
+  //2.  Predefined FAQ Answer (Overrides all other logic)
         if (predefinedAnswer) {
             answerHtml = predefinedAnswer;
         } 
-        else if (convoMatch) {
-            answerHtml = convoMatch;
-        }
-    // 2. CHECK FOR FOLLOW-UPS (Only if it's not a greeting)
-        // else if (followup) {
-        //     answerHtml = getFollowUpResponse(text);
-        // }
-  // 3. ADVICE LOGIC (Top 5 Choices)
+  //3.  ADVICE LOGIC (Top 5 Choices)
 else if (isAdviceQuery(text)) {
     lastTopic = "JUPAS";
     
@@ -8042,11 +8042,15 @@ else if (isAdviceQuery(text)) {
         answerHtml = `I couldn't find any ${keyword} programs. Try a different keyword like "Business" or "Tech".`;
     }
 }
-    //4. JUPAS Q
+        else if (convoMatch) {
+            answerHtml = convoMatch;
+        }
+    //4.  Career Q
         else if (isCareerQuestion(text)) {
             lastTopic = "CAREER";
             answerHtml = "I've scanned the 2026 job market. Your field is seeing a 12% growth in salary. Please <b>Upload your CV</b> so I can provide a specific match reasoning!";
         }
+    //5.  JUPAS Q
         else if (isJupasQuestion(text)) {
             lastTopic = "JUPAS";
             const course = findCourse(text);
@@ -8054,6 +8058,10 @@ else if (isAdviceQuery(text)) {
         }
         else if (getConvoResponse(text)) {
             answerHtml = getConvoResponse(text);
+        }
+    //6.  CHECK FOR FOLLOW-UPS (Only if it's not a greeting)
+        else if (followUp) {
+            answerHtml = getFollowUpResponse(text);
         }
         else {
             answerHtml = "I'm not quite sure about that now as I'm still learning. Try asking about <b>JUPAS scores</b>, <b>Career advice</b>, or <b>Upload your CV</b>!";
@@ -8132,17 +8140,17 @@ document.getElementById('chat-input').addEventListener('keypress', function (e) 
     }
 });
 
-//to be solved
+/*to be solved*/ 
   function getFollowUpResponse(text) {
     const t = text.toLowerCase();
     
     // Handle "Why?" questions
     if (t.includes("why") || t.includes("點解") || t.includes("reason")) {
         if (lastTopic === "CAREER") {
-            return "Our AI matched your **technical skills** and **years of experience** against our 2026 database. This role offers the best salary growth potential for your profile.";
+            return "Our AI matched your <b>technical skills</b> and <b>years of experience</b> against our 2026 database. This role offers the best salary growth potential for your profile.";
         }
         if (lastTopic === "JUPAS") {
-            return "Based on your **DSE predicted grades**, this program is within your 'Safe' range while offering high career prospects in the current market.";
+            return "Based on your <b>DSE predicted grades</b>, this program is within your 'Safe' range while offering high career prospects in the current market.";
         }
     }
     
